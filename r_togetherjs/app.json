@@ -2,9 +2,11 @@
 	"name": "TogetherJS Widget",
 	"description": "Enable collaboration using Mozilla's TogetherJS",
 	"author": "Restya",
-	"authorEmail": "info@restya.com",
-	"authorUrl": "http://restya.com/",
-	"version": "0.1",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_togetherjs/img/togetherjs.png",
 	"settings_description": "",
 	"settings": false,
 	"assets": {
@@ -12,7 +14,7 @@
 		],
 		"js": [
 			"https://togetherjs.com/togetherjs-min.js",
-			"plugins/r_togetherjs/js/together.js"
+			"apps/r_togetherjs/js/app.js"
 		]
 	},
 	"enabled": true

@@ -2,10 +2,12 @@
 	"name": "Import from GitHub",
 	"description": "Import your GitHub repositories as boards and issues as card for the board.",
 	"author": "Restya",
-	"authorEmail": "info@restya.com",
-	"authorUrl": "http://restya.com/",
-	"version": "0.1",
-	"settings_description": "Register a new application in GitHub in this URL <a href='https://github.com/settings/applications/new' target='_blank'>https://github.com/settings/applications/new</a> with providing below details,<br/>Application Name: Restyaboard (Enter your site name)<br/>Homepage URL: http://yourdomain.com (Enter your site URL)<br/>Application description: Give some description about your site<br/>Authorization callback URL: http://yourdomain.com/plugins/r_import_github/login.html",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_import_github/img/github.png",
+	"settings_description": "Register a new application in GitHub in this URL <a href='https://github.com/settings/applications/new' target='_blank'>https://github.com/settings/applications/new</a> with providing below details,<br/>Application Name: ##SITE_NAME##<br/>Homepage URL: ##SITE_URL##<br/>Application description: Give some description about your site<br/>Authorization callback URL: ##SITE_URL##/apps/r_import_github/login.html",
 	"settings": {
 		"r_import_github_client_id": {
 			"label" : "GitHub Client ID",
@@ -30,8 +32,8 @@
 		"css": [
 		],
 		"js": [
-			"plugins/r_import_github/js/libs/github.js",
-			"plugins/r_import_github/js/import_github_repository.js"
+			"apps/r_import_github/js/libs/github.js",
+			"apps/r_import_github/js/app.js"
 		]
 	},
 	"enabled": true

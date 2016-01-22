@@ -1,0 +1,6 @@
+<script>
+// Step 3
+var code = window.location.toString().replace(/.+code=|&state=/g, '');
+window.opener.postMessage({code: code, app: 'r_slack'}, window.location);
+window.close();
+</script>
