@@ -1,0 +1,21 @@
+{
+	"name": "Hide Card ID",
+	"description": "Enable to hide card ID in cards listing like Trello",
+	"author": "Restya",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_hide_card_id/img/hidecardid.png",
+	"settings_description": "",
+	"settings": false,
+	"assets": {
+		"css": [
+			"apps/r_hide_card_id/css/app.css"
+		],
+		"js": [
+			"apps/r_hide_card_id/js/app.js"
+		]
+	},
+	"enabled": true
+}

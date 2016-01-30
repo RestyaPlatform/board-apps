@@ -3,8 +3,9 @@
 |Name|Description|Creator|Version|Price|Download|Repo
 | ------------------- | --------------------------------- | -------------------- | -------------------- |-------------------- |-------------------- |-------------------- |
 |[CSSilize Widget](r_cssilize)|Slice a website or mobile apps. Starting from $35|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.1.zip)|[Repository](r_cssilize)|
+|[Hide Card ID](r_hide_card_id)|Enable to hide card ID in cards listing like Trello|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_id-v0.1.1.zip)|[Repository](r_hide_card_id)|
 |[Import from GitHub](r_import_github)|Import your GitHub repositories as boards and issues as card for the board.|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_import_github-v0.1.1.zip)|[Repository](r_import_github)|
-|[Post messages to Slack](r_slack)|Post messages to Slack for each activities from your site|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_slack-v0.1.1.zip)|[Repository](r_slack)|
+|[Post comments to Slack](r_slack)|Post comments to Slack for each activities from your site|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_slack-v0.1.1.zip)|[Repository](r_slack)|
 |[TogetherJS Widget](r_togetherjs)|Enable collaboration using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.1.zip)|[Repository](r_togetherjs)|
 
 
