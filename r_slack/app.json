@@ -1,0 +1,40 @@
+{
+    "name": "Post comments to Slack",
+    "description": "Post comments to Slack for each activities from your site",
+    "author": "Restya",
+    "author_email": "info@restya.com",
+    "author_url": "http://restya.com/",
+    "version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_slack/img/slack.png",
+    "settings_description": "Register a new application in Slack in this URL <a href='https://api.slack.com/applications/new' target='_blank'>https://api.slack.com/applications/new</a> with providing below details,<br/>App Name: ##SITE_NAME##<br/>Short Description: Give some description about your site<br/>Describe what your app does on Slack (3-5 sentences): Give some description about what your app does on Slack<br/>Redirect URI(s): ##SITE_URL##/plugins/r_slack/login.html",
+    "settings": {
+		"r_slack_client_id": {
+			"label" : "Slack Client ID",
+			"info" : "",
+			"value" : "14914787207.18280082338",
+			"is_public" : true
+		},
+		"r_slack_client_secret": {
+			"label" : "Slack Client Secret",
+			"info" : "",
+			"value" : "48d4f0b7d0de9e31f69037d65217086e",
+			"is_public" : false
+		},
+		"r_slack_oauth_token_url": {
+			"label" : "Slack OAuth Token URL",
+			"info" : "",
+			"value" : "https://slack.com/api/oauth.access",
+			"is_public" : false
+		}
+	},
+    "assets": {
+        "css": [
+
+        ],
+        "js": [            
+            "apps/r_slack/js/libs/slack.js"
+        ]
+    },
+    "enabled": true
+}

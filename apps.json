@@ -1,0 +1,147 @@
+{
+    "r_cssilize": {
+        "name": "CSSilize Widget",
+        "description": "Slice a website or mobile apps. Starting from $35",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_cssilize/img/cssilize.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "apps/r_cssilize/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_hide_card_id": {
+        "name": "Hide Card ID",
+        "description": "Enable to hide card ID in cards listing like Trello",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_hide_card_id/img/hidecardid.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_hide_card_id/css/app.css"
+            ],
+            "js": [
+                "apps/r_hide_card_id/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_import_github": {
+        "name": "Import from GitHub",
+        "description": "Import your GitHub repositories as boards and issues as card for the board.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_import_github/img/github.png",
+        "settings_description": "Register a new application in GitHub in this URL <a href='https://github.com/settings/applications/new' target='_blank'>https://github.com/settings/applications/new</a> with providing below details,<br/>Application Name: ##SITE_NAME##<br/>Homepage URL: ##SITE_URL##<br/>Application description: Give some description about your site<br/>Authorization callback URL: ##SITE_URL##/apps/r_import_github/login.html",
+        "settings": {
+            "r_import_github_client_id": {
+                "label": "GitHub Client ID",
+                "info": "",
+                "value": "32f9660d0057176b0a34",
+                "is_public": true
+            },
+            "r_import_github_client_secret": {
+                "label": "GitHub Client Secret",
+                "info": "",
+                "value": "901512845ff86e44e0202797e0c83df1599b938e",
+                "is_public": false
+            },
+            "r_import_github_oauth_token_url": {
+                "label": "GitHub OAuth Token URL",
+                "info": "",
+                "value": "https://github.com/login/oauth/access_token",
+                "is_public": false
+            }
+        },
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "apps/r_import_github/js/libs/github.js",
+                "apps/r_import_github/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_slack": {
+        "name": "Post comments to Slack",
+        "description": "Post comments to Slack for each activities from your site",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_slack/img/slack.png",
+        "settings_description": "Register a new application in Slack in this URL <a href='https://api.slack.com/applications/new' target='_blank'>https://api.slack.com/applications/new</a> with providing below details,<br/>App Name: ##SITE_NAME##<br/>Short Description: Give some description about your site<br/>Describe what your app does on Slack (3-5 sentences): Give some description about what your app does on Slack<br/>Redirect URI(s): ##SITE_URL##/plugins/r_slack/login.html",
+        "settings": {
+            "r_slack_client_id": {
+                "label": "Slack Client ID",
+                "info": "",
+                "value": "14914787207.18280082338",
+                "is_public": true
+            },
+            "r_slack_client_secret": {
+                "label": "Slack Client Secret",
+                "info": "",
+                "value": "48d4f0b7d0de9e31f69037d65217086e",
+                "is_public": false
+            },
+            "r_slack_oauth_token_url": {
+                "label": "Slack OAuth Token URL",
+                "info": "",
+                "value": "https://slack.com/api/oauth.access",
+                "is_public": false
+            }
+        },
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "apps/r_slack/js/libs/slack.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_togetherjs": {
+        "name": "TogetherJS Widget",
+        "description": "Enable collaboration using Mozilla's TogetherJS",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_togetherjs/img/togetherjs.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "https://togetherjs.com/togetherjs-min.js",
+                "apps/r_togetherjs/js/app.js"
+            ]
+        },
+        "enabled": true
+    }
+}
