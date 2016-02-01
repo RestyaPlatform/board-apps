@@ -260,7 +260,7 @@
             url: api_url + '/users/register.json?token=' + getToken(),
             type: 'post',
             data: JSON.stringify({
-                'email': '\'\'',
+                'email': '',
                 'password': 'restya',
                 'username': user,
             }),
