@@ -17,5 +17,5 @@
 			"apps/r_togetherjs/js/app.js"
 		]
 	},
-	"enabled": true
+	"enabled": false
 }

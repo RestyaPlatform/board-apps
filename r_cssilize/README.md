@@ -1,3 +1,3 @@
 ### CSSilize Widget
 
-- Enable collaboration using CSSilize.
+- Slice a website or mobile apps. Starting from $35.
