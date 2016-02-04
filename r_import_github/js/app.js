@@ -6,25 +6,23 @@
     var successCount = 0;
     var github_boards = [];
     var board_users = {};
+    var session_storage_apps = JSON.parse(sessionStorage.getItem("apps"));
     $dc.ready(function() {
         $('#footer').bind('DOMSubtreeModified', insertGithubImportButton);
 
         function insertGithubImportButton(e) {
-            if ($(e.target).hasClass('js-show-add-boards-list')) {
+            if ($(e.target).hasClass('js-show-add-boards-list') || $(e.target).hasClass('footer')) {
                 if ($('.js-show-board-import-form').is(':visible') && $('.js-import-github-element').length === 0) {
-                    var elem = $('<li class="js-import-github-element col-xs-12 navbar-btn divider js-back"></li><li class="js-import-github-element col-xs-12 btn-block js-back"><a class="col-xs-12 h6 navbar-btn" title="' + i18next.t('Import from GitHub') + '" href="" id="js-github-login"><span class="show clearfix text-primary navbar-btn h5"><span class="pull-left">' + i18next.t('Import from GitHub') + '</span>&nbsp;&nbsp;<span class="label label-warning pull-right">' + i18next.t('App') + '</span></span><span class="show">' + i18next.t('Import your GitHub repositories as boards and issues as card for the board.') + '</span></a></li>');
+                    var elem = $('<li class="js-import-github-element col-xs-12 navbar-btn divider js-back"></li><li class="js-import-github-element col-xs-12 btn-block js-back"><a data-toggle="modal" data-target="#r_import_github_modal" class="col-xs-12 h6 navbar-btn" title="' + i18next.t('Import from GitHub') + '" href="" id="js-github-login"><span class="show clearfix text-primary navbar-btn h5"><span class="pull-left">' + i18next.t('Import from GitHub') + '</span>&nbsp;&nbsp;<span class="label label-warning pull-right">' + i18next.t('App') + '</span></span><span class="show">' + i18next.t('Import your GitHub repositories as boards and issues as card for the board.') + '</span></a></li>');
                     $('.js-show-add-boards-list > li:nth-child(4)').after(elem);
                 } else if (!$('.js-show-board-import-form').is(':visible')) {
                     $('.js-import-github-element').remove();
                 }
+                $('body').append('<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="loginGithubModalLabel" id="r_import_github_modal" aria-hidden="false" ><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button><div class="media list-group-item-heading">  <div class="pull-left"><img class="img-circle" width="36" height="36" src="' + session_storage_apps.r_import_github.icon + '" /></div><div class="media-body"><h4 class="modal-title" id="exampleModalLabel">' + i18next.t('Import from GitHub') + '</h4><div><span class="text-muted">v' + session_storage_apps.r_import_github.version + '</span> By <a target="_blank" href="' + session_storage_apps.r_import_github.author_url + '" title="author">' + session_storage_apps.r_import_github.author + '</a></div></div></div></div><div class="modal-body import-block"><ul><li>' + i18next.t('We will insert your GitHub repositories as a board.') + '</li><li>' + i18next.t('We will create users with default password restya and email as empty for each repository users from GitHub.') + '</li><li>' + i18next.t('Assign the created users as board members.') + '</li><li>' + i18next.t('We will create default lists for each board which are New, Assigned, In Progress, Feedback, Closed.') + '</li><li>' + i18next.t('We will insert every issue as a card in the list based on following criteria.') + '</li><ul><li>' + i18next.t('If issue state is not equal to open, issue will be added as a card in "Closed" list.') + '</li><li>' + i18next.t('If issue comment count is not equal zero, issue will be as a card added in "Feedback" list.') + '</li><li>' + i18next.t('If issue has milestone date, issue will be added as a card in "In Progress" list.') + '</li><li>' + i18next.t('If issue assigned to user, issue will be added as a card in "Assigned" list.') + '</li><li>' + i18next.t('If issue is not match any criteria, issue will be added as a card in "New" list.') + '</li></ul><li>' + i18next.t('Assign labels to each cards, milestone date to card due date and assigned users to card members.') + '</li><li>' + i18next.t('Also we will insert issue comments to respective card comments.') + '</li></ul></div><div class="modal-footer"><a id="js-import-github" href="#" title="' + i18next.t('Login With GitHub') + '" class="btn btn-primary">' + i18next.t('Login With GitHub') + '</a></div></div></div></div><div class="modal fade" id="js-github-importing-loader" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content well-lg text-center"><div class="col-xs-12"><div class="col-xs-10">' + i18next.t('Importing') + '...&nbsp;&nbsp;</div><span class="cssloader"></span></div><div>(' + i18next.t('Do not close or refresh this window') + ')</div></div></div></div>');
             }
         }
-        $dc.on('click', '#js-github-login', function(event) {
-            $('body').append('<div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="loginGithubModalLabel" id="loginGithubModal" aria-hidden="false" style="display: block;"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button><h4 class="modal-title" id="loginGithubModalLabel">' + i18next.t('Import from GitHub') + '</h4></div><div class="modal-body import-block"><ul><li>' + i18next.t('We will insert your GitHub repositories as a board.') + '</li><li>' + i18next.t('We will create users with default password restya and email as empty for each repository users from GitHub.') + '</li><li>' + i18next.t('Assign the created users as board members.') + '</li><li>' + i18next.t('We will create default lists for each board which are New, Assigned, In Progress, Feedback, Closed.') + '</li><li>' + i18next.t('We will insert every issue as a card in the list based on following criteria.') + '</li><ul><li>' + i18next.t('If issue state is not equal to open, issue will be added as a card in "Closed" list.') + '</li><li>' + i18next.t('If issue comment count is not equal zero, issue will be as a card added in "Feedback" list.') + '</li><li>' + i18next.t('If issue has milestone date, issue will be added as a card in "In Progress" list.') + '</li><li>' + i18next.t('If issue assigned to user, issue will be added as a card in "Assigned" list.') + '</li><li>' + i18next.t('If issue is not match any criteria, issue will be added as a card in "New" list.') + '</li></ul><li>' + i18next.t('Assign labels to each cards, milestone date to card due date and assigned users to card members.') + '</li><li>' + i18next.t('Also we will insert issue comments to respective card comments.') + '</li></ul></div><div class="modal-footer"><a id="js-import-github" href="#" title="' + i18next.t('Login With GitHub') + '" class="btn btn-primary">' + i18next.t('Login With GitHub') + '</a></div></div></div></div>');
-            return false;
-        });
         $dc.on('click', '#js-import-github', function(event) {
-            $('#loginGithubModal').hide();
+            $('#r_import_github_modal').modal('hide');
             event.preventDefault();
             window.open('https://github.com/login/oauth/authorize?client_id=' + r_import_github_client_id + '&scope=user,repo', 'DescriptiveWindowName', 'resizable,scrollbars,status');
             return false;
@@ -58,7 +56,7 @@
             $.get('oauth_callback/r_import_github/' + code, function(access_token) {
                 gitToken = access_token;
                 if (access_token.indexOf('failed') === -1) {
-                    $('body').append('<div class="modal fade in" id="js-github-importing-loader" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false" style="display: block;"><div class="modal-dialog"><div class="modal-content well-lg text-center"><div class="col-xs-12"><div class="col-xs-10">' + i18next.t('Importing') + '...&nbsp;&nbsp;</div><span class="cssloader"></span></div><div>(' + i18next.t('Do not close or refresh this window') + ')</div></div></div></div>');
+                    $('#js-github-importing-loader').modal('show');
                     githubInit(gitToken);
                 } else {
                     flashMesssage('danger', i18next.t('Authentication failed'));
@@ -265,7 +263,7 @@
             url: api_url + '/users/register.json?token=' + getToken(),
             type: 'post',
             data: JSON.stringify({
-                'email': '\'\'',
+                'email': '',
                 'password': 'restya',
                 'username': user,
             }),
@@ -385,7 +383,7 @@
                                                 closed_at: issues[j].closed_at,
                                                 body: issues[j].body,
                                                 labels: issues[j].labels,
-                                                due_on: issues[j].milestone.due_on,
+                                                due_on: (issues[j].milestone !== null && issues[j].milestone.due_on !== null) ? issues[j].milestone.due_on : null,
                                                 comments: issues[j].comments,
                                                 assignee: issues[j].assignee,
                                                 comments_url: issues[j].comments_url
@@ -394,7 +392,7 @@
                                                 closed_list_issues.push(temp_issues);
                                             } else if (issues[j].comments !== 0) {
                                                 feedback_list_issues.push(temp_issues);
-                                            } else if (issues[j].milestone.due_on !== null) {
+                                            } else if (issues[j].milestone !== null && issues[j].milestone.due_on !== null) {
                                                 in_progress_list_issues.push(temp_issues);
                                             } else if (issues[j].assignee !== null) {
                                                 assigned_list_issues.push(temp_issues);
@@ -418,7 +416,7 @@
                             });
                             setInterval(function() {
                                 if (totalCount === successCount && totalCount !== 0) {
-                                    $('#js-github-importing-loader').hide();
+                                    $('#js-github-importing-loader').modal('hide');
                                     var message = '<div class="well-sm">' + i18next.t('Below GitHub repositories are imported as boards') + ':';
                                     message += '<ul class="navbar-btn">';
                                     for (var i = 0; i < github_boards.length; ++i) {

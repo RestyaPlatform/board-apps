@@ -20,6 +20,27 @@
         },
         "enabled": true
     },
+    "r_hide_card_id": {
+        "name": "Hide Card ID",
+        "description": "Enable to hide card ID in cards listing like Trello",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_hide_card_id/img/hidecardid.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_hide_card_id/css/app.css"
+            ],
+            "js": [
+                "apps/r_hide_card_id/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_import_github": {
         "name": "Import from GitHub",
         "description": "Import your GitHub repositories as boards and issues as card for the board.",
@@ -62,8 +83,8 @@
         "enabled": true
     },
     "r_slack": {
-        "name": "Post messages to Slack",
-        "description": "Post messages to Slack for each activities from your site",
+        "name": "Post comments to Slack",
+        "description": "Post comments to Slack for each activities from your site",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
@@ -121,6 +142,6 @@
                 "apps/r_togetherjs/js/app.js"
             ]
         },
-        "enabled": true
+        "enabled": false
     }
 }
