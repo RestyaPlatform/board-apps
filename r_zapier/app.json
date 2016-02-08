@@ -1,0 +1,46 @@
+{
+    "name": "Zapier",
+    "description": "zapier",
+    "author": "Restya",
+    "author_email": "info@restya.com",
+    "author_url": "http://restya.com/",
+    "version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_zapier/img/zapier.png",
+    "settings_description": "",
+    "settings": {
+		"r_zapier_client_id": {
+			"label" : "Zapier Client ID",
+			"info" : "",
+			"value" : "7857596005287233",
+			"is_public" : true
+		},
+		"r_zapier_client_secret": {
+			"label" : "Zapier Client Secret",
+			"info" : "",
+			"value" : "n0l2wlujcpkj0bd7gk8918gm6b",
+			"is_public" : false
+		},
+		"r_zapier_oauth_token_url": {
+			"label" : "Zapier OAuth Token URL",
+			"info" : "",
+			"value" : "http://localhost/restyaboard/api/v1/oauth/token.json",
+			"is_public" : false
+		},
+		"r_zapier_redirect_uri": {
+			"label" : "Zapier Redirect URL",
+			"info" : "",
+			"value" : "http://192.168.1.211/restyaboard/client/apps/r_zapier/login.html",
+			"is_public" : false
+		}
+	},
+    "assets": {
+        "css": [
+
+        ],
+        "js": [            
+            "apps/r_zapier/js/app.js"
+        ]
+    },
+    "enabled": true
+}
