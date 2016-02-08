@@ -435,6 +435,7 @@
                             if (err !== null) {
                                 flashMesssage('danger', i18next.t('Login failed'));
                             } else {
+                                $('#js-github-importing-loader').modal('hide');
                                 flashMesssage('danger', i18next.t('No repositories found'));
                             }
                         }
