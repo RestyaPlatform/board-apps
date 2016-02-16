@@ -7,7 +7,7 @@
 |[Import from GitHub](r_import_github)|Import your GitHub repositories as boards and issues as card for the board.|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_import_github-v0.1.1.zip)|[Repository](r_import_github)|
 |[Post comments to Slack](r_slack)|Post comments to Slack for each activities from your site|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_slack-v0.1.1.zip)|[Repository](r_slack)|
 |[TogetherJS Widget](r_togetherjs)|Enable collaboration using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.1.zip)|[Repository](r_togetherjs)|
-
+|[Zapier](r_zapier)|Generate access token for Zapier|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_zapier-v0.1.1.zip)|[Repository](r_zapier)|
 
 ### Steps to create new app
 - Create a new folder by name of your app name in apps folder.
