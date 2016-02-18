@@ -29969,7 +29969,7 @@ function extend() {
     });
 
     AjaxInterceptor.addResponseCallback(function(xhr) {
-        if (localStorage.getItem("r_slack_access_token") !== null && xhr.responseURL.match(/users\/[0-9]\/activities\Sjson\?type=all/g)) {
+        if (localStorage.getItem("r_slack_access_token") !== null && xhr.responseURL.match(/users\/[0-9]+\/activities\Sjson\?type=all/g)) {
             var _response = JSON.parse(xhr.responseText);
             if (_response.data) {
                 slackAPIClient = slackey.getAPIClient(localStorage.getItem("r_slack_access_token"));
