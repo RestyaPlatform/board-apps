@@ -24,7 +24,7 @@
         $dc.on('click', '#js-import-github', function(event) {
             $('#r_import_github_modal').modal('hide');
             event.preventDefault();
-			PopupCenter('https://github.com/login/oauth/authorize?client_id=' + r_import_github_client_id + '&scope=user,repo', 'DescriptiveWindowName', 'resizable,scrollbars,status','','900','500');
+            PopupCenter('https://github.com/login/oauth/authorize?client_id=' + r_import_github_client_id + '&scope=user,repo', 'DescriptiveWindowName', 'resizable,scrollbars,status', '', '900', '500');
             return false;
         });
         $dc.on('click', '#js-github-refresh', function(event) {
@@ -50,23 +50,23 @@
             stackup_spacing: 10
         });
     }
-	
-	function PopupCenter(url, title, w, h) {
-		var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
-		var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 
-		var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
-		var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+    function PopupCenter(url, title, w, h) {
+        var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+        var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 
-		var left = ((width / 2) - (w / 2)) + dualScreenLeft;
-		var top = ((height / 2) - (h / 2)) + dualScreenTop;
-		var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
-		
-		if (window.focus) {
-			newWindow.focus();
-		}
-	}
-	
+        var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+        var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+        var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+        var top = ((height / 2) - (h / 2)) + dualScreenTop;
+        var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+
+        if (window.focus) {
+            newWindow.focus();
+        }
+    }
+
     window.addEventListener('message', function(event) {
         if (event.data.app === 'r_import_github') {
             var code = event.data.code;

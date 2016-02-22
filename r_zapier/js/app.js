@@ -10,7 +10,7 @@
         }
         $dc.on('click', '#js-zapier', function(event) {
             event.preventDefault();
-			PopupCenter(window.location.protocol + '//' + window.location.host + window.location.pathname + 'oauth/authorize?response_type=code&client_id=' + r_zapier_client_id + '&state=' + new Date().getTime() + '&redirect_uri=' + window.location.protocol + '//' + window.location.host + window.location.pathname + 'apps/r_zapier/login.html', 'DescriptiveWindowName', 'resizable,scrollbars,status','','900','500');
+            PopupCenter(window.location.protocol + '//' + window.location.host + window.location.pathname + 'oauth/authorize?response_type=code&client_id=' + r_zapier_client_id + '&state=' + new Date().getTime() + '&redirect_uri=' + window.location.protocol + '//' + window.location.host + window.location.pathname + 'apps/r_zapier/login.html', 'DescriptiveWindowName', 'resizable,scrollbars,status', '', '900', '500');
             return false;
         });
     });
@@ -29,23 +29,23 @@
             stackup_spacing: 10
         });
     }
-	
-	function PopupCenter(url, title, w, h) {
-		var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
-		var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 
-		var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
-		var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+    function PopupCenter(url, title, w, h) {
+        var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+        var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 
-		var left = ((width / 2) - (w / 2)) + dualScreenLeft;
-		var top = ((height / 2) - (h / 2)) + dualScreenTop;
-		var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
-		
-		if (window.focus) {
-			newWindow.focus();
-		}
-	}
-	
+        var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+        var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+        var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+        var top = ((height / 2) - (h / 2)) + dualScreenTop;
+        var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+
+        if (window.focus) {
+            newWindow.focus();
+        }
+    }
+
     window.addEventListener('message', function(event) {
         if (event.data.app === 'r_zapier') {
             var code = event.data.code;
