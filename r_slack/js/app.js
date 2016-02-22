@@ -16,10 +16,26 @@
         $dc.on('click', '#js-import-slack', function(event) {
             $('#r_slack_modal').modal('hide');
             event.preventDefault();
-            window.open('https://slack.com/oauth/authorize?client_id=' + r_slack_client_id + '&scope=channels:read,chat:write:user,channels:write', 'DescriptiveWindowName', 'resizable,scrollbars,status');
+			PopupCenter('https://slack.com/oauth/authorize?client_id=' + r_slack_client_id + '&scope=channels:read,chat:write:user,channels:write', 'DescriptiveWindowName', 'resizable,scrollbars,status','','900','500');
             return false;
         });
     });
+	
+	function PopupCenter(url, title, w, h) {
+		var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+		var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+		var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+		var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+		var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+		var top = ((height / 2) - (h / 2)) + dualScreenTop;
+		var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+		
+		if (window.focus) {
+			newWindow.focus();
+		}
+	}
 
     window.addEventListener('message', function(event) {
         if (event.data.app === 'r_slack') {
