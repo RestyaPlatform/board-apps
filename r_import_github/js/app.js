@@ -11,12 +11,10 @@
         $('#footer').bind('DOMSubtreeModified', insertGithubImportButton);
 
         function insertGithubImportButton(e) {
-            if ($(e.target).hasClass('js-show-add-boards-list') || $(e.target).hasClass('footer')) {
+            if ($(e.target).hasClass('js-show-add-boards-list')) {
                 if ($('.js-show-board-import-form').is(':visible') && $('.js-import-github-element').length === 0) {
                     var elem = $('<li class="js-import-github-element col-xs-12 navbar-btn divider js-back"></li><li class="js-import-github-element col-xs-12 btn-block js-back"><a data-toggle="modal" data-target="#r_import_github_modal" class="col-xs-12 h6 navbar-btn" title="' + i18next.t('Import from GitHub') + '" href="" id="js-github-login"><span class="show clearfix text-primary navbar-btn h5"><span class="pull-left">' + i18next.t('Import from GitHub') + '</span>&nbsp;&nbsp;<span class="label label-warning pull-right">' + i18next.t('App') + '</span></span><span class="show">' + i18next.t('Import your GitHub repositories as boards and issues as card for the board.') + '</span></a></li>');
                     $('.js-show-add-boards-list > li:nth-child(4)').after(elem);
-                } else if (!$('.js-show-board-import-form').is(':visible')) {
-                    $('.js-import-github-element').remove();
                 }
             }
         }
