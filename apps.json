@@ -1,7 +1,7 @@
 {
     "r_cssilize": {
         "name": "CSSilize Widget",
-        "description": "Slice a website or mobile apps. Starting from $35",
+        "description": "CSSilize, theming partner",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
@@ -22,7 +22,7 @@
     },
     "r_hide_card_id": {
         "name": "Hide Card ID",
-        "description": "Enable to hide card ID in cards listing like Trello",
+        "description": "Hide Card ID from cards listing as in Trello",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
@@ -43,7 +43,7 @@
     },
     "r_import_github": {
         "name": "Import from GitHub",
-        "description": "Import your GitHub repositories as boards and issues as card for the board.",
+        "description": "Import GitHub repositories. users, issues and comments",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
@@ -84,7 +84,7 @@
     },
     "r_slack": {
         "name": "Post comments to Slack",
-        "description": "Post comments to Slack for each activities from your site",
+        "description": "Auto post your comments to Slack",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
@@ -123,8 +123,8 @@
         "enabled": true
     },
     "r_togetherjs": {
-        "name": "TogetherJS Widget",
-        "description": "Enable collaboration using Mozilla's TogetherJS",
+        "name": "Collaborate/TogetherJS",
+        "description": "Collaborate using Mozilla's TogetherJS",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
@@ -146,7 +146,7 @@
     },
     "r_zapier": {
         "name": "Zapier",
-        "description": "Generate access token for Zapier",
+        "description": "Generate \"access token\" for Zapier connection",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",

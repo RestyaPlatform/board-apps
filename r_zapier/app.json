@@ -1,6 +1,6 @@
 {
     "name": "Zapier",
-    "description": "Generate access token for Zapier",
+    "description": "Generate \"access token\" for Zapier connection",
     "author": "Restya",
     "author_email": "info@restya.com",
     "author_url": "http://restya.com/",
