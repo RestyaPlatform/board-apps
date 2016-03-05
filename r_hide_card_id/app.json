@@ -1,6 +1,6 @@
 {
 	"name": "Hide Card ID",
-	"description": "Enable to hide card ID in cards listing like Trello",
+	"description": "Hide Card ID from cards listing as in Trello",
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",

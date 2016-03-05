@@ -1,6 +1,6 @@
 {
 	"name": "Import from GitHub",
-	"description": "Import your GitHub repositories as boards and issues as card for the board.",
+	"description": "Import GitHub repositories. users, issues and comments",
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",
