@@ -145,7 +145,7 @@
         "enabled": false
     },
     "r_zapier": {
-        "name": "Zapier",
+        "name": "Zapier Connect",
         "description": "Generate \"access token\" for Zapier connection",
         "author": "Restya",
         "author_email": "info@restya.com",
