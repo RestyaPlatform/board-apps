@@ -83,7 +83,7 @@
         "enabled": true
     },
     "r_slack": {
-        "name": "Post comments to Slack",
+        "name": "Post my comments to Slack",
         "description": "Auto post your comments to Slack",
         "author": "Restya",
         "author_email": "info@restya.com",

@@ -1,4 +1,4 @@
-### Post comments to Slack
+### Post my comments to Slack
 
 - Login with your Slack account.
 - We will fetch your Slack channels and create a mapping with your assigned board names and store it in localStorage.
