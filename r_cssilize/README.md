@@ -1,3 +1,4 @@
 ### Theming/CSSilize
 
-- Slice a website or mobile apps. Starting from $35.
+- CSSilize is our theming partner.
+- For Restyaboard theming, website designing or mobile apps. Starting from $35.
