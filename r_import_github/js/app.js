@@ -243,7 +243,8 @@
                     type: 'post',
                     data: JSON.stringify({
                         'board_id': board.board_id,
-                        'user_id': user_id
+                        'user_id': user_id,
+                        'board_user_role_id': 2
                     }),
                     contentType: 'application/json; charset=utf-8',
                     dataType: 'json',
