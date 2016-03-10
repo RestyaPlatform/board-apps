@@ -1,0 +1,20 @@
+{
+	"name": "Amazon Echo App",
+	"description": "Access your Restyaboard notifications through Amazon Echo. Note that this is a paid integration. Contact us to get a quote.",
+	"author": "Restya",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_amazon_echo/img/amazonecho-logo.png",
+	"settings_description": "",
+	"settings": false,
+	"assets": {
+		"css": [
+		],
+		"js": [
+			"apps/r_amazon_echo/js/app.js"
+		]
+	},
+	"enabled": true
+}
