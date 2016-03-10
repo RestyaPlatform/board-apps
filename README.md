@@ -2,6 +2,7 @@
 
 |Name|Description|Creator|Version|Price|Download|Repo
 | ------------------- | --------------------------------- | -------------------- | -------------------- |-------------------- |-------------------- |-------------------- |
+|[Amazon Echo App](r_amazon_echo)|Access your Restyaboard notifications through Amazon Echo. Note that this is a paid integration. Contact us to get a quote.|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_amazon_echo-v0.1.1.zip)|[Repository](r_amazon_echo)|
 |[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.1.zip)|[Repository](r_cssilize)|
 |[Hide Card ID](r_hide_card_id)|Hide Card ID from cards listing as in Trello|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_id-v0.1.1.zip)|[Repository](r_hide_card_id)|
 |[Import from GitHub](r_import_github)|Import GitHub repositories. users, issues and comments|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_import_github-v0.1.1.zip)|[Repository](r_import_github)|
