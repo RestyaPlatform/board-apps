@@ -1,4 +1,3 @@
-### Theming/CSSilize
+### Amazon Echo App
 
-- CSSilize is our theming partner.
-- For Restyaboard theming, website designing or mobile apps. Starting from $35.
+- Access your Restyaboard notifications through Amazon Echo. Note that this is a paid integration. Contact us to get a quote.
