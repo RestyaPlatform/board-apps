@@ -1,0 +1,20 @@
+{
+	"name": "Theming/CSSilize",
+	"description": "CSSilize, theming partner",
+	"author": "Restya",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_cssilize/img/cssilize.png",
+	"settings_description": "",
+	"settings": false,
+	"assets": {
+		"css": [
+		],
+		"js": [
+			"apps/r_cssilize/js/app.js"
+		]
+	},
+	"enabled": true
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Zapier Connect",
+    "description": "Generate \"access token\" for Zapier connection",
+    "author": "Restya",
+    "author_email": "info@restya.com",
+    "author_url": "http://restya.com/",
+    "version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_zapier/img/zapier.png",
+    "settings_description": "",
+    "settings": {
+		"r_zapier_client_id": {
+			"label" : "Zapier Client ID",
+			"info" : "",
+			"value" : "",
+			"is_public" : true
+		},
+		"r_zapier_client_secret": {
+			"label" : "Zapier Client Secret",
+			"info" : "",
+			"value" : "",
+			"is_public" : false
+		},
+		"r_zapier_oauth_token_url": {
+			"label" : "Zapier OAuth Token URL",
+			"info" : "",
+			"value" : "/api/v1/oauth/token.json",
+			"is_public" : false
+		}
+	},
+    "assets": {
+        "css": [
+
+        ],
+        "js": [            
+            "apps/r_zapier/js/app.js"
+        ]
+    },
+    "enabled": true
+}

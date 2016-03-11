@@ -1,0 +1,6 @@
+<script>
+// Step 3
+var code = window.location.toString().replace(/.+code=/, '').split('&')[0];
+window.opener.postMessage({code: code, app: 'r_zapier'}, window.location);
+window.close();
+</script>
