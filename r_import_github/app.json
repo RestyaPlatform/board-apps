@@ -4,7 +4,7 @@
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"price" : 0,
 	"icon": "apps/r_import_github/img/github.png",
 	"settings_description": "Register a new application in GitHub in this URL <a href='https://github.com/settings/applications/new' target='_blank'>https://github.com/settings/applications/new</a> with providing below details,<br/>Application Name: ##SITE_NAME##<br/>Homepage URL: ##SITE_URL##<br/>Application description: Give some description about your site<br/>Authorization callback URL: ##SITE_URL##/apps/r_import_github/login.html",
