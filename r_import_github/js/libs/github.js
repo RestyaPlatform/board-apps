@@ -183,7 +183,7 @@
 
             this.userRepos = function(username, cb) {
                 // Github does not always honor the 1000 limit so we want to iterate over the data set.
-                _requestAllPages('/users/' + username + '/repos?type=all&per_page=1000&sort=updated', function(err, res) {
+                _requestAllPages('/users/' + username + '/repos?type=owner&per_page=1000&sort=updated', function(err, res) {
                     cb(err, res);
                 });
             };
