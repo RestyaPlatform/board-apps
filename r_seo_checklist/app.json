@@ -1,0 +1,20 @@
+{
+	"name": "SEO Checklist For Startup Websites",
+	"description": "In this app having checklist of essential SEO tips and tasks for any new startup website. Some only take a few minutes, while others will require some development assistance — but each provides a distinct benefit to your site.",
+	"author": "Restya",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_seo_checklist/img/seo_checklist.png",
+	"settings_description": "",
+	"settings": false,
+	"assets": {
+		"css": [
+		],
+		"js": [
+			"apps/r_seo_checklist/js/app.js"
+		]
+	},
+	"enabled": true
+}
