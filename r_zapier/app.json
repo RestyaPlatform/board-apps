@@ -12,13 +12,13 @@
 		"r_zapier_client_id": {
 			"label" : "Zapier Client ID",
 			"info" : "",
-			"value" : "",
+			"value" : "7857596005287233",
 			"is_public" : true
 		},
 		"r_zapier_client_secret": {
 			"label" : "Zapier Client Secret",
 			"info" : "",
-			"value" : "",
+			"value" : "n0l2wlujcpkj0bd7gk8918gm6b",
 			"is_public" : false
 		},
 		"r_zapier_oauth_token_url": {
