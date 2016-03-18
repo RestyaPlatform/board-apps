@@ -1,0 +1,589 @@
+{
+    "id": "561c98eeb0b30d751895ab91",
+    "name": "Website QA Checklist Board",
+    "prefs": {
+        "permissionLevel": "public",
+        "background": "blue",
+        "backgroundColor": "#0079BF",
+        "backgroundTile": false,
+        "backgroundBrightness": "dark"
+    },
+    "cards": [
+        {
+            "id": "5666c95a9b21ec1d69a06bf1",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Best practices",
+            "pos": 1
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf2",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Mobile",
+            "pos": 2
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf3",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Analytics",
+            "pos": 3
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf4",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Performance",
+            "pos": 4
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf5",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Usability",
+            "pos": 5
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf6",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Semantics",
+            "pos": 6
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf7",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "SEO",
+            "pos": 7
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf8",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Code quality",
+            "pos": 8
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf9",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Accessibility",
+            "pos": 9
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06b10",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Security",
+            "pos": 10
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06b11",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Social Media",
+            "pos": 11
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06b12",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "...and finally",
+            "pos": 12
+        }
+    ],
+    "lists": [
+        {
+            "id": "567a71cd38743bbd2773eb01",
+            "name": "Web Developer",
+            "closed": false,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "pos": 1,
+            "subscribed": null
+        }
+    ],
+    "checklists": [
+        {
+            "id": "561cadb7433c28c6e4768841",
+            "name": "Best practices",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf1",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd81",
+                    "name": "Fix broken link (W3C link checker, iWebTool Broken Link Checker)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd82",
+                    "name": "Spelling and grammar (Capitalization, Writing Style, Word Variations e.g. UK vs US)",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd83",
+                    "name": "Check website in all browsers (BrowserShots.org, Browserling.com, Spoon.net)",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd84",
+                    "name": "Decide on www-subdomain (no-www.org score of 'B', www.yes-www.org, Handle 'www' in web.config)",
+                    "nameData": null,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768842",
+            "name": "Mobile",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf2",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd85",
+                    "name": "MobileOK score of 75+ (W3C mobile checker)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd86",
+                    "name": "Use 'viewport' meta-tag (Don’t Forget the Viewport Meta Tag, Make your website mobile friendly)",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd87",
+                    "name": "Use correct input types (Input type: Email, Url, Phone., Diving in to HTML5 forms)",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd88",
+                    "name": "Manual check using emulators (Online media query tester, 6 free mobile emulators, Opera Mobile Emulator)",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd89",
+                    "name": "Test using real devices (Use Open Device Labs to test multiple devices)",
+                    "nameData": null,
+                    "pos": 5
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768843",
+            "name": "Analytics",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf3",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd90",
+                    "name": "Uptime monitoring (Uptime robot, GotSiteMonitor.com)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd91",
+                    "name": "Traffic analysis (Google Analytics, StatCounter, Clicky, Piwik)",
+                    "nameData": null,
+                    "pos": 2
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768844",
+            "name": "Performance",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf4",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd92",
+                    "name": "Google Page Speed score of 90+ (Google Page Speed)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd93",
+                    "name": "Yahoo YSlow score of 85+ (Yahoo's YSlow)",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd94",
+                    "name": "Optimize HTTP headers (redbot.org)",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd95",
+                    "name": "Optimize images (SmushIt.com, PunyPNG.com, PNGGauntlet for Windows, Image Optim for Mac)",
+                    "nameData": null,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768845",
+            "name": "Usability",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf5",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd96",
+                    "name": "HTML5 compatibility check (Compat Inspector, modern.IE, Modernizr JS library)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd97",
+                    "name": "Custom 404 page (A more useful 404)",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd98",
+                    "name": "Favicon (Real Favicon Generator, Favicon Cheat Sheet)",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd99",
+                    "name": "Use friendly URLs (11 best practices for URLs, URL rewriting in IIS, URL rewrite in Apache)",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd00",
+                    "name": "Print-friendly CSS (Set up a print stylesheet)",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd01",
+                    "name": "Add search feature (Google Custom Search, Consider 'Open Search')",
+                    "nameData": null,
+                    "pos": 6
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd02",
+                    "name": "Environment Integration (Safari on iOS, Internet Explorer on Windows, Windows 8 Tiles)",
+                    "nameData": null,
+                    "pos": 6
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768846",
+            "name": "Semantics",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf6",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd03",
+                    "name": "Add meaning with structured data (Schema.org reference, Schema-Creator.org)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd04",
+                    "name": "Check the semantics (W3C semantic extractor, Google Structured Data Testing Tool, Facebook OpenGraph Debugger, Twitter Card Validator)",
+                    "nameData": null,
+                    "pos": 2
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768847",
+            "name": "SEO",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf7",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd05",
+                    "name": "SenSEO score of 85+ (SenSEO for Firefox)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd06",
+                    "name": "Google Rich Snippets (Online tester, Getting started)",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd07",
+                    "name": "robots.txt (robots.txt tutorial, Create robots.txt online)",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd08",
+                    "name": "XML sitemap (Create sitemap online)",
+                    "nameData": null,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768848",
+            "name": "Code quality",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf8",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd09",
+                    "name": "HTML validation (W3C HTML validator, Dr. Watson)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd10",
+                    "name": "CSS validation (W3C CSS validator)",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd11",
+                    "name": "Run CSS Lint (Run CSS Lint online)",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd12",
+                    "name": "Run JSLint/JSHint (Run JSLint online, Run JSHint online)",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd13",
+                    "name": "World ready (W3C i18n checker)",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd14",
+                    "name": "Automated testing (Testomato)",
+                    "nameData": null,
+                    "pos": 6
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768849",
+            "name": "Accessibility",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf9",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd15",
+                    "name": "Accessibility validation (Common problems and solutions, IDI Web Accessibility Checker, Test using a screen reader)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd16",
+                    "name": "Color contrast (Check color contrast online)",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd17",
+                    "name": "WAI-ARIA Landmarks (Using WAI-ARIA Landmarks, Guide to WAI-ARIA, Practical examples)",
+                    "nameData": null,
+                    "pos": 3
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768850",
+            "name": "Security",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06b10",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd18",
+                    "name": "Follow best practices (ASafaaWeb security analyzer, OWASP Top 10 project, OWASP Cheat Sheets, CWE/SANS Top 25)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd19",
+                    "name": "Cross-site scripting (XSS cheat sheet, DOM based XSS cheat sheet, Free XSS scanner)",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd20",
+                    "name": "Cross-site request forgery (Explanation and walkthrough, CSRF cheat sheet)",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd21",
+                    "name": "Secure connection (SSL) (Setup SSL on IIS 7, Setup SSL on Apache, SSL Server Test)",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd22",
+                    "name": "HTTP Strict Transport Security (MDN Overview, OWASP Overview)",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd23",
+                    "name": "Enable Content Security Policy (Content Security Policy, MDN Guide, OWASP Overview, CSP Tester)",
+                    "nameData": null,
+                    "pos": 6
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768851",
+            "name": "Social Media",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06b11",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd24",
+                    "name": "Open Graph protocol (Open Graph protocol reference)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd25",
+                    "name": "Twitter Cards (Documentation)",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd26",
+                    "name": "Facebook Insights (Facebook Insights)",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd27",
+                    "name": "Google+ (Google+ Authorship, Google+ Publisher)",
+                    "nameData": null,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768852",
+            "name": "...and finally",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06b12",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd24",
+                    "name": "Add humans.txt (We are humans, not machines!)",
+                    "nameData": null,
+                    "pos": 1
+                }
+            ]
+        }
+    ]
+}
