@@ -151,28 +151,28 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd81",
-                    "name": "Fix broken link (W3C link checker, iWebTool Broken Link Checker)",
+                    "name": "Fix broken link ([W3C link checker](http://validator.w3.org/checklink), [iWebTool Broken Link Checker](http://iwebtool.com/broken_link_checker))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd82",
-                    "name": "Spelling and grammar (Capitalization, Writing Style, Word Variations e.g. UK vs US)",
+                    "name": "Spelling and grammar ([Capitalization](http://en.wikipedia.org/wiki/Capitalization), [Writing Style](http://en.wikipedia.org/wiki/Writing_style), [Word Variations e.g. UK vs US](http://en.wikipedia.org/wiki/American_and_British_English_spelling_differences))",
                     "nameData": null,
                     "pos": 2
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd83",
-                    "name": "Check website in all browsers (BrowserShots.org, Browserling.com, Spoon.net)",
+                    "name": "Check website in all browsers  ([BrowserShots.org](http://browsershots.org/), [Browserling.com](https://browserling.com/), [Spoon.net](http://spoon.net/browsers))",
                     "nameData": null,
                     "pos": 3
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd84",
-                    "name": "Decide on www-subdomain (no-www.org score of 'B', www.yes-www.org, Handle 'www' in web.config)",
+                    "name": "Decide on www-subdomain ([no-www.org score of 'B'](http://no-www.org/), [www.yes-www.org](http://www.yes-www.org/), [Handle 'www' in web.config](http://madskristensen.net/post/url-rewrite-and-the-www-subdomain))",
                     "nameData": null,
                     "pos": 4
                 }
@@ -188,35 +188,35 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd85",
-                    "name": "MobileOK score of 75+ (W3C mobile checker)",
+                    "name": "MobileOK score of 75+ ([W3C mobile checker](http://validator.w3.org/mobile/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd86",
-                    "name": "Use 'viewport' meta-tag (Don’t Forget the Viewport Meta Tag, Make your website mobile friendly)",
+                    "name": "Use 'viewport' meta-tag ([Don’t Forget the Viewport Meta Tag](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag/), [Make your website mobile friendly](http://www.hanselman.com/blog/MakeYourWebsiteMobileAndIPhoneFriendlyAddHomeScreenIPhoneIconsAndAdjustTheViewPort.aspx))",
                     "nameData": null,
                     "pos": 2
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd87",
-                    "name": "Use correct input types (Input type: Email, Url, Phone., Diving in to HTML5 forms)",
+                    "name": "Use correct input types ([Input type: Email, Url, Phone.](http://html5tutorial.info/html5-contact.php), [Diving in to HTML5 forms](http://diveintohtml5.info/forms.html))",
                     "nameData": null,
                     "pos": 3
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd88",
-                    "name": "Manual check using emulators (Online media query tester, 6 free mobile emulators, Opera Mobile Emulator)",
+                    "name": "Manual check using emulators ([Online media query tester](http://screenqueri.es/), [6 free mobile emulators](http://www.webdesignerdepot.com/2012/11/6-free-mobile-device-emulators-for-testing-your-site/), [Opera Mobile Emulator](http://www.opera.com/developer/tools/mobile/))",
                     "nameData": null,
                     "pos": 4
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd89",
-                    "name": "Test using real devices (Use Open Device Labs to test multiple devices)",
+                    "name": "Test using real devices ([Use Open Device Labs to test multiple devices](http://OpenDeviceLab.com/))",
                     "nameData": null,
                     "pos": 5
                 }
@@ -232,14 +232,14 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd90",
-                    "name": "Uptime monitoring (Uptime robot, GotSiteMonitor.com)",
+                    "name": "Uptime monitoring ([Uptime robot](http://www.uptimerobot.com/), [GotSiteMonitor.com](http://www.gotsitemonitor.com/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd91",
-                    "name": "Traffic analysis (Google Analytics, StatCounter, Clicky, Piwik)",
+                    "name": "Traffic analysis ([Google Analytics](http://www.google.com/analytics), [StatCounter](http://statcounter.com/), [Clicky](http://clicky.com/), [Piwik](http://piwik.org/))",
                     "nameData": null,
                     "pos": 2
                 }
@@ -255,28 +255,28 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd92",
-                    "name": "Google Page Speed score of 90+ (Google Page Speed)",
+                    "name": "Google Page Speed score of 90+ ([Google Page Speed](https://developers.google.com/speed/pagespeed/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd93",
-                    "name": "Yahoo YSlow score of 85+ (Yahoo's YSlow)",
+                    "name": "Yahoo YSlow score of 85+ ([Yahoo's YSlow](http://yslow.org/))",
                     "nameData": null,
                     "pos": 2
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd94",
-                    "name": "Optimize HTTP headers (redbot.org)",
+                    "name": "Optimize HTTP headers ([redbot.org](http://redbot.org))",
                     "nameData": null,
                     "pos": 3
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd95",
-                    "name": "Optimize images (SmushIt.com, PunyPNG.com, PNGGauntlet for Windows, Image Optim for Mac)",
+                    "name": "Optimize images ([SmushIt.com](http://www.smushit.com/ysmush.it/), [PunyPNG.com](http://punypng.com/), [PNGGauntlet for Windows](http://pnggauntlet.com/), [Image Optim for Mac](http://imageoptim.com/))",
                     "nameData": null,
                     "pos": 4
                 }
@@ -292,49 +292,49 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd96",
-                    "name": "HTML5 compatibility check (Compat Inspector, modern.IE, Modernizr JS library)",
+                    "name": "HTML5 compatibility check ([Compat Inspector](http://ie.microsoft.com/testdrive/HTML5/CompatInspector/), [modern.IE](http://www.modern.ie/report), [Modernizr JS library](http://modernizr.com/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd97",
-                    "name": "Custom 404 page (A more useful 404)",
+                    "name": "Custom 404 page ([A more useful 404](http://www.alistapart.com/articles/amoreuseful404))",
                     "nameData": null,
                     "pos": 2
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd98",
-                    "name": "Favicon (Real Favicon Generator, Favicon Cheat Sheet)",
+                    "name": "Favicon ([Real Favicon Generator](http://realfavicongenerator.net/), [Favicon Cheat Sheet](http://github.com/audreyr/favicon-cheat-sheet))",
                     "nameData": null,
                     "pos": 3
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd99",
-                    "name": "Use friendly URLs (11 best practices for URLs, URL rewriting in IIS, URL rewrite in Apache)",
+                    "name": "Use friendly URLs ([11 best practices for URLs](http://www.seomoz.org/blog/11-best-practices-for-urls), [URL rewriting in IIS](http://www.iis.net/learn/extensions/url-rewrite-module/url-rewrite-module-configuration-reference), [URL rewrite in Apache](http://httpd.apache.org/docs/current/mod/mod_rewrite.html))",
                     "nameData": null,
                     "pos": 4
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd00",
-                    "name": "Print-friendly CSS (Set up a print stylesheet)",
+                    "name": "Print-friendly CSS ([Set up a print stylesheet](http://coding.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet/))",
                     "nameData": null,
                     "pos": 5
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd01",
-                    "name": "Add search feature (Google Custom Search, Consider 'Open Search')",
+                    "name": "Add search feature ([Google Custom Search](http://www.google.com/cse/), [Consider 'Open Search'](http://www.opensearch.org/Home))",
                     "nameData": null,
                     "pos": 6
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd02",
-                    "name": "Environment Integration (Safari on iOS, Internet Explorer on Windows, Windows 8 Tiles)",
+                    "name": "Environment Integration ([Safari on iOS](http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html), [Internet Explorer on Windows](http://msdn.microsoft.com/en-us/library/ie/hh781490%28v=vs.85%29.aspx), [Windows 8 Tiles](http://www.buildmypinnedsite.com/))",
                     "nameData": null,
                     "pos": 6
                 }
@@ -350,14 +350,14 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd03",
-                    "name": "Add meaning with structured data (Schema.org reference, Schema-Creator.org)",
+                    "name": "Add meaning with structured data ([Schema.org reference](http://schema.org/), [Schema-Creator.org](http://schema-creator.org/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd04",
-                    "name": "Check the semantics (W3C semantic extractor, Google Structured Data Testing Tool, Facebook OpenGraph Debugger, Twitter Card Validator)",
+                    "name": "Check the semantics ([W3C semantic extractor](http://www.w3.org/2003/12/semantic-extractor.html), [Google Structured Data Testing Tool](http://www.google.com/webmasters/tools/richsnippets), [Facebook OpenGraph Debugger](https://developers.facebook.com/tools/debug/), [Twitter Card Validator](https://dev.twitter.com/docs/cards/validation/validator))",
                     "nameData": null,
                     "pos": 2
                 }
@@ -373,28 +373,28 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd05",
-                    "name": "SenSEO score of 85+ (SenSEO for Firefox)",
+                    "name": "SenSEO score of 85+ ([SenSEO for Firefox](https://addons.mozilla.org/en-US/firefox/addon/senseo/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd06",
-                    "name": "Google Rich Snippets (Online tester, Getting started)",
+                    "name": "Google Rich Snippets ([Online tester](http://www.google.com/webmasters/tools/richsnippets), [Getting started](http://schema.org/docs/gs.html))",
                     "nameData": null,
                     "pos": 2
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd07",
-                    "name": "robots.txt (robots.txt tutorial, Create robots.txt online)",
+                    "name": "robots.txt ([robots.txt tutorial](http://tools.seobook.com/robots-txt/), [Create robots.txt online](http://www.robotsgenerator.com/))",
                     "nameData": null,
                     "pos": 3
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd08",
-                    "name": "XML sitemap (Create sitemap online)",
+                    "name": "XML sitemap ([Create sitemap online](http://www.xml-sitemaps.com/))",
                     "nameData": null,
                     "pos": 4
                 }
@@ -410,42 +410,42 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd09",
-                    "name": "HTML validation (W3C HTML validator, Dr. Watson)",
+                    "name": "HTML validation ([W3C HTML validator](http://validator.w3.org/), [Dr. Watson](http://watson.addy.com/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd10",
-                    "name": "CSS validation (W3C CSS validator)",
+                    "name": "CSS validation ([W3C CSS validator](http://jigsaw.w3.org/css-validator/))",
                     "nameData": null,
                     "pos": 2
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd11",
-                    "name": "Run CSS Lint (Run CSS Lint online)",
+                    "name": "Run CSS Lint ([Run CSS Lint online](http://csslint.net/))",
                     "nameData": null,
                     "pos": 3
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd12",
-                    "name": "Run JSLint/JSHint (Run JSLint online, Run JSHint online)",
+                    "name": "Run JSLint/JSHint ([Run CSS Lint online](http://jslint.org/), [Run JSHint online](http://jshint.com/))",
                     "nameData": null,
                     "pos": 4
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd13",
-                    "name": "World ready (W3C i18n checker)",
+                    "name": "World ready ([W3C i18n checker](http://validator.w3.org/i18n-checker/))",
                     "nameData": null,
                     "pos": 5
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd14",
-                    "name": "Automated testing (Testomato)",
+                    "name": "Automated testing ([Testomato](http://www.testomato.com/))",
                     "nameData": null,
                     "pos": 6
                 }
@@ -461,21 +461,21 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd15",
-                    "name": "Accessibility validation (Common problems and solutions, IDI Web Accessibility Checker, Test using a screen reader)",
+                    "name": "Accessibility validation ([Common problems and solutions](http://accessibility.oit.ncsu.edu/accessibleu/problems.html), [IDI Web Accessibility Checker](http://achecker.ca/checker/index.php), [Test using a screen reader](http://www.nvda-project.org/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd16",
-                    "name": "Color contrast (Check color contrast online)",
+                    "name": "Color contrast ([Check color contrast online](http://www.checkmycolours.com/))",
                     "nameData": null,
                     "pos": 2
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd17",
-                    "name": "WAI-ARIA Landmarks (Using WAI-ARIA Landmarks, Guide to WAI-ARIA, Practical examples)",
+                    "name": "WAI-ARIA Landmarks ([Using WAI-ARIA Landmarks](http://accessibility.oit.ncsu.edu/blog/2011/06/30/using-aria-landmarks-a-demonstration/), [Guide to WAI-ARIA](http://www.alistapart.com/articles/the-accessibility-of-wai-aria/), [Practical examples](http://www.punkchip.com/2010/11/aria-basic-findings/))",
                     "nameData": null,
                     "pos": 3
                 }
@@ -491,42 +491,42 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd18",
-                    "name": "Follow best practices (ASafaaWeb security analyzer, OWASP Top 10 project, OWASP Cheat Sheets, CWE/SANS Top 25)",
+                    "name": "Follow best practices ([ASafaaWeb security analyzer](https://asafaweb.com/), [OWASP Top 10 project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project), [OWASP Cheat Sheets](https://www.owasp.org/index.php/Cheat_Sheets), [CWE/SANS Top 25](http://cwe.mitre.org/top25/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd19",
-                    "name": "Cross-site scripting (XSS cheat sheet, DOM based XSS cheat sheet, Free XSS scanner)",
+                    "name": "Cross-site scripting ([XSS cheat sheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet), [DOM based XSS cheat sheet](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet), [Free XSS scanner](http://www.acunetix.com/cross-site-scripting/scanner/))",
                     "nameData": null,
                     "pos": 2
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd20",
-                    "name": "Cross-site request forgery (Explanation and walkthrough, CSRF cheat sheet)",
+                    "name": "Cross-site request forgery ([Explanation and walkthrough](http://www.codinghorror.com/blog/2008/09/cross-site-request-forgeries-and-you.html), [CSRF cheat sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet))",
                     "nameData": null,
                     "pos": 3
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd21",
-                    "name": "Secure connection (SSL) (Setup SSL on IIS 7, Setup SSL on Apache, SSL Server Test)",
+                    "name": "Secure connection (SSL) ([Setup SSL on IIS 7](http://support.microsoft.com/kb/299875), [Setup SSL on Apache](http://www.digicert.com/ssl-certificate-installation-apache.htm), [SSL Server Test](https://www.ssllabs.com/ssltest/))",
                     "nameData": null,
                     "pos": 4
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd22",
-                    "name": "HTTP Strict Transport Security (MDN Overview, OWASP Overview)",
+                    "name": "HTTP Strict Transport Security ([MDN Overview](https://developer.mozilla.org/en-US/docs/Security/HTTP_Strict_Transport_Security), [OWASP Overview](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security))",
                     "nameData": null,
                     "pos": 5
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd23",
-                    "name": "Enable Content Security Policy (Content Security Policy, MDN Guide, OWASP Overview, CSP Tester)",
+                    "name": "Enable Content Security Policy ([Content Security Policy](http://www.html5rocks.com/en/tutorials/security/content-security-policy/), [MDN Guide](https://developer.mozilla.org/en-US/docs/Security/CSP/Using_Content_Security_Policy), [OWASP Overview](https://www.owasp.org/index.php/Content_Security_Policy), [CSP Tester](https://github.com/oxdef/csp-tester))",
                     "nameData": null,
                     "pos": 6
                 }
@@ -542,28 +542,28 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd24",
-                    "name": "Open Graph protocol (Open Graph protocol reference)",
+                    "name": "Open Graph protocol ([Open Graph protocol reference](http://ogp.me/))",
                     "nameData": null,
                     "pos": 1
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd25",
-                    "name": "Twitter Cards (Documentation)",
+                    "name": "Twitter Cards ([Documentation](https://dev.twitter.com/docs/cards))",
                     "nameData": null,
                     "pos": 2
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd26",
-                    "name": "Facebook Insights (Facebook Insights)",
+                    "name": "Facebook Insights ([Facebook Insights](https://developers.facebook.com/docs/insights/))",
                     "nameData": null,
                     "pos": 3
                 },
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd27",
-                    "name": "Google+ (Google+ Authorship, Google+ Publisher)",
+                    "name": "Google+ ([Google+ Authorship](https://plus.google.com/authorship), [Google+ Publisher](https://support.google.com/webmasters/answer/1708844?hl=en))",
                     "nameData": null,
                     "pos": 4
                 }
@@ -579,7 +579,7 @@
                 {
                     "state": "incomplete",
                     "id": "56b9e2586254881993d1cd24",
-                    "name": "Add humans.txt (We are humans, not machines!)",
+                    "name": "Add humans.txt ([We are humans, not machines!](http://humanstxt.org/))",
                     "nameData": null,
                     "pos": 1
                 }
