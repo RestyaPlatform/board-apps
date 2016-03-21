@@ -8,6 +8,7 @@
 |[Import from GitHub](r_import_github)|Import GitHub repositories. users, issues and comments|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_import_github-v0.1.2.zip)|[Repository](r_import_github)|
 |[Post my comments to Slack](r_slack)|Auto post your comments to Slack|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_slack-v0.1.2.zip)|[Repository](r_slack)|
 |[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.1.zip)|[Repository](r_togetherjs)|
+|[Website QA Checklist](r_website_qa_checklist)|Web Developer Checklist, export json data as Template|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_website_qa_checklist-v0.1.1.zip)|[Repository](r_website_qa_checklist)|
 |[Zapier Connect](r_zapier)|Generate "access token" for Zapier connection|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_zapier-v0.1.1.zip)|[Repository](r_zapier)|
 
 ### Steps to create new app

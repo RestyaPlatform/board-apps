@@ -165,6 +165,27 @@
         },
         "enabled": false
     },
+    "r_website_qa_checklist": {
+        "name": "Website QA Checklist",
+        "description": "Web Developer Checklist, export json data as Template",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_website_qa_checklist/img/website_qa_checklist.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "apps/r_website_qa_checklist/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_zapier": {
         "name": "Zapier Connect",
         "description": "Generate \"access token\" for Zapier connection",

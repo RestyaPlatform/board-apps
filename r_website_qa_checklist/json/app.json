@@ -1,0 +1,589 @@
+{
+    "id": "561c98eeb0b30d751895ab91",
+    "name": "Website QA Checklist Board",
+    "prefs": {
+        "permissionLevel": "public",
+        "background": "blue",
+        "backgroundColor": "#0079BF",
+        "backgroundTile": false,
+        "backgroundBrightness": "dark"
+    },
+    "cards": [
+        {
+            "id": "5666c95a9b21ec1d69a06bf1",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Best practices",
+            "pos": 1
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf2",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Mobile",
+            "pos": 2
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf3",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Analytics",
+            "pos": 3
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf4",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Performance",
+            "pos": 4
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf5",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Usability",
+            "pos": 5
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf6",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Semantics",
+            "pos": 6
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf7",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "SEO",
+            "pos": 7
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf8",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Code quality",
+            "pos": 8
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf9",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Accessibility",
+            "pos": 9
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06b10",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Security",
+            "pos": 10
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06b11",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "Social Media",
+            "pos": 11
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06b12",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idList": "567a71cd38743bbd2773eb01",
+            "name": "...and finally",
+            "pos": 12
+        }
+    ],
+    "lists": [
+        {
+            "id": "567a71cd38743bbd2773eb01",
+            "name": "Web Developer",
+            "closed": false,
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "pos": 1,
+            "subscribed": null
+        }
+    ],
+    "checklists": [
+        {
+            "id": "561cadb7433c28c6e4768841",
+            "name": "Best practices",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf1",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd81",
+                    "name": "Fix broken link ([W3C link checker](http://validator.w3.org/checklink?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [iWebTool Broken Link Checker](http://iwebtool.com/broken_link_checker?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd82",
+                    "name": "Spelling and grammar ([Capitalization](http://en.wikipedia.org/wiki/Capitalization?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Writing Style](http://en.wikipedia.org/wiki/Writing_style?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Word Variations e.g. UK vs US](http://en.wikipedia.org/wiki/American_and_British_English_spelling_differences?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd83",
+                    "name": "Check website in all browsers  ([BrowserShots.org](http://browsershots.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Browserling.com](https://browserling.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Spoon.net](http://spoon.net/browsers?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd84",
+                    "name": "Decide on www-subdomain ([no-www.org score of 'B'](http://no-www.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [www.yes-www.org](http://www.yes-www.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Handle 'www' in web.config](http://madskristensen.net/post/url-rewrite-and-the-www-subdomain?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768842",
+            "name": "Mobile",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf2",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd85",
+                    "name": "MobileOK score of 75+ ([W3C mobile checker](http://validator.w3.org/mobile/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd86",
+                    "name": "Use 'viewport' meta-tag ([Don’t Forget the Viewport Meta Tag](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Make your website mobile friendly](http://www.hanselman.com/blog/MakeYourWebsiteMobileAndIPhoneFriendlyAddHomeScreenIPhoneIconsAndAdjustTheViewPort.aspx?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd87",
+                    "name": "Use correct input types ([Input type: Email, Url, Phone.](http://html5tutorial.info/html5-contact.php?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Diving in to HTML5 forms](http://diveintohtml5.info/forms.html?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd88",
+                    "name": "Manual check using emulators ([Online media query tester](http://screenqueri.es/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [6 free mobile emulators](http://www.webdesignerdepot.com/2012/11/6-free-mobile-device-emulators-for-testing-your-site/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Opera Mobile Emulator](http://www.opera.com/developer/tools/mobile/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd89",
+                    "name": "Test using real devices ([Use Open Device Labs to test multiple devices](http://OpenDeviceLab.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 5
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768843",
+            "name": "Analytics",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf3",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd90",
+                    "name": "Uptime monitoring ([Uptime robot](http://www.uptimerobot.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [GotSiteMonitor.com](http://www.gotsitemonitor.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd91",
+                    "name": "Traffic analysis ([Google Analytics](http://www.google.com/analytics?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [StatCounter](http://statcounter.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Clicky](http://clicky.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Piwik](http://piwik.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768844",
+            "name": "Performance",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf4",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd92",
+                    "name": "Google Page Speed score of 90+ ([Google Page Speed](https://developers.google.com/speed/pagespeed/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd93",
+                    "name": "Yahoo YSlow score of 85+ ([Yahoo's YSlow](http://yslow.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd94",
+                    "name": "Optimize HTTP headers ([redbot.org](http://redbot.org?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd95",
+                    "name": "Optimize images ([SmushIt.com](http://www.smushit.com/ysmush.it/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [PunyPNG.com](http://punypng.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [PNGGauntlet for Windows](http://pnggauntlet.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Image Optim for Mac](http://imageoptim.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768845",
+            "name": "Usability",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf5",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd96",
+                    "name": "HTML5 compatibility check ([Compat Inspector](http://ie.microsoft.com/testdrive/HTML5/CompatInspector/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [modern.IE](http://www.modern.ie/report?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Modernizr JS library](http://modernizr.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd97",
+                    "name": "Custom 404 page ([A more useful 404](http://www.alistapart.com/articles/amoreuseful404?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd98",
+                    "name": "Favicon ([Real Favicon Generator](http://realfavicongenerator.net/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Favicon Cheat Sheet](http://github.com/audreyr/favicon-cheat-sheet?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd99",
+                    "name": "Use friendly URLs ([11 best practices for URLs](http://www.seomoz.org/blog/11-best-practices-for-urls?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [URL rewriting in IIS](http://www.iis.net/learn/extensions/url-rewrite-module/url-rewrite-module-configuration-reference?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [URL rewrite in Apache](http://httpd.apache.org/docs/current/mod/mod_rewrite.html?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd00",
+                    "name": "Print-friendly CSS ([Set up a print stylesheet](http://coding.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd01",
+                    "name": "Add search feature ([Google Custom Search](http://www.google.com/cse/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Consider 'Open Search'](http://www.opensearch.org/Home?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 6
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd02",
+                    "name": "Environment Integration ([Safari on iOS](http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Internet Explorer on Windows](http://msdn.microsoft.com/en-us/library/ie/hh781490%28v=vs.85%29.aspx?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Windows 8 Tiles](http://www.buildmypinnedsite.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 6
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768846",
+            "name": "Semantics",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf6",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd03",
+                    "name": "Add meaning with structured data ([Schema.org reference](http://schema.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Schema-Creator.org](http://schema-creator.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd04",
+                    "name": "Check the semantics ([W3C semantic extractor](http://www.w3.org/2003/12/semantic-extractor.html?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Google Structured Data Testing Tool](http://www.google.com/webmasters/tools/richsnippets?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Facebook OpenGraph Debugger](https://developers.facebook.com/tools/debug/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Twitter Card Validator](https://dev.twitter.com/docs/cards/validation/validator?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768847",
+            "name": "SEO",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf7",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd05",
+                    "name": "SenSEO score of 85+ ([SenSEO for Firefox](https://addons.mozilla.org/en-US/firefox/addon/senseo/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd06",
+                    "name": "Google Rich Snippets ([Online tester](http://www.google.com/webmasters/tools/richsnippets?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Getting started](http://schema.org/docs/gs.html?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd07",
+                    "name": "robots.txt ([robots.txt tutorial](http://tools.seobook.com/robots-txt/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Create robots.txt online](http://www.robotsgenerator.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd08",
+                    "name": "XML sitemap ([Create sitemap online](http://www.xml-sitemaps.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768848",
+            "name": "Code quality",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf8",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd09",
+                    "name": "HTML validation ([W3C HTML validator](http://validator.w3.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Dr. Watson](http://watson.addy.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd10",
+                    "name": "CSS validation ([W3C CSS validator](http://jigsaw.w3.org/css-validator/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd11",
+                    "name": "Run CSS Lint ([Run CSS Lint online](http://csslint.net/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd12",
+                    "name": "Run JSLint/JSHint ([Run CSS Lint online](http://jslint.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Run JSHint online](http://jshint.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd13",
+                    "name": "World ready ([W3C i18n checker](http://validator.w3.org/i18n-checker/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd14",
+                    "name": "Automated testing ([Testomato](http://www.testomato.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 6
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768849",
+            "name": "Accessibility",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06bf9",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd15",
+                    "name": "Accessibility validation ([Common problems and solutions](http://accessibility.oit.ncsu.edu/accessibleu/problems.html?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [IDI Web Accessibility Checker](http://achecker.ca/checker/index.php?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Test using a screen reader](http://www.nvda-project.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd16",
+                    "name": "Color contrast ([Check color contrast online](http://www.checkmycolours.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd17",
+                    "name": "WAI-ARIA Landmarks ([Using WAI-ARIA Landmarks](http://accessibility.oit.ncsu.edu/blog/2011/06/30/using-aria-landmarks-a-demonstration/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Guide to WAI-ARIA](http://www.alistapart.com/articles/the-accessibility-of-wai-aria/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Practical examples](http://www.punkchip.com/2010/11/aria-basic-findings/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 3
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768850",
+            "name": "Security",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06b10",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd18",
+                    "name": "Follow best practices ([ASafaaWeb security analyzer](https://asafaweb.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [OWASP Top 10 project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [OWASP Cheat Sheets](https://www.owasp.org/index.php/Cheat_Sheets?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [CWE/SANS Top 25](http://cwe.mitre.org/top25/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd19",
+                    "name": "Cross-site scripting ([XSS cheat sheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [DOM based XSS cheat sheet](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Free XSS scanner](http://www.acunetix.com/cross-site-scripting/scanner/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd20",
+                    "name": "Cross-site request forgery ([Explanation and walkthrough](http://www.codinghorror.com/blog/2008/09/cross-site-request-forgeries-and-you.html?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [CSRF cheat sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd21",
+                    "name": "Secure connection (SSL) ([Setup SSL on IIS 7](http://support.microsoft.com/kb/299875?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Setup SSL on Apache](http://www.digicert.com/ssl-certificate-installation-apache.htm?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [SSL Server Test](https://www.ssllabs.com/ssltest/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd22",
+                    "name": "HTTP Strict Transport Security ([MDN Overview](https://developer.mozilla.org/en-US/docs/Security/HTTP_Strict_Transport_Security?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [OWASP Overview](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd23",
+                    "name": "Enable Content Security Policy ([Content Security Policy](http://www.html5rocks.com/en/tutorials/security/content-security-policy/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [MDN Guide](https://developer.mozilla.org/en-US/docs/Security/CSP/Using_Content_Security_Policy?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [OWASP Overview](https://www.owasp.org/index.php/Content_Security_Policy?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [CSP Tester](https://github.com/oxdef/csp-tester?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 6
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768851",
+            "name": "Social Media",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06b11",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd24",
+                    "name": "Open Graph protocol ([Open Graph protocol reference](http://ogp.me/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd25",
+                    "name": "Twitter Cards ([Documentation](https://dev.twitter.com/docs/cards?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd26",
+                    "name": "Facebook Insights ([Facebook Insights](https://developers.facebook.com/docs/insights/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd27",
+                    "name": "Google+ ([Google+ Authorship](https://plus.google.com/authorship?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app), [Google+ Publisher](https://support.google.com/webmasters/answer/1708844?hl=en?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 4
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768852",
+            "name": "...and finally",
+            "idBoard": "561c98eeb0b30d751895ab91",
+            "idCard": "5666c95a9b21ec1d69a06b12",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d1cd24",
+                    "name": "Add humans.txt ([We are humans, not machines!](http://humanstxt.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=web-qa-checklist-app))",
+                    "nameData": null,
+                    "pos": 1
+                }
+            ]
+        }
+    ]
+}
