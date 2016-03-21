@@ -1,0 +1,468 @@
+{
+    "id": "561c98eeb0b30d751895ab92",
+    "name": "SEO Checklist Board",
+    "prefs": {
+        "permissionLevel": "public",
+        "background": "purple",
+        "backgroundTile": false,
+        "backgroundBrightness": "dark",
+        "backgroundColor": "#89609E"
+    },
+    "cards": [
+        {
+            "id": "5666c95a9b21ec1d69a06bf1",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idList": "567a71cd38743bbd2773eb02",
+            "name": "General Setup",
+            "pos": 1
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf2",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idList": "567a71cd38743bbd2773eb02",
+            "name": "Keyword Research",
+            "pos": 2
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf3",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idList": "567a71cd38743bbd2773eb02",
+            "name": "Onsite Optimization",
+            "pos": 3
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf4",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idList": "567a71cd38743bbd2773eb02",
+            "name": "Content",
+            "pos": 4
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf5",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idList": "567a71cd38743bbd2773eb02",
+            "name": "Link Building",
+            "pos": 5
+        },
+        {
+            "id": "5666c95a9b21ec1d69a06bf6",
+            "closed": false,
+            "desc": "",
+            "descData": null,
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idList": "567a71cd38743bbd2773eb02",
+            "name": "Get Through All These Without Breaking A Sweat?",
+            "pos": 6
+        }
+    ],
+    "lists": [
+        {
+            "id": "567a71cd38743bbd2773eb02",
+            "name": "SEO Checklist",
+            "closed": false,
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "pos": 1,
+            "subscribed": null
+        }
+    ],
+    "checklists": [
+        {
+            "id": "561cadb7433c28c6e4768941",
+            "name": "General Setup",
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idCard": "5666c95a9b21ec1d69a06bf1",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd81",
+                    "name": "[Install Google Analytics](https://support.google.com/analytics/answer/1008080?hl=en&utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd82",
+                    "name": "[Set up a \"Destination Goal\"](https://support.google.com/analytics/answer/1032415?hl=en&utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) in Google Analytics for any “thank you” pages on your site",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd83",
+                    "name": "Set up [Google Webmaster Tools](http://www.google.com/webmasters/?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app)",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd84",
+                    "name": "[Link Google Webmaster Tools with Google Analytics](https://support.google.com/webmasters/answer/1120006?hl=en&utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app)",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd85",
+                    "name": "Create a [robots.txt](http://www.robotstxt.org/robotstxt.html?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) file and upload it to the root directory of your site",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd86",
+                    "name": "Create a [sitemap.xml](http://www.xml-sitemaps.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) file and upload it to the root directory of your site",
+                    "nameData": null,
+                    "pos": 6
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd87",
+                    "name": "[Submit your sitemap to Google Webmaster Tools](https://support.google.com/sites/answer/100283?hl=en&utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) for indexing",
+                    "nameData": null,
+                    "pos": 7
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768842",
+            "name": "Keyword Research",
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idCard": "5666c95a9b21ec1d69a06bf2",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd88",
+                    "name": "Make a list of all products and services you offer.",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd89",
+                    "name": "Get additional keyword ideas by using the [Google Keyword Planner](https://adwords.google.com/ko/KeywordPlanner/Home?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) to \"Search for keyword and ad group ideas\"",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd90",
+                    "name": "Once you have a hefty list, input all keywords into the Keyword Planner to \"See how they perform\"",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd91",
+                    "name": "Narrow down your list by looking for target phrases that have relatively large volume",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd92",
+                    "name": "Break up your target keywords into small groups of semantically similar phrases. and assign each group to an applicable page on your website.",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd93",
+                    "name": "No pages that fit a group? Plan to use those keywords in an upcoming blog post.",
+                    "nameData": null,
+                    "pos": 6
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768843",
+            "name": "Onsite Optimization",
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idCard": "5666c95a9b21ec1d69a06bf3",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd94",
+                    "name": "Write a unique title tag for each webpage, using one or more of the target keywords you’ve assigned to that page",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd95",
+                    "name": "Keep the entire title tag under 60 characters",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd96",
+                    "name": "Write a unique meta description for each webpage, using one or more of the target keywords you’ve assigned to that page",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd97",
+                    "name": "Keep the entire meta description under 155 characters",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd98",
+                    "name": "Include a target keyword in each page’s URL",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd99",
+                    "name": "Check that each page has one (and only one) h1 tag, preferably including a target keyword",
+                    "nameData": null,
+                    "pos": 6
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd00",
+                    "name": "Additional headers (h2 – h6), if applicable, should appear in order, lower on the page",
+                    "nameData": null,
+                    "pos": 7
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd01",
+                    "name": "Add search feature (Google Custom Search, Consider 'Open Search')",
+                    "nameData": null,
+                    "pos": 8
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd02",
+                    "name": "Make sure all page on your website can be accessed in less than 3 clicks from the homepage.",
+                    "nameData": null,
+                    "pos": 9
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd03",
+                    "name": "If you have pages (or whole sections) buried deeper than that, consider linking to them from your main navigation, or an applicable category page.",
+                    "nameData": null,
+                    "pos": 10
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd04",
+                    "name": "When you link to a given webpage from elsewhere on the site, use one of the target keywords associated with the page you are linking to as (part of) the [anchor text](https://www.majesticseo.com/support/glossary#AnchorText?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app).",
+                    "nameData": null,
+                    "pos": 11
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd05",
+                    "name": "If your website is image-heavy, [add ALT tags](http://www.w3schools.com/tags/att_img_alt.asp?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) to the images to let search engines understand what visuals users are seeing.",
+                    "nameData": null,
+                    "pos": 12
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768844",
+            "name": "Content",
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idCard": "5666c95a9b21ec1d69a06bf4",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd06",
+                    "name": "Ensure that each page of your site has at least 300 words of unique content on it that can’t be found elsewhere on your site (or anywhere else on the Web)",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd07",
+                    "name": "Set up a blog on your domain, and publish something on it as often as you can (aim for twice per month to start).",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd08",
+                    "name": "Write articles that you would personally find interesting and would want to read.",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd09",
+                    "name": "Go beyond text: create videos, podcasts, webinars, infographics, illustrations, PDF downloads and more!",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd10",
+                    "name": "Identify 2-3 primary audiences for your product or service, and create unique content for each one",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd11",
+                    "name": "What are the pain points or salient features that relate best to their individual needs?",
+                    "nameData": null,
+                    "pos": 6
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd12",
+                    "name": "Break away from the hard product pitch all the time, and talk about other related topics that will interest your audience",
+                    "nameData": null,
+                    "pos": 7
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd13",
+                    "name": "Keeping them coming back to your site increases the likelihood that they will convert at some point",
+                    "nameData": null,
+                    "pos": 8
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768845",
+            "name": "Link Building",
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idCard": "5666c95a9b21ec1d69a06bf5",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd14",
+                    "name": "Take your top competitors, plug them into Moz’s [Open Site Explorer](http://www.opensiteexplorer.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app), and view their “Inbound Links” from “Only External” sources to see who has mentioned them online.",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd15",
+                    "name": "Find authoritative citations in their list, and reach out to those sources to pitch your industry-leading products or services.",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd16",
+                    "name": "Identify industry “influencers” with large existing followings on their blog or social profiles",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd17",
+                    "name": "Closely follow their online musings until an opportunity to reach out and pitch your content presents itself",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd18",
+                    "name": "Leverage your PR efforts and ensure that all press mentions include a link back to your website. Aim for branded anchor text in the link.",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd19",
+                    "name": "Take easy wins with listings on websites from affiliations, community boards, and industry associations you belong to.",
+                    "nameData": null,
+                    "pos": 6
+                }
+            ]
+        },
+        {
+            "id": "561cadb7433c28c6e4768846",
+            "name": "Get Through All These Without Breaking A Sweat?",
+            "idBoard": "561c98eeb0b30d751895ab92",
+            "idCard": "5666c95a9b21ec1d69a06bf6",
+            "pos": 1,
+            "checkItems": [
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd20",
+                    "name": "Add [Google Authorship markup](https://support.google.com/webmasters/answer/1408986?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) to your blog",
+                    "nameData": null,
+                    "pos": 1
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd21",
+                    "name": "Install [CrazyEgg](http://www.crazyegg.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) tracking on your homepage and other key conversion pages",
+                    "nameData": null,
+                    "pos": 2
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd22",
+                    "name": "After collecting at least 1,000 clicks, evaluate whether or not visitors are utilizing main navigation and calls to action, or getting distracted by errant site features.",
+                    "nameData": null,
+                    "pos": 3
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd23",
+                    "name": "Use [Google Analytics Experiments](https://support.google.com/analytics/answer/1745210?hl=en&ref_topic=1745207&utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) to A/B test alternative messaging, imagery or page structure on a highly-trafficked page of your site.",
+                    "nameData": null,
+                    "pos": 4
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd24",
+                    "name": "Check [Google Webmaster Tools for 404](https://support.google.com/webmasters/answer/40132?hl=en&utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) errors, and correct via [301 redirects](https://support.google.com/webmasters/answer/93633?hl=en&utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app).",
+                    "nameData": null,
+                    "pos": 5
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd25",
+                    "name": "Check your site’s speed performance with [Google’s Page Speed Tools](https://developers.google.com/speed/pagespeed/?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app), [YSlow](http://yslow.org/?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) or [GT Metrix](http://gtmetrix.com/?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app) and look for areas or opportunity to make your site faster.",
+                    "nameData": null,
+                    "pos": 6
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd26",
+                    "name": "See how your site appears to mobile users with [Google’s Mobile Meter](http://www.howtogomo.com/en-gb/d/test-your-site/#getmo-meter?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app)",
+                    "nameData": null,
+                    "pos": 7
+                },
+                {
+                    "state": "incomplete",
+                    "id": "56b9e2586254881993d2cd27",
+                    "name": "If your site is not mobile-friendly, or your mobile site does not load quickly enough (< 3 seconds), you are [likely losing customers](http://www.howtogomo.com/en-gb/d/why-get-mo/#reasons-mobile-matters?utm_source=Restyaboard&utm_medium=web&utm_campaign=seo-checklist-app)",
+                    "nameData": null,
+                    "pos": 8
+                }
+            ]
+        }
+    ]
+}
