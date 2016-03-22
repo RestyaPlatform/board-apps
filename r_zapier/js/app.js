@@ -10,7 +10,7 @@
         }
         $dc.on('click', '#js-zapier', function(event) {
             event.preventDefault();
-            PopupCenter(window.location.protocol + '//' + window.location.host + window.location.pathname + 'oauth/authorize?response_type=code&client_id=' + r_zapier_client_id + '&state=' + new Date().getTime() + '&redirect_uri=' + window.location.protocol + '//' + window.location.host + window.location.pathname + 'apps/r_zapier/login.html', 'DescriptiveWindowName', 'resizable,scrollbars,status', '', '900', '500');
+            PopupCenter(window.location.protocol + '//' + window.location.host + window.location.pathname + 'oauth/authorize?response_type=code&client_id=' + r_zapier_client_id + '&scope=read write&state=' + new Date().getTime() + '&redirect_uri=' + window.location.protocol + '//' + window.location.host + window.location.pathname + 'apps/r_zapier/login.html', 'DescriptiveWindowName', 'resizable,scrollbars,status', '', '900', '500');
             return false;
         });
     });
