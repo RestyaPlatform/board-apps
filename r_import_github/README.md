@@ -15,3 +15,5 @@
 
 - Assigns labels to each cards, milestone date to card due date and assigned users to card members.
 - Inserts issue comments to respective card comments.
+
+![alt text](img/GitHub-to-Restyaboard.png "Import github to Restyaboar")
