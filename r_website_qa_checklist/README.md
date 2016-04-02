@@ -1,6 +1,6 @@
 ### Website QA Checklist
 
-- Web Developer Checklist, export json data as Template.
+- This app imports readymade QA checklist of best practices for any new website, in your board.
 
 ### Credits
 
