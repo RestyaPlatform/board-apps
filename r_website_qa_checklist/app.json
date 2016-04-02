@@ -1,6 +1,6 @@
 {
 	"name": "Website QA Checklist",
-	"description": "Web Developer Checklist, export json data as Template",
+	"description": "This app imports readymade QA checklist of best practices for any new website, in your board.",
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",
