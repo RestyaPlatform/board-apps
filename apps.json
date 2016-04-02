@@ -103,7 +103,7 @@
         },
         "enabled": true
     },
-    "r_seo_checklist": {
+	"r_seo_checklist": {
         "name": "SEO Checklist",
         "description": "Readymade SEO checklist of essential SEO tips and tasks",
         "author": "Restya",
@@ -207,13 +207,13 @@
         },
         "enabled": true
     },
-    "r_zapier": {
+	"r_zapier": {
         "name": "Zapier Connect",
-        "description": "This app generates "access token" that you should use it in Zapier to connect with your Restyaboard account.",
+        "description": "This app generates \"access token\" that you should use it in Zapier to connect with your Restyaboard account.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": 0,
         "icon": "apps/r_zapier/img/zapier.png",
         "settings_description": "",
@@ -221,13 +221,13 @@
             "r_zapier_client_id": {
                 "label": "Zapier Client ID",
                 "info": "",
-                "value": "",
+                "value": "7857596005287233",
                 "is_public": true
             },
             "r_zapier_client_secret": {
                 "label": "Zapier Client Secret",
                 "info": "",
-                "value": "",
+                "value": "n0l2wlujcpkj0bd7gk8918gm6b",
                 "is_public": false
             },
             "r_zapier_oauth_token_url": {
