@@ -1,0 +1,21 @@
+{
+	"name": "Estimated Time Custom Field",
+	"description": "Adds estimated time custom input. This will be displayed in the card listing to arrange them easily.",
+	"author": "Restya",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_estimated_time/img/estimated-time-custom-field.png",
+	"settings_description": "",
+	"settings": false,
+	"assets": {
+		"css": [
+			"apps/r_estimated_time/css/app.css"
+		],
+		"js": [
+			"apps/r_estimated_time/js/app.js"
+		]
+	},
+	"enabled": true
+}
