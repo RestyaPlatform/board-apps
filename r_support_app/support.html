@@ -1,0 +1,39 @@
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-growl/1.0.0/jquery.bootstrap-growl.min.js"></script>
+<script type="text/javascript" src="js/support.js"></script>
+<div class="container">
+	<form role="form" id="js-supportForm" class="form-horizontal clearfix">
+		<h3>New Ticket</h3>
+		<div class="form-group">
+			<label class="col-md-3 col-sm-3 control-label" for="name">Name</label>
+			<div class="col-md-5 col-sm-9">
+				<input type="text" class="form-control" id="name" name="name" placeholder="Name" required value="kannan" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-3 col-sm-3 control-label" for="email">Email</label>
+			<div class="col-md-5 col-sm-9">
+				<input type="text" class="form-control" id="email" name="email" placeholder="Email" required value="l.marikannan+test1@agriya.in" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-3 col-sm-3 control-label" for="subject">Subject</label>
+			<div class="col-md-5 col-sm-9">
+				<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required value="subject" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-3 col-sm-3 control-label" for="Description">Description</label>
+			<div class="col-md-5 col-sm-9">
+				<textarea rows="6" id="description" name="description" class="form-control" required>Description</textarea>
+			</div>
+		</div>
+		<div class="well well-sm clearfix">
+			<div class="pull-right">
+				<label class="sr-only" for="submit2">submit</label>
+				<input type="button" class="btn btn-primary btn-lg" id="js-supportSubmit" value="Submit" >
+			</div>
+		</div>
+	</form>
+</div>
