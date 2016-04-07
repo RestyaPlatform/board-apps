@@ -20,6 +20,27 @@
         },
         "enabled": true
     },
+    "r_canned_response": {
+        "name": "Canned Response",
+        "description": "Adds a canned response dropdown next to comment box in card view. Using this you can quickly insert canned response.",
+        "author": "Harry Reid",
+        "author_email": "harryreid@rediffmail.com",
+        "author_url": "https://github.com/reidharry",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_canned_response/img/canned-logo.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "apps/r_canned_response/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_cssilize": {
         "name": "Theming/CSSilize",
         "description": "CSSilize, theming partner",
