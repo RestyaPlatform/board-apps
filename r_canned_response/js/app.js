@@ -6,7 +6,7 @@
 
         var options = '';
         $.getJSON("apps/r_canned_response/json/app.json", function(data) {
-            for (index in data.response) {
+            for (var index in data.response) {
                 options += '<option value="' + data.response[index].description + '">' + data.response[index].name + '!#! ' + data.response[index].description + '</option>';
             }
         });

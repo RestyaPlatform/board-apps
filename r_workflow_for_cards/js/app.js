@@ -6,7 +6,7 @@
     var match = url.match(/#\/board\/(\d+)/);
     if (match) {
         board_id = match[1];
-    };
+    }
     var session_storage_apps = JSON.parse(sessionStorage.getItem("apps"));
     $dc.ready(function() {
         var custom_fields_data = '';
@@ -20,7 +20,7 @@
                 if (board_response.lists) {
                     $.each(board_response.lists, function(list_key, list) {
                         if (list.custom_fields) {
-                            var customFieldArr = JSON.parse(list.custom_fields)
+                            var customFieldArr = JSON.parse(list.custom_fields);
                             if (customFieldArr.auto_archive_days) {
                                 if (list.cards) {
                                     $.each(list.cards, function(card_key, card) {
@@ -114,7 +114,7 @@
             var match = url.match(/#\/board\/(\d+)/);
             if (match) {
                 board_id = match[1];
-            };
+            }
             list_id = $(e.target).parents('.js-board-list').attr('data-list_id');
             var form_data = $(this).parents('form').serializeArray();
             var formData = {};
