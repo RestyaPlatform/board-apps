@@ -29,7 +29,7 @@
                     });
                 }
             }
-            if ($(e.target).hasClass('dockmodal no-footer')) {
+            if ($(e.target).hasClass('dockmodal')) {
                 if ($(e.target).find('.js-estimated-time-button').length === 0) {
                     var temp_card_id = $(e.target).find('.card-id > strong').html().split('#');
                     temp_card_id = temp_card_id[1];
