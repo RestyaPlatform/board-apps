@@ -1,0 +1,21 @@
+{
+	"name": "Auto Archive Expired Cards",
+	"description": "Automatically archives expired cards.",
+	"author": "Restya",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_workflow_for_cards/img/auto-archive-expired-cards.png",
+	"settings_description": "",
+	"settings": false,
+	"assets": {
+		"css": [
+			"apps/r_estimated_time/css/app.css"
+		],
+		"js": [
+			"apps/r_workflow_for_cards/js/app.js"
+		]
+	},
+	"enabled": true
+}
