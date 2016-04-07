@@ -41,6 +41,27 @@
         },
         "enabled": true
     },
+    "r_estimated_time": {
+        "name": "Estimated Time Custom Field",
+        "description": "Adds estimated time custom input. This will be displayed in the card listing to arrange them easily.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_estimated_time/img/estimated-time-custom-field.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_estimated_time/css/app.css"
+            ],
+            "js": [
+                "apps/r_estimated_time/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_hide_card_id": {
         "name": "Hide Card ID",
         "description": "Hide Card ID from cards listing as in Trello",
@@ -103,7 +124,7 @@
         },
         "enabled": true
     },
-	"r_seo_checklist": {
+    "r_seo_checklist": {
         "name": "SEO Checklist",
         "description": "Readymade SEO checklist of essential SEO tips and tasks",
         "author": "Restya",
