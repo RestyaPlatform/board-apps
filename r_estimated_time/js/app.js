@@ -17,7 +17,7 @@
                         if (list.cards) {
                             $.each(list.cards, function(card_key, card) {
                                 if (card.custom_fields) {
-                                    var inputArr = JSON.parse(card.custom_fields)
+                                    var inputArr = JSON.parse(card.custom_fields);
                                     if ((inputArr.hour) && (inputArr.hour)) {
                                         if ($('div#js-card-' + card.id + ' li.card-id').parent().find('.js-estimated-time-icon').length === 0) {
                                             $('div#js-card-' + card.id + ' li.card-id').after('<li class="js-estimated-time-icon"><label class="label label-default h6"><i class="icon-clock"></i>' + inputArr.hour + 'h ' + inputArr.min + 'm</label></li>');
@@ -102,7 +102,7 @@
             var match = url.match(/#\/board\/(\d+)/);
             if (match) {
                 board_id = match[1];
-            };
+            }
             card_id = $(this).parents('.dockmodal.no-footer').find('.card-id > strong').html().split('#');
             card_id = card_id[1];
             var form_data = $(this).parents('form').serializeArray();
