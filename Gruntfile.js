@@ -1,7 +1,27 @@
 var path = require('path');
 module.exports = function(grunt) {
+    var source_js_files = new Array('Gruntfile.js', '**/js/*.js');
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        jshint: {
+            all: {
+                options: {
+                    ignores: ['node_modules/**']
+                },
+                src: source_js_files
+            }
+        },
+        jsbeautifier: {
+            'pre-merge': {
+                src: source_js_files,
+                options: {
+                    mode: 'VERIFY_ONLY'
+                }
+            },
+            default: {
+                src: source_js_files
+            }
+        },
         exec: {
             apps: {
                 cmd: [
@@ -32,9 +52,7 @@ module.exports = function(grunt) {
                     'assets': {
                         'css': [
                             'apps/<%= app_dir %>/css/default.cache.css'
-                        ]
-                    },
-                    'assets': {
+                        ],
                         'js': [
                             'apps/<%= app_dir %>/js/default.cache.js'
                         ]
@@ -89,6 +107,8 @@ module.exports = function(grunt) {
             }
         }
     });
+    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-jsbeautifier');
     grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -96,32 +116,35 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-json-replace');
     grunt.loadNpmTasks('grunt-zip');
     grunt.loadNpmTasks('grunt-multi');
+    grunt.registerTask('format', ['jsbeautifier:default']);
+    grunt.registerTask('pre-commit', ['jshint', 'jsbeautifier:pre-merge']);
     grunt.registerTask('build', 'Build task', function(app) {
         grunt.task.run(['exec']);
         grunt.config.set('app', app);
         var concat = {};
         var apps = grunt.file.readJSON('apps.json');
-        for (var app in apps) {
+        for (app in apps) {
+            var i;
             if (grunt.config.get('app') == 'all' || grunt.config.get('app') == app) {
                 var css_files = apps[app].assets.css;
                 if (css_files.length) {
-                    for (var i = 0; i < css_files.length; i++) {
+                    for (i = 0; i < css_files.length; i++) {
                         css_files[i] = css_files[i].replace(/apps\//g, '');
                     }
                     concat[app + '_css'] = {
                         src: css_files,
                         dest: app + '/css/default.cache.css'
-                    }
+                    };
                 }
                 var js_files = apps[app].assets.js;
                 if (js_files.length) {
-                    for (var i = 0; i < js_files.length; i++) {
+                    for (i = 0; i < js_files.length; i++) {
                         js_files[i] = js_files[i].replace(/apps\//g, '');
                     }
                     concat[app + '_js'] = {
                         src: js_files,
                         dest: app + '/js/default.cache.js'
-                    }
+                    };
                 }
             }
         }

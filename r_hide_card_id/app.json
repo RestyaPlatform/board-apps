@@ -17,5 +17,5 @@
 			"apps/r_hide_card_id/js/app.js"
 		]
 	},
-	"enabled": true
+	"enabled": false
 }
