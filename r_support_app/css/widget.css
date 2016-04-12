@@ -1,0 +1,13 @@
+.fixedbutton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
+}
+.dropdown-menu-lg {
+	width:350px;
+}
+@media (max-width:320px) and (orientation:portrait) {
+	.dropdown-menu-lg {
+		width:250px !important;
+	}
+}

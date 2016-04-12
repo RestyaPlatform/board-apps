@@ -1,11 +1,20 @@
 (function() {
-    var api_url = '/restyaboard/api/v1/';
+	var js_url = $("#url").attr("js_url");
+    var api_url = js_url+'/api/v1/';
     var $dc = $(document);
     var board_id = '';
     var list_id = '';
     var $dc = $(document);
-
-    $.getJSON("app.json", function(data) {
+	
+	$dc.on('click', '#js-support-ticket-button', function() {
+		if($(this).parent().hasClass('open')) {
+			$(this).parent().removeClass('open');
+		} else {
+			$(this).parent().addClass('open');
+		}
+	});
+	
+    $.getJSON("//"+js_url+"/apps/r_support_app/app.json", function(data) {
         board_id = data.settings.r_support_app_board_id.value;
         list_id = data.settings.r_support_app_list_id.value;
     });
@@ -125,21 +134,16 @@
                     }
                 }
             });
-        }
+        } else {
+			flashMesssage('danger', 'Please fill all details');
+		}
     });
 
     function flashMesssage(type, message) {
-        $.bootstrapGrowl(message, {
-            type: type,
-            offset: {
-                from: 'top',
-                amount: 20
-            },
-            align: 'right',
-            width: type == 'danger' ? 250 : 400,
-            delay: type == 'danger' ? 5000 : 3000,
-            allow_dismiss: true,
-            stackup_spacing: 10
-        });
+		if(type === 'Success') {
+			$('.show-messages').append('<div class="alert alert-success"><a href="#" class="close pull-right" data-dismiss="alert" aria-label="close">&times;</a><strong>Success!</strong> '+message+'</div>');
+		} else {
+			$('.show-messages').append('<div class="alert alert-danger"><a href="#" class="close pull-right" data-dismiss="alert" aria-label="close">&times;</a><strong>Failed!</strong> '+message+'</div>');
+		}
     }
 })();
