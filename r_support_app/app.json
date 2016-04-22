@@ -1,0 +1,35 @@
+{
+    "name": "Support Ticket",
+    "description": "Help desk or support ticket system or customer service software using Restyaboard.",
+    "author": "Restya",
+    "author_email": "info@restya.com",
+    "author_url": "http://restya.com/",
+    "version": "0.1.2",
+	"price" : 0,
+	"icon": "apps/r_support_app/img/support-ticket.png",
+    "settings_description": "",
+    "settings": {
+		"r_support_app_board_id": {
+			"label" : "Board ID",
+			"info" : "",
+			"value" : "3",
+			"is_public" : true
+		},
+		"r_support_app_list_id": {
+			"label" : "List ID",
+			"info" : "",
+			"value" : "198",
+			"is_public" : false
+		}
+	},
+    "assets": {
+        "css": [
+
+        ],
+        "js": [            
+            "apps/r_support_app/js/app.js",
+			"apps/r_support_app/js/support.js"
+        ]
+    },
+    "enabled": true
+}
