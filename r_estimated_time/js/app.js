@@ -30,57 +30,57 @@
                 }
             }
             if ($(e.target).hasClass('dockmodal')) {
-				if($(e.target).find('.card-id').length === 1) {
-					if ($(e.target).find('.js-estimated-time-button').length === 0) {
-						var temp_card_id = $(e.target).find('.card-id > strong').html().split('#');
-						temp_card_id = temp_card_id[1];
+                if ($(e.target).find('.card-id').length === 1) {
+                    if ($(e.target).find('.js-estimated-time-button').length === 0) {
+                        var temp_card_id = $(e.target).find('.card-id > strong').html().split('#');
+                        temp_card_id = temp_card_id[1];
 
-						var $form = $(custom_fields_data);
-						var custom_form = '<ul class="dropdown-menu dropdown-menu-left arrow col-xs-12" id="js-estimated-time-form-' + temp_card_id + '"><li class="col-xs-12 time-block"><div class="col-xs-12 js-estimated-time-form"><div class="well-sm"></div>' + $form.prop('outerHTML') + '<div class="well-sm"></div></div></li></ul>';
-						var elem = $('<li class="js-estimated-time-button dropdown"><a class="btn btn-default dropdown-toggle"  href="#js-estimated-time-form' + temp_card_id + '" title="Estimated Time" data-toggle="dropdown"><i class="icon-calendar"></i>Estimated Time</a>' + custom_form + '</li>');
-						$('.js-card-actions > li:last-child()', $(e.target)).after(elem);
+                        var $form = $(custom_fields_data);
+                        var custom_form = '<ul class="dropdown-menu dropdown-menu-left arrow col-xs-12" id="js-estimated-time-form-' + temp_card_id + '"><li class="col-xs-12 time-block"><div class="col-xs-12 js-estimated-time-form"><div class="well-sm"></div>' + $form.prop('outerHTML') + '<div class="well-sm"></div></div></li></ul>';
+                        var elem = $('<li class="js-estimated-time-button dropdown"><a class="btn btn-default dropdown-toggle"  href="#js-estimated-time-form' + temp_card_id + '" title="Estimated Time" data-toggle="dropdown"><i class="icon-calendar"></i>Estimated Time</a>' + custom_form + '</li>');
+                        $('.js-card-actions > li:last-child()', $(e.target)).after(elem);
 
-						if (custom_fields.boards) {
-							$.each(custom_fields.boards, function(board_key, board) {
-								if (board.lists) {
-									$.each(board.lists, function(list_key, list) {
-										if (list.cards) {
-											$.each(list.cards, function(card_key, card) {
-												if (card) {
-													if (temp_card_id == card_key) {
-														var inputArr = JSON.parse(card);
-														if (inputArr) {
-															$.each(inputArr, function(key, val) {
-																if ($('input[name=' + key + ']', $(e.target)).length) {
-																	if ($('input[name=' + key + ']', $(e.target)).attr('type') == 'checkbox') {
-																		$('input[name=' + key + ']', $(e.target)).prop('checked', true);
-																	} else if ($('input[name=' + key + ']', $(e.target)).attr('type') == 'radio') {
-																		$('input[name=' + key + ']', $(e.target)).prop('checked', true);
-																	} else {
-																		$('input[name=' + key + ']', $(e.target)).val(val);
-																	}
-																} else if ($('select[data-type=' + key + ']', $(e.target)).length) {
-																	$('select[data-type=' + key + ']', $(e.target)).val(val);
-																} else if ($('select[name=' + key + ']', $(e.target)).length) {
-																	$('select[name=' + key + ']', $(e.target)).val(val);
-																}
-															});
-															if ($('div#js-card-' + card.id + ' li.card-id').parent().find('.js-estimated-time-icon').length === 0) {
-																$('div#js-card-' + card.id + ' li.card-id').after('<li class="js-estimated-time-icon"><label class="label label-default h6"><i class="icon-clock"></i>' + inputArr.hour + 'h ' + inputArr.min + 'm</label></li>');
-															} else {
-																$('div#js-card-' + card.id + ' li.card-id').parent().find('.js-estimated-time-icon').html('<label class="label label-default h6"><i class="icon-clock"></i>' + inputArr.hour + 'h ' + inputArr.min + 'm</label>');
-															}
-														}
-													}
-												}
-											});
-										}
-									});
-								}
-							});
-						}
-					}
-				}
+                        if (custom_fields.boards) {
+                            $.each(custom_fields.boards, function(board_key, board) {
+                                if (board.lists) {
+                                    $.each(board.lists, function(list_key, list) {
+                                        if (list.cards) {
+                                            $.each(list.cards, function(card_key, card) {
+                                                if (card) {
+                                                    if (temp_card_id == card_key) {
+                                                        var inputArr = JSON.parse(card);
+                                                        if (inputArr) {
+                                                            $.each(inputArr, function(key, val) {
+                                                                if ($('input[name=' + key + ']', $(e.target)).length) {
+                                                                    if ($('input[name=' + key + ']', $(e.target)).attr('type') == 'checkbox') {
+                                                                        $('input[name=' + key + ']', $(e.target)).prop('checked', true);
+                                                                    } else if ($('input[name=' + key + ']', $(e.target)).attr('type') == 'radio') {
+                                                                        $('input[name=' + key + ']', $(e.target)).prop('checked', true);
+                                                                    } else {
+                                                                        $('input[name=' + key + ']', $(e.target)).val(val);
+                                                                    }
+                                                                } else if ($('select[data-type=' + key + ']', $(e.target)).length) {
+                                                                    $('select[data-type=' + key + ']', $(e.target)).val(val);
+                                                                } else if ($('select[name=' + key + ']', $(e.target)).length) {
+                                                                    $('select[name=' + key + ']', $(e.target)).val(val);
+                                                                }
+                                                            });
+                                                            if ($('div#js-card-' + card.id + ' li.card-id').parent().find('.js-estimated-time-icon').length === 0) {
+                                                                $('div#js-card-' + card.id + ' li.card-id').after('<li class="js-estimated-time-icon"><label class="label label-default h6"><i class="icon-clock"></i>' + inputArr.hour + 'h ' + inputArr.min + 'm</label></li>');
+                                                            } else {
+                                                                $('div#js-card-' + card.id + ' li.card-id').parent().find('.js-estimated-time-icon').html('<label class="label label-default h6"><i class="icon-clock"></i>' + inputArr.hour + 'h ' + inputArr.min + 'm</label>');
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            });
+                                        }
+                                    });
+                                }
+                            });
+                        }
+                    }
+                }
             }
         }
 
