@@ -13,14 +13,14 @@
             $(this).parent().addClass('open');
         }
     });
-	
-	if(js_url) {
-		$.getJSON("//" + js_url + "/apps/r_support_app/app.json", function(data) {
-			board_id = data.settings.r_support_app_board_id.value;
-			list_id = data.settings.r_support_app_list_id.value;
-		});	
-	}
-    
+
+    if (js_url) {
+        $.getJSON("//" + js_url + "/apps/r_support_app/app.json", function(data) {
+            board_id = data.settings.r_support_app_board_id.value;
+            list_id = data.settings.r_support_app_list_id.value;
+        });
+    }
+
     $dc.on('click', '#js-supportSubmit', function(event) {
         var form = $('form#js-supportForm');
         event.preventDefault();
