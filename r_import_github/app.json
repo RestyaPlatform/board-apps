@@ -1,4 +1,5 @@
 {
+	"id": "r_import_github",
 	"name": "Import from GitHub",
 	"description": "Import GitHub repositories. users, issues and comments",
 	"author": "Restya",

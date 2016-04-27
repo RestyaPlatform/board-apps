@@ -1,4 +1,5 @@
 {
+	"id": "r_workflow_for_cards",
 	"name": "Auto Archive Expired Cards",
 	"description": "Automatically archives expired cards.",
 	"author": "Restya",

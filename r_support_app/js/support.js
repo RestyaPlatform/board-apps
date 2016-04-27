@@ -4,7 +4,6 @@
     var $dc = $(document);
     var board_id = '';
     var list_id = '';
-    var $dc = $(document);
 
     $dc.on('click', '#js-support-ticket-button', function() {
         if ($(this).parent().hasClass('open')) {
