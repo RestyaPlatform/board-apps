@@ -1,4 +1,5 @@
 {
+	"id": "r_amazon_echo",
 	"name": "Amazon Echo App",
 	"description": "Access your Restyaboard notifications through Amazon Echo. This Restyaboard Alexa Skill is developed using AWS Lambda. You will need to login to Restyaboard in Amazon Alexa Android App.",
 	"author": "Restya",

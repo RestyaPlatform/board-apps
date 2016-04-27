@@ -1,5 +1,6 @@
 {
     "r_amazon_echo": {
+        "id": "r_amazon_echo",
         "name": "Amazon Echo App",
         "description": "Access your Restyaboard notifications through Amazon Echo. This Restyaboard Alexa Skill is developed using AWS Lambda. You will need to login to Restyaboard in Amazon Alexa Android App.",
         "author": "Restya",
@@ -21,6 +22,7 @@
         "enabled": true
     },
     "r_canned_response": {
+        "id": "r_canned_response",
         "name": "Canned Response",
         "description": "Adds a canned response dropdown next to comment box in card view. Using this you can quickly insert canned response.",
         "author": "Harry Reid",
@@ -42,6 +44,7 @@
         "enabled": true
     },
     "r_cssilize": {
+        "id": "r_cssilize",
         "name": "Theming/CSSilize",
         "description": "CSSilize, theming partner",
         "author": "Restya",
@@ -63,6 +66,7 @@
         "enabled": true
     },
     "r_estimated_time": {
+        "id": "r_estimated_time",
         "name": "Estimated Time Custom Field",
         "description": "Adds estimated time custom input. This will be displayed in the card listing to arrange them easily.",
         "author": "Restya",
@@ -84,6 +88,7 @@
         "enabled": true
     },
     "r_hide_card_id": {
+        "id": "r_hide_card_id",
         "name": "Hide Card ID",
         "description": "Hide Card ID from cards listing as in Trello",
         "author": "Restya",
@@ -105,6 +110,7 @@
         "enabled": true
     },
     "r_import_github": {
+        "id": "r_import_github",
         "name": "Import from GitHub",
         "description": "Import GitHub repositories. users, issues and comments",
         "author": "Restya",
@@ -146,6 +152,7 @@
         "enabled": true
     },
     "r_seo_checklist": {
+        "id": "r_seo_checklist",
         "name": "SEO Checklist",
         "description": "Readymade SEO checklist of essential SEO tips and tasks",
         "author": "Restya",
@@ -167,6 +174,7 @@
         "enabled": true
     },
     "r_slack": {
+        "id": "r_slack",
         "name": "Post my comments to Slack",
         "description": "Auto post your comments to Slack",
         "author": "Restya",
@@ -207,6 +215,7 @@
         "enabled": true
     },
     "r_support_app": {
+        "id": "r_support_app",
         "name": "Support Ticket",
         "description": "Help desk or support ticket system or customer service software using Restyaboard.",
         "author": "Restya",
@@ -242,6 +251,7 @@
         "enabled": true
     },
     "r_togetherjs": {
+        "id": "r_togetherjs",
         "name": "Collaborate/TogetherJS",
         "description": "Collaborate using Mozilla's TogetherJS",
         "author": "Restya",
@@ -264,6 +274,7 @@
         "enabled": false
     },
     "r_website_qa_checklist": {
+        "id": "r_website_qa_checklist",
         "name": "Website QA Checklist",
         "description": "Readymade QA checklist of best practices",
         "author": "Restya",
@@ -285,6 +296,7 @@
         "enabled": true
     },
     "r_workflow_for_cards": {
+        "id": "r_workflow_for_cards",
         "name": "Auto Archive Expired Cards",
         "description": "Automatically archives expired cards.",
         "author": "Restya",

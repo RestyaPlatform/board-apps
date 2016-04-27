@@ -1,4 +1,5 @@
 {
+    "name": "r_zapier",
     "name": "Zapier Connect",
     "description": "This app generates \"access token\" that you should use it in Zapier to connect with your Restyaboard account.",
     "author": "Restya",
