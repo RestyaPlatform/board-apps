@@ -1,6 +1,6 @@
 ### Website QA Checklist
 
-- This app imports readymade QA checklist of best practices for any new website, in your board.
+- This app creates a new board and imports readymade QA checklist of best practices for any new website.
 
 ### Credits
 
