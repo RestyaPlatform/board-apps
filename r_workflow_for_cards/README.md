@@ -4,5 +4,5 @@
 
 ### How it works
 
-- We can set Archive days for expired cards in each list
-- If we set day for Archive, Expired cards will be archive in each list
+- Age/day for expiration can be set through setting menu found on each list
+- Expired cards will then be automatically archived
