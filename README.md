@@ -13,7 +13,7 @@
 |[Support Ticket](r_support_app)|Help desk or support ticket system or customer service software using Restyaboard.|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_support_app-v0.1.2.zip)|[Repository](r_support_app)|
 |[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.1.zip)|[Repository](r_togetherjs)|
 |[Website QA Checklist](r_website_qa_checklist)|Readymade QA checklist of best practices|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_website_qa_checklist-v0.1.1.zip)|[Repository](r_website_qa_checklist)|
-|[Auto Archive Expired Cards](r_workflow_for_cards)|Automatically archives expired cards.|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_workflow_for_cards-v0.1.1.zip)|[Repository](r_workflow_for_cards)|
+|[Auto Archive Expired Cards](r_auto_archive_expired_cards)|Automatically archives expired cards.|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_auto_archive_expired_cards-v0.1.1.zip)|[Repository](r_auto_archive_expired_cards)|
 |[Zapier Connect](r_zapier)|This app generates "access token" that you should use it in Zapier to connect with your Restyaboard account.|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_zapier-v0.1.1.zip)|[Repository](r_zapier)|
 
 ### Steps to create new app

@@ -10,7 +10,7 @@
     var session_storage_apps = JSON.parse(sessionStorage.getItem("apps"));
     $dc.ready(function() {
         var custom_fields_data = '';
-        $.getJSON("apps/r_workflow_for_cards/json/app.json", function(data) {
+        $.getJSON("apps/r_auto_archive_expired_cards/json/app.json", function(data) {
             custom_fields_data = Backbone.form(data);
         });
         $('body').bind('DOMSubtreeModified', insertWorkflowCardApp);
@@ -59,11 +59,11 @@
             });
         }
 
-        $('body').append('<div class="modal fade" id="r_workflow_for_cards_modal" tabindex="-1" role="dialog" aria-labelledby="workflowForCardsModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" id="js-workflow-for-cards-close">×</span><span class="sr-only">Close</span></button><div class="media list-group-item-heading"><div class="pull-left"><img class="img-circle" width="36" height="36" src="' + session_storage_apps.r_workflow_for_cards.icon + '" /></div><div class="media-body"><h4 class="modal-title" id="exampleModalLabel">' + i18next.t('Auto Archive Expired Cards') + '</h4><div><span class="text-muted">v' + session_storage_apps.r_workflow_for_cards.version + '</span> By <a target="_blank" href="' + session_storage_apps.r_workflow_for_cards.author_url + '?utm_source=restyaboard&utm_medium=apppopup&utm_campaign=rb-app-workflow-for-cards-v0.1.1' + '" title="author">' + session_storage_apps.r_workflow_for_cards.author + '</a></div></div></div></div><div class="modal-body import-block"><span>' + i18next.t('Automatically archives expired cards.') + '</span><h4>' + i18next.t('How it works') + '</h4><ul><li>' + i18next.t('Age/day for expiration can be set through setting menu found on each list') + '.</li><li>' + i18next.t('Expired cards will then be automatically archived') + '.</li></ul></div><div class="modal-footer"><a id="js-workflow-for-cards-app-button" href="#" title="' + i18next.t('Close') + '" class="btn btn-primary">' + i18next.t('Close') + '</a></div></div></div></div>');
+        $('body').append('<div class="modal fade" id="r_auto_archive_expired_cards_modal" tabindex="-1" role="dialog" aria-labelledby="workflowForCardsModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" id="js-workflow-for-cards-close">×</span><span class="sr-only">Close</span></button><div class="media list-group-item-heading"><div class="pull-left"><img class="img-circle" width="36" height="36" src="' + session_storage_apps.r_auto_archive_expired_cards.icon + '" /></div><div class="media-body"><h4 class="modal-title" id="exampleModalLabel">' + i18next.t('Auto Archive Expired Cards') + '</h4><div><span class="text-muted">v' + session_storage_apps.r_auto_archive_expired_cards.version + '</span> By <a target="_blank" href="' + session_storage_apps.r_auto_archive_expired_cards.author_url + '?utm_source=restyaboard&utm_medium=apppopup&utm_campaign=rb-app-workflow-for-cards-v0.1.1' + '" title="author">' + session_storage_apps.r_auto_archive_expired_cards.author + '</a></div></div></div></div><div class="modal-body import-block"><span>' + i18next.t('Automatically archives expired cards.') + '</span><h4>' + i18next.t('How it works') + '</h4><ul><li>' + i18next.t('Age/day for expiration can be set through setting menu (Additional Settings >> Auto Archive Days) found on each list.') + '.</li><li>' + i18next.t('Expired cards will then be automatically archived') + '.</li></ul></div><div class="modal-footer"><a id="js-workflow-for-cards-app-button" href="#" title="' + i18next.t('Close') + '" class="btn btn-primary">' + i18next.t('Close') + '</a></div></div></div></div>');
     });
 
     $dc.on('click', '#js-workflow-for-cards-app-button', function(event) {
-        $('#r_workflow_for_cards_modal').modal('hide');
+        $('#r_auto_archive_expired_cards_modal').modal('hide');
         $('.js-chosen-select').select2();
         return false;
     });
@@ -146,7 +146,7 @@
     });
 
     $dc.on('click', '#js-hide-card-id-button', function(event) {
-        $('#r_workflow_for_cards_modal').modal('hide');
+        $('#r_auto_archive_expired_cards_modal').modal('hide');
         $('.js-chosen-select').select2();
         return false;
     });
