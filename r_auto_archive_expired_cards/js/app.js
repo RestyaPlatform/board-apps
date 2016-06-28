@@ -29,7 +29,7 @@
                                         card_modified_date = new Date(card.modified);
                                         if ((auto_archive_date.getTime() >= card_modified_date.getTime()) && (card.is_archived === 0)) {
                                             $.ajax({
-                                                url: api_url + 'boards/' + board_id + '/lists/' + list.id + '/cards/' + card.id + '.json?token=' + getToken(),
+                                                url: api_url + 'boards/' + board_response.id + '/lists/' + list.id + '/cards/' + card.id + '.json?token=' + getToken(),
                                                 type: 'put',
                                                 data: JSON.stringify({
                                                     'is_archived': 1
