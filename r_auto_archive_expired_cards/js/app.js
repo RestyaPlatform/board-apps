@@ -1,12 +1,6 @@
 (function() {
     var $dc = $(document);
-    var board_id;
     var board_response;
-    var url = window.location.href;
-    var match = url.match(/#\/board\/(\d+)/);
-    if (match) {
-        board_id = match[1];
-    }
     var session_storage_apps = JSON.parse(sessionStorage.getItem("apps"));
     $dc.ready(function() {
         var custom_fields_data = '';
@@ -29,7 +23,7 @@
                                         card_modified_date = new Date(card.modified);
                                         if ((auto_archive_date.getTime() >= card_modified_date.getTime()) && (card.is_archived === 0)) {
                                             $.ajax({
-                                                url: api_url + 'boards/' + board_id + '/lists/' + list.id + '/cards/' + card.id + '.json?token=' + getToken(),
+                                                url: api_url + 'boards/' + board_response.id + '/lists/' + list.id + '/cards/' + card.id + '.json?token=' + getToken(),
                                                 type: 'put',
                                                 data: JSON.stringify({
                                                     'is_archived': 1
