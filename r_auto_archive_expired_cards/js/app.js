@@ -1,12 +1,6 @@
 (function() {
     var $dc = $(document);
-    var board_id;
     var board_response;
-    var url = window.location.href;
-    var match = url.match(/#\/board\/(\d+)/);
-    if (match) {
-        board_id = match[1];
-    }
     var session_storage_apps = JSON.parse(sessionStorage.getItem("apps"));
     $dc.ready(function() {
         var custom_fields_data = '';
