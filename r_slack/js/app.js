@@ -2,7 +2,6 @@
     var slackAPIClient;
     var $dc = $(document);
     var slackey = require('slackey');
-    var AjaxInterceptor = require("ajax-interceptor");
     var slack_channels = {};
     var slack_mapping_channels = {};
     var local_storage_channel = {};
@@ -64,8 +63,8 @@
         }
     });
 
-    AjaxInterceptor.addResponseCallback(function(xhr) {
-        if (localStorage.getItem("r_slack_access_token") !== null && xhr.responseURL.match(/users\/[0-9]\/activities\Sjson\?type=all/g)) {
+    addResponseCallback(function(xhr) {
+        if (localStorage.getItem("r_slack_access_token") !== null && xhr.responseURL.match(/users\/[0-9]+\/activities\Sjson\?type=all/g)) {
             var _response = JSON.parse(xhr.responseText);
             if (_response.data) {
                 slackAPIClient = slackey.getAPIClient(localStorage.getItem("r_slack_access_token"));
@@ -116,5 +115,4 @@
             }
         }
     });
-    AjaxInterceptor.wire();
 })();

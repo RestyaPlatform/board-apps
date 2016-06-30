@@ -1,0 +1,21 @@
+{
+	"id": "r_seo_checklist",
+	"name": "SEO Checklist",
+	"description": "Readymade SEO checklist of essential SEO tips and tasks",
+	"author": "Restya",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price" : 0,
+	"icon": "apps/r_seo_checklist/img/seo_checklist.png",
+	"settings_description": "",
+	"settings": false,
+	"assets": {
+		"css": [
+		],
+		"js": [
+			"apps/r_seo_checklist/js/app.js"
+		]
+	},
+	"enabled": true
+}

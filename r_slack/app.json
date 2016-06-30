@@ -1,4 +1,5 @@
 {
+    "id": "r_slack",
     "name": "Post my comments to Slack",
     "description": "Auto post your comments to Slack",
     "author": "Restya",

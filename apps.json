@@ -1,5 +1,6 @@
 {
     "r_amazon_echo": {
+        "id": "r_amazon_echo",
         "name": "Amazon Echo App",
         "description": "Access your Restyaboard notifications through Amazon Echo. This Restyaboard Alexa Skill is developed using AWS Lambda. You will need to login to Restyaboard in Amazon Alexa Android App.",
         "author": "Restya",
@@ -20,7 +21,30 @@
         },
         "enabled": true
     },
+    "r_canned_response": {
+        "id": "r_canned_response",
+        "name": "Canned Response",
+        "description": "Adds a canned response dropdown next to comment box in card view. Using this you can quickly insert canned response.",
+        "author": "Harry Reid",
+        "author_email": "harryreid@rediffmail.com",
+        "author_url": "https://github.com/reidharry",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_canned_response/img/canned-logo.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "apps/r_canned_response/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_cssilize": {
+        "id": "r_cssilize",
         "name": "Theming/CSSilize",
         "description": "CSSilize, theming partner",
         "author": "Restya",
@@ -41,7 +65,30 @@
         },
         "enabled": true
     },
+    "r_estimated_time": {
+        "id": "r_estimated_time",
+        "name": "Estimated Time Custom Field",
+        "description": "Adds estimated time custom input. This will be displayed in the card listing to arrange them easily.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_estimated_time/img/estimated-time-custom-field.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_estimated_time/css/app.css"
+            ],
+            "js": [
+                "apps/r_estimated_time/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_hide_card_id": {
+        "id": "r_hide_card_id",
         "name": "Hide Card ID",
         "description": "Hide Card ID from cards listing as in Trello",
         "author": "Restya",
@@ -63,6 +110,7 @@
         "enabled": true
     },
     "r_import_github": {
+        "id": "r_import_github",
         "name": "Import from GitHub",
         "description": "Import GitHub repositories. users, issues and comments",
         "author": "Restya",
@@ -103,7 +151,30 @@
         },
         "enabled": true
     },
+    "r_seo_checklist": {
+        "id": "r_seo_checklist",
+        "name": "SEO Checklist",
+        "description": "Readymade SEO checklist of essential SEO tips and tasks",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_seo_checklist/img/seo_checklist.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "apps/r_seo_checklist/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_slack": {
+        "id": "r_slack",
         "name": "Post my comments to Slack",
         "description": "Auto post your comments to Slack",
         "author": "Restya",
@@ -143,7 +214,44 @@
         },
         "enabled": true
     },
+    "r_support_app": {
+        "id": "r_support_app",
+        "name": "Support Ticket",
+        "description": "Help desk or support ticket system or customer service software using Restyaboard.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.2",
+        "price": 0,
+        "icon": "apps/r_support_app/img/support-ticket.png",
+        "settings_description": "",
+        "settings": {
+            "r_support_app_board_id": {
+                "label": "Board ID",
+                "info": "",
+                "value": "3",
+                "is_public": true
+            },
+            "r_support_app_list_id": {
+                "label": "List ID",
+                "info": "",
+                "value": "198",
+                "is_public": false
+            }
+        },
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "apps/r_support_app/js/app.js",
+                "apps/r_support_app/js/support.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_togetherjs": {
+        "id": "r_togetherjs",
         "name": "Collaborate/TogetherJS",
         "description": "Collaborate using Mozilla's TogetherJS",
         "author": "Restya",
@@ -165,13 +273,57 @@
         },
         "enabled": false
     },
-    "r_zapier": {
-        "name": "Zapier Connect",
-        "description": "Generate \"access token\" for Zapier connection",
+    "r_website_qa_checklist": {
+        "id": "r_website_qa_checklist",
+        "name": "Website QA Checklist",
+        "description": "Readymade QA checklist of best practices",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_website_qa_checklist/img/website_qa_checklist.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+
+            ],
+            "js": [
+                "apps/r_website_qa_checklist/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_auto_archive_expired_cards": {
+        "id": "r_auto_archive_expired_cards",
+        "name": "Auto Archive Expired Cards",
+        "description": "Automatically archives expired cards.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_auto_archive_expired_cards/img/auto-archive-expired-cards.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_estimated_time/css/app.css"
+            ],
+            "js": [
+                "apps/r_auto_archive_expired_cards/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_zapier": {
+        "name": "Zapier Connect",
+        "description": "This app generates \"access token\" that you should use it in Zapier to connect with your Restyaboard account.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.2",
         "price": 0,
         "icon": "apps/r_zapier/img/zapier.png",
         "settings_description": "",
@@ -179,13 +331,13 @@
             "r_zapier_client_id": {
                 "label": "Zapier Client ID",
                 "info": "",
-                "value": "",
+                "value": "7857596005287233",
                 "is_public": true
             },
             "r_zapier_client_secret": {
                 "label": "Zapier Client Secret",
                 "info": "",
-                "value": "",
+                "value": "n0l2wlujcpkj0bd7gk8918gm6b",
                 "is_public": false
             },
             "r_zapier_oauth_token_url": {

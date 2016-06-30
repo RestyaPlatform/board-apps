@@ -1,38 +1,37 @@
 {
+    "name": "r_zapier",
     "name": "Zapier Connect",
-    "description": "Generate \"access token\" for Zapier connection",
+    "description": "This app generates \"access token\" that you should use it in Zapier to connect with your Restyaboard account.",
     "author": "Restya",
     "author_email": "info@restya.com",
     "author_url": "http://restya.com/",
-    "version": "0.1.1",
-	"price" : 0,
-	"icon": "apps/r_zapier/img/zapier.png",
+    "version": "0.1.2",
+    "price": 0,
+    "icon": "apps/r_zapier/img/zapier.png",
     "settings_description": "",
     "settings": {
-		"r_zapier_client_id": {
-			"label" : "Zapier Client ID",
-			"info" : "",
-			"value" : "",
-			"is_public" : true
-		},
-		"r_zapier_client_secret": {
-			"label" : "Zapier Client Secret",
-			"info" : "",
-			"value" : "",
-			"is_public" : false
-		},
-		"r_zapier_oauth_token_url": {
-			"label" : "Zapier OAuth Token URL",
-			"info" : "",
-			"value" : "/api/v1/oauth/token.json",
-			"is_public" : false
-		}
-	},
+        "r_zapier_client_id": {
+            "label": "Zapier Client ID",
+            "info": "",
+            "value": "7857596005287233",
+            "is_public": true
+        },
+        "r_zapier_client_secret": {
+            "label": "Zapier Client Secret",
+            "info": "",
+            "value": "n0l2wlujcpkj0bd7gk8918gm6b",
+            "is_public": false
+        },
+        "r_zapier_oauth_token_url": {
+            "label": "Zapier OAuth Token URL",
+            "info": "",
+            "value": "/api/v1/oauth/token.json",
+            "is_public": false
+        }
+    },
     "assets": {
-        "css": [
-
-        ],
-        "js": [            
+        "css": [],
+        "js": [
             "apps/r_zapier/js/app.js"
         ]
     },
