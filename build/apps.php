@@ -2,8 +2,29 @@
 /**
  * Task for generating JSON and readme content for apps
  */
-$files = glob($argv[1], GLOB_BRACE);
+$files = array(); 
+function _traverse_directory($dir, $dir_count)
+{
+    global $files;
+    $handle = opendir($dir);
+    while (false !== ($readdir = readdir($handle))) {
+        if ($readdir != '.' && $readdir != '..' && $readdir != 'node_modules' && $readdir != 'build'&& $readdir != '.git') {
+            $path = $dir . '/' . $readdir;
+            if (is_dir($path)) {
+                ++$dir_count;
+                _traverse_directory($path, $dir_count);
+            }
+            if (is_file($path) && preg_match('/r_[0-9a-zA-Z_]*\/app.json/', $path)) {
+                $files[] = $path;
+            }
+        }
+    }
+    closedir($handle);
+    return false;
+}
+_traverse_directory('/usr/share/nginx/html/RestyaPlatform/board-apps', 0);
 $readme = '';
+asort($files);
 foreach ($files as $file) {
     $folder = explode('/', $file);
     $app = json_decode(file_get_contents($file) , true);

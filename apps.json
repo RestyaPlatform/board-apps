@@ -12,11 +12,31 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "apps/r_amazon_echo/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_auto_archive_expired_cards": {
+        "id": "r_auto_archive_expired_cards",
+        "name": "Auto Archive Expired Cards",
+        "description": "Automatically archives expired cards.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": 0,
+        "icon": "apps/r_auto_archive_expired_cards/img/auto-archive-expired-cards.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_auto_archive_expired_cards/css/app.css"
+            ],
+            "js": [
+                "apps/r_auto_archive_expired_cards/js/app.js"
             ]
         },
         "enabled": true
@@ -34,9 +54,7 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "apps/r_canned_response/js/app.js"
             ]
@@ -56,9 +74,7 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "apps/r_cssilize/js/app.js"
             ]
@@ -141,9 +157,7 @@
             }
         },
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "apps/r_import_github/js/libs/github.js",
                 "apps/r_import_github/js/app.js"
@@ -164,9 +178,7 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "apps/r_seo_checklist/js/app.js"
             ]
@@ -205,9 +217,7 @@
             }
         },
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "apps/r_slack/js/libs/slack.js"
             ]
@@ -229,20 +239,18 @@
             "r_support_app_board_id": {
                 "label": "Board ID",
                 "info": "",
-                "value": "3",
+                "value": "",
                 "is_public": true
             },
             "r_support_app_list_id": {
                 "label": "List ID",
                 "info": "",
-                "value": "198",
+                "value": "",
                 "is_public": false
             }
         },
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "apps/r_support_app/js/app.js",
                 "apps/r_support_app/js/support.js"
@@ -263,9 +271,7 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "https://togetherjs.com/togetherjs-min.js",
                 "apps/r_togetherjs/js/app.js"
@@ -286,33 +292,9 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "apps/r_website_qa_checklist/js/app.js"
-            ]
-        },
-        "enabled": true
-    },
-    "r_auto_archive_expired_cards": {
-        "id": "r_auto_archive_expired_cards",
-        "name": "Auto Archive Expired Cards",
-        "description": "Automatically archives expired cards.",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "http://restya.com/",
-        "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_auto_archive_expired_cards/img/auto-archive-expired-cards.png",
-        "settings_description": "",
-        "settings": false,
-        "assets": {
-            "css": [
-                "apps/r_estimated_time/css/app.css"
-            ],
-            "js": [
-                "apps/r_auto_archive_expired_cards/js/app.js"
             ]
         },
         "enabled": true
@@ -348,9 +330,7 @@
             }
         },
         "assets": {
-            "css": [
-
-            ],
+            "css": [],
             "js": [
                 "apps/r_zapier/js/app.js"
             ]

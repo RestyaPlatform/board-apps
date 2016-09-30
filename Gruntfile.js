@@ -25,7 +25,7 @@ module.exports = function(grunt) {
         exec: {
             apps: {
                 cmd: [
-                    'php build/apps.php **/app.json'
+                    'php build/apps.php'
                 ].join('&&')
             }
         },
