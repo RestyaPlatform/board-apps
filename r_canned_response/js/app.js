@@ -14,7 +14,7 @@
         $('body').bind('DOMSubtreeModified', insertCannedButton);
 
         function insertCannedButton(e) {
-            if ($(e.target).hasClass('dockmodal no-footer')) {
+            if ($(e.target).hasClass('dockmodal')) {
                 if ($('.js-canned-responses', $(e.target)).length === 0) {
                     var elem = $('<div class="js-canned-responses col-xs-11 pull-right"><select id="js-canned-select-id" class="js-canned-response-select" name="js-canned-select-id">' + options + '</select></div>');
                     $('.js-add-comment > .media-list > .media > div:last-child()', $(e.target)).after(elem);
