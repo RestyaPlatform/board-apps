@@ -1,7 +1,7 @@
 (function() {
     var $dc = $(document);
     var board_response;
-    var session_storage_apps = JSON.parse(sessionStorage.getItem("apps"));
+    var local_storage_apps = JSON.parse(localStorage.getItem("apps"));
     $dc.ready(function() {
         var custom_fields_data = '';
         $.getJSON("apps/r_estimated_time/json/app.json", function(data) {
@@ -84,7 +84,7 @@
             }
         }
 
-        $('body').append('<div class="modal fade" id="r_estimated_time_modal" tabindex="-1" role="dialog" aria-labelledby="estimatedTimeModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" id="js-estimated-time-close">×</span><span class="sr-only">Close</span></button><div class="media list-group-item-heading"><div class="pull-left"><img class="img-circle" width="36" height="36" src="' + session_storage_apps.r_estimated_time.icon + '" /></div><div class="media-body"><h4 class="modal-title" id="exampleModalLabel">' + i18next.t('Estimated Time Custom Field') + '</h4><div><span class="text-muted">v' + session_storage_apps.r_estimated_time.version + '</span> By <a target="_blank" href="' + session_storage_apps.r_estimated_time.author_url + '?utm_source=restyaboard&utm_medium=apppopup&utm_campaign=rb-app-estimated-time-v0.1.1' + '" title="author">' + session_storage_apps.r_estimated_time.author + '</a></div></div></div></div><div class="modal-body import-block"><span>' + i18next.t('Adds estimated time custom input. This will be displayed in the card listing to arrange them easily') + '.</span></div><div class="modal-footer"><a id="js-estimated-time-field-button" href="#" title="' + i18next.t('Close') + '" class="btn btn-primary">' + i18next.t('Close') + '</a></div></div></div></div>');
+        $('body').append('<div class="modal fade" id="r_estimated_time_modal" tabindex="-1" role="dialog" aria-labelledby="estimatedTimeModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" id="js-estimated-time-close">×</span><span class="sr-only">Close</span></button><div class="media list-group-item-heading"><div class="pull-left"><img class="img-circle" width="36" height="36" src="' + local_storage_apps.r_estimated_time.icon + '" /></div><div class="media-body"><h4 class="modal-title" id="exampleModalLabel">' + i18next.t('Estimated Time Custom Field') + '</h4><div><span class="text-muted">v' + local_storage_apps.r_estimated_time.version + '</span> By <a target="_blank" href="' + local_storage_apps.r_estimated_time.author_url + '?utm_source=restyaboard&utm_medium=apppopup&utm_campaign=rb-app-estimated-time-v0.1.1' + '" title="author">' + local_storage_apps.r_estimated_time.author + '</a></div></div></div></div><div class="modal-body import-block"><span>' + i18next.t('Adds estimated time custom input. This will be displayed in the card listing to arrange them easily') + '.</span></div><div class="modal-footer"><a id="js-estimated-time-field-button" href="#" title="' + i18next.t('Close') + '" class="btn btn-primary">' + i18next.t('Close') + '</a></div></div></div></div>');
     });
 
     $dc.on('click', '#js-estimated-time-field-button', function(event) {
