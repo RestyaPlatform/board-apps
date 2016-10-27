@@ -81,8 +81,8 @@
     });
 
     function getToken() {
-        if (window.sessionStorage.getItem('auth') !== undefined) {
-            var Auth = JSON.parse(window.sessionStorage.getItem('auth'));
+        if ($.cookie('auth') !== undefined) {
+            var Auth = JSON.parse($.cookie('auth'));
             api_token = Auth.access_token;
             return api_token;
         } else {
