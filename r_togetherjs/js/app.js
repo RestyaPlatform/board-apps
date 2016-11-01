@@ -6,8 +6,8 @@
         var is_togetherjs_opened = false;
 
         function loadTogetherJS(e) {
-            if (typeof $('#start-togetherjs').html() == 'undefined' && window.sessionStorage.getItem('auth') !== undefined && window.sessionStorage.getItem('auth') !== null) {
-                var Auth = JSON.parse(window.sessionStorage.getItem('auth'));
+            if (typeof $('#start-togetherjs').html() == 'undefined' && $.cookie('auth') !== undefined && $.cookie('auth') !== null) {
+                var Auth = JSON.parse($.cookie('auth'));
                 var TogetherJSConfig_includeHashInUrl = true;
                 var TogetherJSConfig_dontShowClicks = false;
                 var TogetherJSConfig_cloneClicks = true;
@@ -24,7 +24,7 @@
                 }
                 $('body').append('<button onclick="TogetherJS(this); return false;" id="start-togetherjs" class="hide">' + i18next.t('Start TogetherJS') + '</button>');
                 $('#start-togetherjs').trigger('click');
-            } else if (window.sessionStorage.getItem('auth') === undefined && is_togetherjs_opened === true) {
+            } else if ($.cookie('auth') === undefined && is_togetherjs_opened === true) {
                 $('#start-togetherjs').trigger('click');
             }
             if ($(e.target).hasClass('footer')) {
