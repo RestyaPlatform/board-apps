@@ -1,20 +1,26 @@
 ### Restyaboard Apps
 
-|Name|Description|Creator|Version|Price|Download|Repo
-| ------------------- | --------------------------------- | -------------------- | -------------------- |-------------------- |-------------------- |-------------------- |
-|[Amazon Echo App](r_amazon_echo)|Access your Restyaboard notifications through Amazon Echo. This Restyaboard Alexa Skill is developed using AWS Lambda. You will need to login to Restyaboard in Amazon Alexa Android App.|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_amazon_echo-v0.1.1.zip)|[Repository](r_amazon_echo)|
-|[Auto Archive Expired Cards](r_auto_archive_expired_cards)|Automatically archives expired cards.|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_auto_archive_expired_cards-v0.1.1.zip)|[Repository](r_auto_archive_expired_cards)|
-|[Canned Response](r_canned_response)|Adds a canned response dropdown next to comment box in card view. Using this you can quickly insert canned response.|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_canned_response-v0.1.1.zip)|[Repository](r_canned_response)|
-|[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.1.zip)|[Repository](r_cssilize)|
-|[Estimated Time Custom Field](r_estimated_time)|Adds estimated time custom input. This will be displayed in the card listing to arrange them easily.|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_estimated_time-v0.1.1.zip)|[Repository](r_estimated_time)|
-|[Hide Card ID](r_hide_card_id)|Hide Card ID from cards listing as in Trello|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_id-v0.1.1.zip)|[Repository](r_hide_card_id)|
-|[Import from GitHub](r_import_github)|Import GitHub repositories. users, issues and comments|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_import_github-v0.1.2.zip)|[Repository](r_import_github)|
-|[SEO Checklist](r_seo_checklist)|Readymade SEO checklist of essential SEO tips and tasks|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_seo_checklist-v0.1.1.zip)|[Repository](r_seo_checklist)|
-|[Post my comments to Slack](r_slack)|Auto post your comments to Slack|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_slack-v0.1.2.zip)|[Repository](r_slack)|
-|[Support Ticket](r_support_app)|Help desk or support ticket system or customer service software using Restyaboard.|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_support_app-v0.1.2.zip)|[Repository](r_support_app)|
-|[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.1.zip)|[Repository](r_togetherjs)|
-|[Website QA Checklist](r_website_qa_checklist)|Readymade QA checklist of best practices|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_website_qa_checklist-v0.1.1.zip)|[Repository](r_website_qa_checklist)|
-|[Zapier Connect](r_zapier)|This app generates "access token" that you should use it in Zapier to connect with your Restyaboard account.|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_zapier-v0.1.2.zip)|[Repository](r_zapier)|
+|Name|Description|Creator|Version|Price|Download
+| ------------------- | --------------------------------- | -------------------- | -------------------- |-------------------- |-------------------- |
+|Amazon Echo App|Access your Restyaboard notifications through Amazon Echo. This Restyaboard Alexa Skill is developed using AWS Lambda. You will need to login to Restyaboard in Amazon Alexa Android App.|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_amazon_echo)|
+|Auto Archive Expired Cards|Automatically archives expired cards.|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_auto_archive_expired_cards)|
+|Canned Response|Adds a canned response dropdown next to comment box in card view. Using this you can quickly insert canned response.|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_canned_response)|
+|Dashboard Charts|Dashboard charts based on Todo, Doing & Done.|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_chart)|
+|Chat||[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_chat)|
+|[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.1.zip)|
+|ElasticSearch|Adds a ElasticSearch text box next to apps menu. Using this you can quickly search.|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_elasticsearch)|
+|Estimated Time Custom Field|Adds estimated time custom input. This will be displayed in the card listing to arrange them easily.|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_estimated_time)|
+|Gantt View|To display board in Gantt view.|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_gantt_view)|
+|[Hide Card ID](r_hide_card_id)|Hide Card ID from cards listing as in Trello|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_id-v0.1.1.zip)|
+|Import from GitHub|Import GitHub repositories. users, issues and comments|[Restya](http://restya.com/) |0.1.2|Contact|[Contact](http://restya.com/board/apps/r_import_github)|
+|Instant add card|Instant add card|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_instant_add_card)|
+|LDAP Login|LDAP login|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_ldap_login)|
+|SEO Checklist|Readymade SEO checklist of essential SEO tips and tasks|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_seo_checklist)|
+|Post my comments to Slack|Auto post your comments to Slack|[Restya](http://restya.com/) |0.1.2|Contact|[Contact](http://restya.com/board/apps/r_slack)|
+|Support Ticket|Help desk or support ticket system or customer service software using Restyaboard.|[Restya](http://restya.com/) |0.1.2|Contact|[Contact](http://restya.com/board/apps/r_support_app)|
+|[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.1.zip)|
+|Website QA Checklist|Readymade QA checklist of best practices|[Restya](http://restya.com/) |0.1.1|Contact|[Contact](http://restya.com/board/apps/r_website_qa_checklist)|
+|Zapier Connect|This app generates "access token" that you should use it in Zapier to connect with your Restyaboard account.|[Restya](http://restya.com/) |0.1.2|Contact|[Contact](http://restya.com/board/apps/r_zapier)|
 
 ### Steps to create new app
 - Create a new folder by name of your app name in apps folder.

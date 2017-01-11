@@ -1,152 +1,381 @@
 {
     "r_amazon_echo": {
         "id": "r_amazon_echo",
+        "uid": "",
         "name": "Amazon Echo App",
         "description": "Access your Restyaboard notifications through Amazon Echo. This Restyaboard Alexa Skill is developed using AWS Lambda. You will need to login to Restyaboard in Amazon Alexa Android App.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_amazon_echo/img/amazonecho-logo.png",
+        "price": "Contact",
+        "icon": "apps/r_amazon_echo/img/r-amazon-echo.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_amazon_echo/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_amazon_echo/js/app.js"
+                "apps/r_amazon_echo/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_auto_archive_expired_cards": {
         "id": "r_auto_archive_expired_cards",
+        "uid": "",
         "name": "Auto Archive Expired Cards",
         "description": "Automatically archives expired cards.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_auto_archive_expired_cards/img/auto-archive-expired-cards.png",
+        "price": "Contact",
+        "icon": "apps/r_auto_archive_expired_cards/img/r-auto-archive-expired-cards.png",
         "settings_description": "",
         "settings": false,
         "assets": {
             "css": [
-                "apps/r_auto_archive_expired_cards/css/app.css"
+                "apps/r_auto_archive_expired_cards/css/default.cache.css"
             ],
             "js": [
-                "apps/r_auto_archive_expired_cards/js/app.js"
+                "apps/r_auto_archive_expired_cards/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_canned_response": {
         "id": "r_canned_response",
+        "uid": "",
         "name": "Canned Response",
         "description": "Adds a canned response dropdown next to comment box in card view. Using this you can quickly insert canned response.",
         "author": "Harry Reid",
         "author_email": "harryreid@rediffmail.com",
         "author_url": "https://github.com/reidharry",
         "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_canned_response/img/canned-logo.png",
+        "price": "Contact",
+        "icon": "apps/r_canned_response/img/r-canned-response.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_canned_response/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_canned_response/js/app.js"
+                "apps/r_canned_response/js/default.cache.js"
             ]
         },
         "enabled": true
     },
+    "r_chart": {
+        "id": "r_chart",
+        "uid": "",
+        "name": "Dashboard Charts",
+        "description": "Dashboard charts based on Todo, Doing & Done.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Contact",
+        "icon": "apps/r_chart/img/r-chart.png",
+        "settings_description": "Different people may use different naming for Todo, Doing and Done. So, it is usually difficult to identify what are actually in Todo, Doing and Done. Below, you can configure how the lists have to be recognized. For a list, you can configure its indicator icon and its color too.",
+        "settings": {
+            "r_chart_todo": {
+                "label": "Todo",
+                "info": "",
+                "value": "REPLACE_CARD_WORKFLOW_TODO",
+                "is_public": true
+            },
+            "r_chart_todo_icon": {
+                "label": "Todo Icon",
+                "info": "",
+                "value": "REPLACE_CARD_WORKFLOW_TODO_ICON",
+                "is_public": true
+            },
+            "r_chart_todo_color": {
+                "label": "Todo Color",
+                "info": "",
+                "value": "REPLACE_CARD_WORKFLOW_TODO_COLOR",
+                "is_public": true
+            },
+            "r_chart_doing": {
+                "label": "Doing",
+                "info": "",
+                "value": "REPLACE_CARD_WORKFLOW_DOING",
+                "is_public": true
+            },
+            "r_chart_doing_icon": {
+                "label": "Doing Icon",
+                "info": "",
+                "value": "REPLACE_CARD_WORKFLOW_DOING_ICON",
+                "is_public": true
+            },
+            "r_chart_doing_color": {
+                "label": "Doing Color",
+                "info": "",
+                "value": "REPLACE_CARD_WORKFLOW_DOING_COLOR",
+                "is_public": true
+            },
+            "r_chart_done": {
+                "label": "Done",
+                "info": "",
+                "value": "REPLACE_CARD_WORKFLOW_DONE",
+                "is_public": true
+            },
+            "r_chart_done_icon": {
+                "label": "Done Icon",
+                "info": "",
+                "value": "REPLACE_CARD_WORKFLOW_DONE_ICON",
+                "is_public": true
+            },
+            "r_chart_done_color": {
+                "label": "Done Color",
+                "info": "",
+                "value": "REPLACE_CARD_WORKFLOW_DONE_COLOR",
+                "is_public": true
+            }
+        },
+        "assets": {
+            "css": [
+                "apps/r_chart/css/default.cache.css"
+            ],
+            "js": [
+                "apps/r_chart/js/default.cache.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_chat": {
+        "id": "r_chat",
+        "uid": "",
+        "name": "Chat",
+        "description": "",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Contact",
+        "icon": "apps/r_chat/img/r-chat.png",
+        "settings_description": "Server URL: Provide server URL, e.g., http://localhost:9200/<br/>Index Name: Used to prefix index names to avoid potential collisions. e.g., restya",
+        "settings": {
+            "r_chat_db_host": {
+                "label": "DB Host",
+                "info": "",
+                "value": "REPLACE_CHAT_DB_HOST",
+                "is_public": false
+            },
+            "r_chat_db_port": {
+                "label": "DB Port",
+                "info": "",
+                "value": "REPLACE_CHAT_DB_PORT",
+                "is_public": false
+            },
+            "r_chat_db_name": {
+                "label": "DB Name",
+                "info": "",
+                "value": "REPLACE_CHAT_DB_NAME",
+                "is_public": false
+            },
+            "r_chat_db_user": {
+                "label": "DB Username",
+                "info": "",
+                "value": "REPLACE_CHAT_DB_USERNAME",
+                "is_public": false
+            },
+            "r_chat_db_password": {
+                "label": "DB Password",
+                "info": "",
+                "value": "REPLACE_CHAT_DB_PASSWORD",
+                "is_public": false
+            },
+            "r_chat_service_url": {
+                "label": "Bosh Service URL",
+                "info": "",
+                "value": "REPLACE_CHAT_BOSH_SERVICE_URL",
+                "is_public": true
+            },
+            "r_chat_jabber_host": {
+                "label": "Jabber Host",
+                "info": "",
+                "value": "REPLACE_CHAT_JABBER_HOST",
+                "is_public": true
+            },
+            "r_chat_client_resource_name": {
+                "label": "Client Resource Name",
+                "info": "",
+                "value": "REPLACE_CHAT_CLIENT_RESOURCE_NAME",
+                "is_public": false
+            },
+            "r_chat_last_processed_chat_id": {
+                "label": "Last processed chat ID",
+                "info": "",
+                "value": "0",
+                "is_public": false,
+                "is_hide": true
+            }
+        },
+        "assets": {
+            "css": [
+                "apps/r_chat/css/default.cache.css"
+            ],
+            "js": [
+                "apps/r_chat/js/default.cache.js"
+            ]
+        },
+        "enabled": false
+    },
     "r_cssilize": {
         "id": "r_cssilize",
+        "uid": "",
         "name": "Theming/CSSilize",
         "description": "CSSilize, theming partner",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_cssilize/img/cssilize.png",
+        "price": "Free",
+        "icon": "apps/r_cssilize/img/r-cssilize.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_cssilize/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_cssilize/js/app.js"
+                "apps/r_cssilize/js/default.cache.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_elasticsearch": {
+        "id": "r_elasticsearch",
+        "uid": "",
+        "name": "ElasticSearch",
+        "description": "Adds a ElasticSearch text box next to apps menu. Using this you can quickly search.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Contact",
+        "icon": "apps/r_elasticsearch/img/r-elasticsearch.png",
+        "settings_description": "",
+        "settings": {
+            "r_elasticsearch_server_url": {
+                "label": "Server URL",
+                "info": "e.g., http://localhost:9200/",
+                "value": "REPLACE_ELASTIC_SEARCH_SERVER_URL",
+                "is_public": false
+            },
+            "r_elasticsearch_index_name": {
+                "label": "Index Name",
+                "info": "Used to prefix index names to avoid potential collisions. e.g., restya",
+                "value": "REPLACE_ELASTIC_SEARCH_INDEX_NAME",
+                "is_public": false
+            }
+        },
+        "assets": {
+            "css": [
+                "apps/r_elasticsearch/css/default.cache.css"
+            ],
+            "js": [
+                "apps/r_elasticsearch/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_estimated_time": {
         "id": "r_estimated_time",
+        "uid": "",
         "name": "Estimated Time Custom Field",
         "description": "Adds estimated time custom input. This will be displayed in the card listing to arrange them easily.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_estimated_time/img/estimated-time-custom-field.png",
+        "price": "Contact",
+        "icon": "apps/r_estimated_time/img/r-estimated-time.png",
         "settings_description": "",
         "settings": false,
         "assets": {
             "css": [
-                "apps/r_estimated_time/css/app.css"
+                "apps/r_estimated_time/css/default.cache.css"
             ],
             "js": [
-                "apps/r_estimated_time/js/app.js"
+                "apps/r_estimated_time/js/default.cache.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_gantt_view": {
+        "id": "r_gantt_view",
+        "uid": "",
+        "name": "Gantt View",
+        "description": "To display board in Gantt view.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Contact",
+        "icon": "apps/r_gantt_view/img/r-gantt-view.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_gantt_view/css/default.cache.css"
+            ],
+            "js": [
+                "apps/r_gantt_view/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_hide_card_id": {
         "id": "r_hide_card_id",
+        "uid": "",
         "name": "Hide Card ID",
         "description": "Hide Card ID from cards listing as in Trello",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_hide_card_id/img/hidecardid.png",
+        "price": "Free",
+        "icon": "apps/r_hide_card_id/img/r-hide-card-id.png",
         "settings_description": "",
         "settings": false,
         "assets": {
             "css": [
-                "apps/r_hide_card_id/css/app.css"
+                "apps/r_hide_card_id/css/default.cache.css"
             ],
             "js": [
-                "apps/r_hide_card_id/js/app.js"
+                "apps/r_hide_card_id/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_import_github": {
         "id": "r_import_github",
+        "uid": "",
         "name": "Import from GitHub",
         "description": "Import GitHub repositories. users, issues and comments",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.2",
-        "price": 0,
-        "icon": "apps/r_import_github/img/github.png",
+        "price": "Contact",
+        "icon": "apps/r_import_github/img/r-import-github.png",
         "settings_description": "Register a new application in GitHub in this URL <a href='https://github.com/settings/applications/new' target='_blank'>https://github.com/settings/applications/new</a> with providing below details,<br/>Application Name: ##SITE_NAME##<br/>Homepage URL: ##SITE_URL##<br/>Application description: Give some description about your site<br/>Authorization callback URL: ##SITE_URL##/apps/r_import_github/login.html",
         "settings": {
             "r_import_github_client_id": {
                 "label": "GitHub Client ID",
                 "info": "",
-                "value": "32f9660d0057176b0a34",
+                "value": "REPLACE_GITHUB_CLIENT_ID",
                 "is_public": true
             },
             "r_import_github_client_secret": {
                 "label": "GitHub Client Secret",
                 "info": "",
-                "value": "901512845ff86e44e0202797e0c83df1599b938e",
+                "value": "REPLACE_GITHUB_CLIENT_SECRET",
                 "is_public": false
             },
             "r_import_github_oauth_token_url": {
@@ -157,56 +386,174 @@
             }
         },
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_import_github/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_import_github/js/libs/github.js",
-                "apps/r_import_github/js/app.js"
+                "apps/r_import_github/js/default.cache.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_instant_add_card": {
+        "id": "r_instant_add_card",
+        "uid": "",
+        "name": "Instant add card",
+        "description": "Instant add card",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Contact",
+        "icon": "apps/r_instant_add_card/img/r-instant-add-card.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_instant_add_card/css/default.cache.css"
+            ],
+            "js": [
+                "apps/r_instant_add_card/js/default.cache.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_ldap_login": {
+        "id": "r_ldap_login",
+        "uid": "",
+        "name": "LDAP Login",
+        "description": "LDAP login",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Contact",
+        "icon": "apps/r_ldap_login/img/r-ldap-login.png",
+        "settings_description": "",
+        "settings": {
+            "r_ldap_login_enabled": {
+                "label": "LDAP Enabled",
+                "info": "",
+                "value": "REPLACE_LDAP_ENABLED",
+                "is_public": true
+            },
+            "r_ldap_login_enable_ssl": {
+                "label": "Enable SSL Connectivity ",
+                "info": "",
+                "value": "REPLACE_ENABLE_SSL_CONNECTIVITY",
+                "is_public": false
+            },
+            "r_ldap_login_server": {
+                "label": "Server",
+                "info": "The DNS name or IP address of the server (e.g., dc.domain.local)",
+                "value": "REPLACE_LDAP_SERVER",
+                "is_public": false
+            },
+            "r_ldap_login_port": {
+                "label": "Port",
+                "info": "Server port (e.g., 389 for LDAP and 636 for LDAP using SSL)",
+                "value": "REPLACE_LDAP_PORT",
+                "is_public": false
+            },
+            "r_ldap_login_protocol_version": {
+                "label": "Protocol Version",
+                "info": "Difference between LDAPv3 and LDAPv2 https://msdn.microsoft.com/en-us/library/windows/desktop/aa366099%28v=vs.85%29.aspx (e.g., 3)",
+                "value": "REPLACE_LDAP_PROTOCOL_VERSION",
+                "is_public": false
+            },
+            "r_ldap_login_base_dn": {
+                "label": "Base DN",
+                "info": "This is your search base for LDAP queries. This should be at least your domain root, (e.g., dc=domain,dc=local) You can define this as a Organizational Unit if you want to narrow down the search base (e.g., ou=team,ou=company,dc=domain,dc=local)",
+                "value": "REPLACE_LDAP_BASE_DN",
+                "is_public": false
+            },
+            "r_ldap_login_account_filter": {
+                "label": "Account Filter",
+                "info": "You can use different field from the username here. For pre-windows 2000 style login, use sAMAccountName and for a UPN style login use userPrincipalName.",
+                "value": "REPLACE_LDAP_ACCOUNT_FILTER",
+                "is_public": false
+            },
+            "r_ldap_login_bind_dn": {
+                "label": "Bind DN",
+                "info": "Enter a valid user account/DN to pre-bind with if your LDAP server does not allow anonymous profile searches, or requires a user with specific privileges to search.",
+                "value": "REPLACE_LDAP_BIND_DN",
+                "is_public": false
+            },
+            "r_ldap_login_bind_password": {
+                "label": "Bind password",
+                "info": "Enter a password for the above Bind DN.SubmitSubmit",
+                "value": "REPLACE_LDAP_BIND_PASSWORD",
+                "is_public": false
+            },
+            "r_ldap_login_root_dn": {
+                "label": "ROOT DN",
+                "info": "",
+                "value": "REPLACE_LDAP_ROOT_DN",
+                "is_public": false
+            },
+            "r_ldap_login_uid_field": {
+                "label": "UID FIELD",
+                "info": "",
+                "value": "REPLACE_LDAP_UID_FIELD",
+                "is_public": true
+            }
+        },
+        "assets": {
+            "css": [
+                "apps/r_ldap_login/css/default.cache.css"
+            ],
+            "js": [
+                "apps/r_ldap_login/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_seo_checklist": {
         "id": "r_seo_checklist",
+        "uid": "",
         "name": "SEO Checklist",
         "description": "Readymade SEO checklist of essential SEO tips and tasks",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_seo_checklist/img/seo_checklist.png",
+        "price": "Contact",
+        "icon": "apps/r_seo_checklist/img/r-seo-checklist.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_seo_checklist/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_seo_checklist/js/app.js"
+                "apps/r_seo_checklist/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_slack": {
         "id": "r_slack",
+        "uid": "",
         "name": "Post my comments to Slack",
         "description": "Auto post your comments to Slack",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.2",
-        "price": 0,
-        "icon": "apps/r_slack/img/slack.png",
+        "price": "Contact",
+        "icon": "apps/r_slack/img/r-slack.png",
         "settings_description": "Register a new application in Slack in this URL <a href='https://api.slack.com/applications/new' target='_blank'>https://api.slack.com/applications/new</a> with providing below details,<br/>App Name: ##SITE_NAME##<br/>Short Description: Give some description about your site<br/>Describe what your app does on Slack (3-5 sentences): Give some description about what your app does on Slack<br/>Redirect URI(s): ##SITE_URL##/apps/r_slack/login.html",
         "settings": {
             "r_slack_client_id": {
                 "label": "Slack Client ID",
                 "info": "",
-                "value": "14914787207.18280082338",
+                "value": "REPLACE_SLACK_CLIENT_ID",
                 "is_public": true
             },
             "r_slack_client_secret": {
                 "label": "Slack Client Secret",
                 "info": "",
-                "value": "48d4f0b7d0de9e31f69037d65217086e",
+                "value": "REPLACE_SLACK_CLIENT_SECRET",
                 "is_public": false
             },
             "r_slack_oauth_token_url": {
@@ -217,122 +564,136 @@
             }
         },
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_slack/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_slack/js/libs/slack.js"
+                "apps/r_slack/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_support_app": {
         "id": "r_support_app",
+        "uid": "",
         "name": "Support Ticket",
         "description": "Help desk or support ticket system or customer service software using Restyaboard.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.2",
-        "price": 0,
-        "icon": "apps/r_support_app/img/support-ticket.png",
+        "price": "Contact",
+        "icon": "apps/r_support_app/img/r-support-app.png",
         "settings_description": "",
         "settings": {
             "r_support_app_board_id": {
                 "label": "Board ID",
                 "info": "",
-                "value": "",
+                "value": "REPLACE_SUPPORT_BOARD_ID",
                 "is_public": true
             },
             "r_support_app_list_id": {
                 "label": "List ID",
                 "info": "",
-                "value": "",
+                "value": "REPLACE_SUPPORT_LIST_ID",
                 "is_public": false
             }
         },
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_support_app/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_support_app/js/app.js",
-                "apps/r_support_app/js/support.js"
+                "apps/r_support_app/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_togetherjs": {
         "id": "r_togetherjs",
+        "uid": "",
         "name": "Collaborate/TogetherJS",
         "description": "Collaborate using Mozilla's TogetherJS",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_togetherjs/img/togetherjs.png",
+        "price": "Free",
+        "icon": "apps/r_togetherjs/img/r-togetherjs.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_togetherjs/css/default.cache.css"
+            ],
             "js": [
-                "https://togetherjs.com/togetherjs-min.js",
-                "apps/r_togetherjs/js/app.js"
+                "apps/r_togetherjs/js/default.cache.js"
             ]
         },
         "enabled": false
     },
     "r_website_qa_checklist": {
         "id": "r_website_qa_checklist",
+        "uid": "",
         "name": "Website QA Checklist",
         "description": "Readymade QA checklist of best practices",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
-        "price": 0,
-        "icon": "apps/r_website_qa_checklist/img/website_qa_checklist.png",
+        "price": "Contact",
+        "icon": "apps/r_website_qa_checklist/img/r-website-qa-checklist.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_website_qa_checklist/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_website_qa_checklist/js/app.js"
+                "apps/r_website_qa_checklist/js/default.cache.js"
             ]
         },
         "enabled": true
     },
     "r_zapier": {
+        "id": "r_zapier",
+        "uid": "",
         "name": "Zapier Connect",
         "description": "This app generates \"access token\" that you should use it in Zapier to connect with your Restyaboard account.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.2",
-        "price": 0,
-        "icon": "apps/r_zapier/img/zapier.png",
+        "price": "Contact",
+        "icon": "apps/r_zapier/img/r-zapier.png",
         "settings_description": "",
         "settings": {
             "r_zapier_client_id": {
                 "label": "Zapier Client ID",
                 "info": "",
-                "value": "7857596005287233",
+                "value": "REPLACE_ZAPIER_CLIENT_ID",
                 "is_public": true
             },
             "r_zapier_client_secret": {
                 "label": "Zapier Client Secret",
                 "info": "",
-                "value": "n0l2wlujcpkj0bd7gk8918gm6b",
+                "value": "REPLACE_ZAPIER_CLIENT_SECRET",
                 "is_public": false
             },
             "r_zapier_oauth_token_url": {
                 "label": "Zapier OAuth Token URL",
                 "info": "",
                 "value": "/api/v1/oauth/token.json",
+                "is_hide": true,
                 "is_public": false
             }
         },
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_zapier/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_zapier/js/app.js"
+                "apps/r_zapier/js/default.cache.js"
             ]
         },
         "enabled": true
