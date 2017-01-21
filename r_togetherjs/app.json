@@ -7,8 +7,8 @@
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",
 	"version": "0.1.1",
-	"price" : "Free",
-	"icon": "apps/r_togetherjs/img/togetherjs.png",
+	"price": "Free",
+	"icon": "apps/r_togetherjs/img/r-togetherjs.png",
 	"settings_description": "",
 	"settings": false,
 	"assets": {
