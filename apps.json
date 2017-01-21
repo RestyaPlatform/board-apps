@@ -276,7 +276,7 @@
         "author_email": "info@restya.com",
         "author_url": "",
         "version": "0.1.1",
-        "price": "Free",
+        "price": "Paid",
         "icon": "apps/r_elasticsearch/img/r-elasticsearch.png",
         "settings_description": "",
         "settings": {
@@ -440,7 +440,7 @@
         "author_email": "info@restya.com",
         "author_url": "",
         "version": "0.1.1",
-        "price": "Free",
+        "price": "Paid",
         "icon": "apps/r_ldap_login/img/r-ldap-login.png",
         "settings_description": "",
         "settings": {
@@ -589,7 +589,7 @@
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.2",
-        "price": "Free",
+        "price": "Paid",
         "icon": "apps/r_support_app/img/r-support-app.png",
         "settings_description": "",
         "settings": {
@@ -667,7 +667,7 @@
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.2",
-        "price": "Free",
+        "price": "Paid",
         "icon": "apps/r_zapier/img/r-zapier.png",
         "settings_description": "",
         "settings": {
