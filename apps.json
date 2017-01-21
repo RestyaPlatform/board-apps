@@ -13,11 +13,9 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-                "apps/r_amazon_echo/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_amazon_echo/js/default.cache.js"
+                "apps/r_amazon_echo/js/app.js"
             ]
         },
         "enabled": true
@@ -37,10 +35,10 @@
         "settings": false,
         "assets": {
             "css": [
-                "apps/r_auto_archive_expired_cards/css/default.cache.css"
+                "apps/r_auto_archive_expired_cards/css/app.css"
             ],
             "js": [
-                "apps/r_auto_archive_expired_cards/js/default.cache.js"
+                "apps/r_auto_archive_expired_cards/js/app.js"
             ]
         },
         "enabled": true
@@ -59,11 +57,9 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-                "apps/r_canned_response/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_canned_response/js/default.cache.js"
+                "apps/r_canned_response/js/app.js"
             ]
         },
         "enabled": true
@@ -84,64 +80,62 @@
             "r_chart_todo": {
                 "label": "Todo",
                 "info": "",
-                "value": "REPLACE_CARD_WORKFLOW_TODO",
+                "value": "To do, Todo, New, Probable sale",
                 "is_public": true
             },
             "r_chart_todo_icon": {
                 "label": "Todo Icon",
                 "info": "",
-                "value": "REPLACE_CARD_WORKFLOW_TODO_ICON",
+                "value": "icon-tasks icon-large",
                 "is_public": true
             },
             "r_chart_todo_color": {
                 "label": "Todo Color",
                 "info": "",
-                "value": "REPLACE_CARD_WORKFLOW_TODO_COLOR",
+                "value": "#f47564",
                 "is_public": true
             },
             "r_chart_doing": {
                 "label": "Doing",
                 "info": "",
-                "value": "REPLACE_CARD_WORKFLOW_DOING",
+                "value": "Doing, Feedback, Confirmed, Assigned, Pending sale",
                 "is_public": true
             },
             "r_chart_doing_icon": {
                 "label": "Doing Icon",
                 "info": "",
-                "value": "REPLACE_CARD_WORKFLOW_DOING_ICON",
+                "value": "icon-spinner icon-large",
                 "is_public": true
             },
             "r_chart_doing_color": {
                 "label": "Doing Color",
                 "info": "",
-                "value": "REPLACE_CARD_WORKFLOW_DOING_COLOR",
+                "value": "#27c5c3",
                 "is_public": true
             },
             "r_chart_done": {
                 "label": "Done",
                 "info": "",
-                "value": "REPLACE_CARD_WORKFLOW_DONE",
+                "value": "Done, Resolved, Closed, Completed sale",
                 "is_public": true
             },
             "r_chart_done_icon": {
                 "label": "Done Icon",
                 "info": "",
-                "value": "REPLACE_CARD_WORKFLOW_DONE_ICON",
+                "value": "icon-ok-circle icon-large",
                 "is_public": true
             },
             "r_chart_done_color": {
                 "label": "Done Color",
                 "info": "",
-                "value": "REPLACE_CARD_WORKFLOW_DONE_COLOR",
+                "value": "#8dca35",
                 "is_public": true
             }
         },
         "assets": {
-            "css": [
-                "apps/r_chart/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_chart/js/default.cache.js"
+                "apps/r_chart/js/app.js"
             ]
         },
         "enabled": true
@@ -201,26 +195,53 @@
                 "value": "REPLACE_CHAT_JABBER_HOST",
                 "is_public": true
             },
+            "r_chat_jaxl_debug": {
+                "label": "JAXL DEBUG",
+                "info": "",
+                "value": "0",
+                "is_public": true
+            },
             "r_chat_client_resource_name": {
                 "label": "Client Resource Name",
                 "info": "",
                 "value": "REPLACE_CHAT_CLIENT_RESOURCE_NAME",
                 "is_public": false
-            },
-            "r_chat_last_processed_chat_id": {
-                "label": "Last processed chat ID",
-                "info": "",
-                "value": "0",
-                "is_public": false,
-                "is_hide": true
             }
         },
         "assets": {
-            "css": [
-                "apps/r_chat/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_chat/js/default.cache.js"
+                "apps/r_chat/libs/conversejs/components/otr/build/dep/salsa20.js",
+                "apps/r_chat/libs/conversejs/src/bigint.js",
+                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/core.js",
+                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/enc-base64.js",
+                "apps/r_chat/libs/conversejs/components/crypto-js-evanvosberg/src/md5.js",
+                "apps/r_chat/libs/conversejs/components/crypto-js-evanvosberg/src/evpkdf.js",
+                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/cipher-core.js",
+                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/aes.js",
+                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/sha1.js",
+                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/sha256.js",
+                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/hmac.js",
+                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/pad-nopadding.js",
+                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/mode-ctr.js",
+                "apps/r_chat/libs/conversejs/components/otr/build/dep/eventemitter.js",
+                "apps/r_chat/libs/conversejs/src/otr.js",
+                "apps/r_chat/libs/conversejs/components/strophejs/strophe.js",
+                "apps/r_chat/libs/conversejs/components/strophejs-plugins/vcard/strophe.vcard.js",
+                "apps/r_chat/libs/conversejs/components/strophejs-plugins/disco/strophe.disco.js",
+                "apps/r_chat/libs/conversejs/components/strophejs-plugins/rsm/strophe.rsm.js",
+                "apps/r_chat/libs/conversejs/src/strophe.ping.js",
+                "apps/r_chat/libs/conversejs/components/backbone.browserStorage/backbone.browserStorage.js",
+                "apps/r_chat/libs/conversejs/components/backbone.overview/backbone.overview.js",
+                "apps/r_chat/libs/conversejs/components/momentjs/min/moment-with-locales.js",
+                "apps/r_chat/libs/conversejs/components/jquery.browser/dist/jquery.browser.js",
+                "apps/r_chat/libs/conversejs/components/typeahead.js/index.js",
+                "apps/r_chat/libs/conversejs/components/jed/jed.js",
+                "apps/r_chat/libs/conversejs/builds/locales.js",
+                "apps/r_chat/libs/conversejs/builds/templates.js",
+                "apps/r_chat/libs/conversejs/src/utils.js",
+                "apps/r_chat/libs/conversejs/converse.js",
+                "apps/r_chat/js/app.js"
             ]
         },
         "enabled": false
@@ -239,11 +260,9 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-                "apps/r_cssilize/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_cssilize/js/default.cache.js"
+                "apps/r_cssilize/js/app.js"
             ]
         },
         "enabled": true
@@ -275,11 +294,9 @@
             }
         },
         "assets": {
-            "css": [
-                "apps/r_elasticsearch/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_elasticsearch/js/default.cache.js"
+                "apps/r_elasticsearch/js/app.js"
             ]
         },
         "enabled": true
@@ -299,10 +316,10 @@
         "settings": false,
         "assets": {
             "css": [
-                "apps/r_estimated_time/css/default.cache.css"
+                "apps/r_estimated_time/css/app.css"
             ],
             "js": [
-                "apps/r_estimated_time/js/default.cache.js"
+                "apps/r_estimated_time/js/app.js"
             ]
         },
         "enabled": true
@@ -321,11 +338,10 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-                "apps/r_gantt_view/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_gantt_view/js/default.cache.js"
+                "apps/r_gantt_view/js/app.js",
+                "apps/r_gantt_view/libs/jquery.fn.gantt.js"
             ]
         },
         "enabled": true
@@ -345,13 +361,13 @@
         "settings": false,
         "assets": {
             "css": [
-                "apps/r_hide_card_id/css/default.cache.css"
+                "apps/r_hide_card_id/css/app.css"
             ],
             "js": [
-                "apps/r_hide_card_id/js/default.cache.js"
+                "apps/r_hide_card_id/js/app.js"
             ]
         },
-        "enabled": true
+        "enabled": false
     },
     "r_import_github": {
         "id": "r_import_github",
@@ -386,11 +402,10 @@
             }
         },
         "assets": {
-            "css": [
-                "apps/r_import_github/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_import_github/js/default.cache.js"
+                "apps/r_import_github/js/libs/github.js",
+                "apps/r_import_github/js/app.js"
             ]
         },
         "enabled": true
@@ -409,11 +424,9 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-                "apps/r_instant_add_card/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_instant_add_card/js/default.cache.js"
+                "apps/r_instant_add_card/js/app.js"
             ]
         },
         "enabled": true
@@ -440,7 +453,7 @@
             "r_ldap_login_enable_ssl": {
                 "label": "Enable SSL Connectivity ",
                 "info": "",
-                "value": "REPLACE_ENABLE_SSL_CONNECTIVITY",
+                "value": "REPLACE_LDAP_ENABLE_SSL_CONNECTIVITY",
                 "is_public": false
             },
             "r_ldap_login_server": {
@@ -499,11 +512,9 @@
             }
         },
         "assets": {
-            "css": [
-                "apps/r_ldap_login/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_ldap_login/js/default.cache.js"
+                "apps/r_ldap_login/js/app.js"
             ]
         },
         "enabled": true
@@ -522,11 +533,9 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-                "apps/r_seo_checklist/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_seo_checklist/js/default.cache.js"
+                "apps/r_seo_checklist/js/app.js"
             ]
         },
         "enabled": true
@@ -564,11 +573,9 @@
             }
         },
         "assets": {
-            "css": [
-                "apps/r_slack/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_slack/js/default.cache.js"
+                "apps/r_slack/js/libs/slack.js"
             ]
         },
         "enabled": true
@@ -600,11 +607,10 @@
             }
         },
         "assets": {
-            "css": [
-                "apps/r_support_app/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_support_app/js/default.cache.js"
+                "apps/r_support_app/js/app.js",
+                "apps/r_support_app/js/support.js"
             ]
         },
         "enabled": true
@@ -623,11 +629,10 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-                "apps/r_togetherjs/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_togetherjs/js/default.cache.js"
+                "https://togetherjs.com/togetherjs-min.js",
+                "apps/r_togetherjs/js/app.js"
             ]
         },
         "enabled": false
@@ -646,11 +651,9 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [
-                "apps/r_website_qa_checklist/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_website_qa_checklist/js/default.cache.js"
+                "apps/r_website_qa_checklist/js/app.js"
             ]
         },
         "enabled": true
@@ -689,11 +692,9 @@
             }
         },
         "assets": {
-            "css": [
-                "apps/r_zapier/css/default.cache.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_zapier/js/default.cache.js"
+                "apps/r_zapier/js/app.js"
             ]
         },
         "enabled": true
