@@ -369,6 +369,28 @@
         },
         "enabled": false
     },
+    "r_card_template": {
+        "id": "r_card_template",
+        "uid": "",
+        "name": "Card Template",
+        "description": "Card template used to add members,labels and description.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Free",
+        "icon": "apps/r_card_template/img/r_card_template.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+            ],
+            "js": [
+                "apps/r_card_template/js/app.js"
+            ]
+        },
+        "enabled": false
+    },
     "r_import_github": {
         "id": "r_import_github",
         "uid": "",
