@@ -373,7 +373,7 @@
         "id": "r_card_template",
         "uid": "",
         "name": "Card Template",
-        "description": "Card template used to add members,labels and description.",
+        "description": "Added the feature 'Card template app' which allows the users to create a template with necessary details like  members,labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
