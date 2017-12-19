@@ -62,6 +62,27 @@
                 "apps/r_canned_response/js/app.js"
             ]
         },
+        "enabled": false
+    },
+    "r_card_template": {
+        "id": "r_card_template",
+        "uid": "",
+        "name": "Card Template",
+        "description": "Added the feature 'Card template app' which allows the users to create a template with necessary details like  members,labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Free",
+        "icon": "apps/r_card_template/img/r_card_template.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_card_template/js/app.js"
+            ]
+        },
         "enabled": true
     },
     "r_chart": {
@@ -133,7 +154,9 @@
             }
         },
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_chart/css/app.css"
+            ],
             "js": [
                 "apps/r_chart/js/app.js"
             ]
@@ -209,42 +232,46 @@
             }
         },
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_chat/css/app.css"
+            ],
             "js": [
-                "apps/r_chat/libs/conversejs/components/otr/build/dep/salsa20.js",
-                "apps/r_chat/libs/conversejs/src/bigint.js",
-                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/core.js",
-                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/enc-base64.js",
-                "apps/r_chat/libs/conversejs/components/crypto-js-evanvosberg/src/md5.js",
-                "apps/r_chat/libs/conversejs/components/crypto-js-evanvosberg/src/evpkdf.js",
-                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/cipher-core.js",
-                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/aes.js",
-                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/sha1.js",
-                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/sha256.js",
-                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/hmac.js",
-                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/pad-nopadding.js",
-                "apps/r_chat/libs/conversejs/components/otr/vendor/cryptojs/mode-ctr.js",
-                "apps/r_chat/libs/conversejs/components/otr/build/dep/eventemitter.js",
-                "apps/r_chat/libs/conversejs/src/otr.js",
-                "apps/r_chat/libs/conversejs/components/strophejs/strophe.js",
-                "apps/r_chat/libs/conversejs/components/strophejs-plugins/vcard/strophe.vcard.js",
-                "apps/r_chat/libs/conversejs/components/strophejs-plugins/disco/strophe.disco.js",
-                "apps/r_chat/libs/conversejs/components/strophejs-plugins/rsm/strophe.rsm.js",
-                "apps/r_chat/libs/conversejs/src/strophe.ping.js",
-                "apps/r_chat/libs/conversejs/components/backbone.browserStorage/backbone.browserStorage.js",
-                "apps/r_chat/libs/conversejs/components/backbone.overview/backbone.overview.js",
-                "apps/r_chat/libs/conversejs/components/momentjs/min/moment-with-locales.js",
-                "apps/r_chat/libs/conversejs/components/jquery.browser/dist/jquery.browser.js",
-                "apps/r_chat/libs/conversejs/components/typeahead.js/index.js",
-                "apps/r_chat/libs/conversejs/components/jed/jed.js",
-                "apps/r_chat/libs/conversejs/builds/locales.js",
-                "apps/r_chat/libs/conversejs/builds/templates.js",
-                "apps/r_chat/libs/conversejs/src/utils.js",
-                "apps/r_chat/libs/conversejs/converse.js",
+                "apps/r_chat/libs/converse.js",
                 "apps/r_chat/js/app.js"
             ]
         },
         "enabled": false
+    },
+    "r_custom_field":  {
+        "id": "r_custom_field",
+        "uid": "",
+        "name": "Custom Field",
+        "description": "Adds Custom Field for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_custom_fields/img/r-custom_field.png",
+        "settings_description": "",
+        "settings_links":[
+            {
+                "name":"Settings",
+                "icon": "icon-cog",
+                "url":"#/apps/r_custom_fields/manage"
+            }
+        ],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_custom_fields/js/app.js"
+            ],
+            "html": [
+                "apps/r_custom_fields/app.html"
+            ]
+        },
+        "enabled": true
     },
     "r_cssilize": {
         "id": "r_cssilize",
@@ -260,9 +287,11 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_cssilize/css/default.cache.css"
+            ],
             "js": [
-                "apps/r_cssilize/js/app.js"
+                "apps/r_cssilize/js/default.cache.js"
             ]
         },
         "enabled": true
@@ -280,10 +309,16 @@
         "icon": "apps/r_elasticsearch/img/r-elasticsearch.png",
         "settings_description": "",
         "settings": {
-            "r_elasticsearch_server_url": {
-                "label": "Server URL",
-                "info": "e.g., http://localhost:9200/",
-                "value": "REPLACE_ELASTIC_SEARCH_SERVER_URL",
+            "r_elasticsearch_server_host": {
+                "label": "Server Host",
+                "info": "e.g., localhost",
+                "value": "REPLACE_ELASTIC_SEARCH_SERVER_HOST",
+                "is_public": false
+            },
+            "r_elasticsearch_server_port": {
+                "label": "Server Port",
+                "info": "e.g., 9200",
+                "value": "REPLACE_ELASTIC_SEARCH_SERVER_PORT",
                 "is_public": false
             },
             "r_elasticsearch_index_name": {
@@ -361,32 +396,10 @@
         "settings": false,
         "assets": {
             "css": [
-                "apps/r_hide_card_id/css/app.css"
+                "apps/r_hide_card_id/css/default.cache.css"
             ],
             "js": [
-                "apps/r_hide_card_id/js/app.js"
-            ]
-        },
-        "enabled": false
-    },
-    "r_card_template": {
-        "id": "r_card_template",
-        "uid": "",
-        "name": "Card Template",
-        "description": "Introduced another productive feature that helps you save time by eliminating repetitive manual works. Card template allows users to create templates with necessary details like members,labels and description. Later it allows you reuse the same information for other cards simply by selecting the predefined template.",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "http://restya.com/",
-        "version": "0.1.1",
-        "price": "Paid",
-        "icon": "apps/r_card_template/img/r_card_template.png",
-        "settings_description": "",
-        "settings": false,
-        "assets": {
-            "css": [
-            ],
-            "js": [
-                "apps/r_card_template/js/app.js"
+                "apps/r_hide_card_id/js/default.cache.js"
             ]
         },
         "enabled": false
@@ -466,15 +479,9 @@
         "icon": "apps/r_ldap_login/img/r-ldap-login.png",
         "settings_description": "",
         "settings": {
-            "r_ldap_login_enabled": {
-                "label": "LDAP Enabled",
-                "info": "",
-                "value": "REPLACE_LDAP_ENABLED",
-                "is_public": true
-            },
             "r_ldap_login_enable_ssl": {
                 "label": "Enable SSL Connectivity ",
-                "info": "",
+                "info": "e.g., true/false",
                 "value": "REPLACE_LDAP_ENABLE_SSL_CONNECTIVITY",
                 "is_public": false
             },
@@ -508,6 +515,12 @@
                 "value": "REPLACE_LDAP_ACCOUNT_FILTER",
                 "is_public": false
             },
+            "r_ldap_login_advanced_filter": {
+                "label": "Advanced Filter",
+                "info": "Enter a valid advanced filter like \"(objectClass=user)(memberOf=CN=foo,OU=groups,dc=bar,dc=baz)\", to filter user, groups and etc...",
+                "value": "REPLACE_LDAP_ADVANCED_FILTER",
+                "is_public": false
+            },
             "r_ldap_login_bind_dn": {
                 "label": "Bind DN",
                 "info": "Enter a valid user account/DN to pre-bind with if your LDAP server does not allow anonymous profile searches, or requires a user with specific privileges to search.",
@@ -516,21 +529,10 @@
             },
             "r_ldap_login_bind_password": {
                 "label": "Bind password",
-                "info": "Enter a password for the above Bind DN.SubmitSubmit",
+                "info": "Enter a password for the above Bind DN.",
                 "value": "REPLACE_LDAP_BIND_PASSWORD",
+                "is_encrypted": true,
                 "is_public": false
-            },
-            "r_ldap_login_root_dn": {
-                "label": "ROOT DN",
-                "info": "",
-                "value": "REPLACE_LDAP_ROOT_DN",
-                "is_public": false
-            },
-            "r_ldap_login_uid_field": {
-                "label": "UID FIELD",
-                "info": "",
-                "value": "REPLACE_LDAP_UID_FIELD",
-                "is_public": true
             }
         },
         "assets": {
@@ -539,7 +541,8 @@
                 "apps/r_ldap_login/js/app.js"
             ]
         },
-        "enabled": true
+        "enabled": true,
+        "limit": 100
     },
     "r_seo_checklist": {
         "id": "r_seo_checklist",
@@ -613,7 +616,7 @@
         "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_support_app/img/r-support-app.png",
-        "settings_description": "",
+        "settings_description": "For more details about support desk, please click <a href='http://restya.com/board/apps/r_support_app' target='_blank'>here</a>",
         "settings": {
             "r_support_app_board_id": {
                 "label": "Board ID",
