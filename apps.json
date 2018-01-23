@@ -381,6 +381,25 @@
         },
         "enabled": true
     },
+    "r_gmail_addon": {
+        "id": "r_gmail_addon",
+        "uid": "",
+        "name": "Gmail Add-on",
+        "description": "Easily create cards from email. Publicly accessible Restyaboard instance.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_gmail_addon/img/r-gmail-addon.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": []
+        },
+        "enabled": true
+    },
     "r_hide_card_id": {
         "id": "r_hide_card_id",
         "uid": "",
