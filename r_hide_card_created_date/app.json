@@ -1,0 +1,23 @@
+{
+	"id": "r_hide_card_created_date",
+	"uuid": "",
+	"name": "Hide Card Created Date",
+	"description": "Hide Card Created Date from cards listing as in Trello",
+	"author": "Restya",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price": "Free",
+	"icon": "apps/r_hide_card_created_date/img/r-hide-card-created-date.png",
+	"settings_description": "",
+	"settings": false,
+	"assets": {
+		"css": [
+			"apps/r_hide_card_created_date/css/app.css"
+		],
+		"js": [
+			"apps/r_hide_card_created_date/js/app.js"
+		]
+	},
+	"enabled": true
+}
