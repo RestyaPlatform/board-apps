@@ -1,15 +1,6 @@
 (function() {
     var $dc = $(document);
     $dc.ready(function() {
-        $('body').bind('cardRendered', insertCreatedDateSingle);
-
-        function insertCreatedDateSingle(e, card_id, current_card) {
-            $(".js-board-list").each(function() {
-                if ($(this).find('.js-sort-list-response >li.js-createdDate').length === 0) {
-                    $(this).find('.js-sort-list-response').append('<li class=" js-createdDate"><a title="' + i18next.t('Created Date') + '" href="#" class="js-sort-by" data-sort-by="created_date">' + i18next.t('Created Date') + '</a></li>');
-                }
-            });
-        }
 
         localforage.getItem('apps', function(err, value) {
             var local_storage_apps = JSON.parse(value);
