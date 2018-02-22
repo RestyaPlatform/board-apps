@@ -1,7 +1,6 @@
 (function() {
     var $dc = $(document);
     $dc.ready(function() {
-        $('body').bind('cardRendered', insertCreatedDateSingle);
 
         localforage.getItem('apps', function(err, value) {
             var local_storage_apps = JSON.parse(value);
