@@ -427,7 +427,7 @@
         "id": "r_hide_card_created_date",
         "uid": "",
         "name": "Hide Card Created Date",
-        "description": "Hide Card Created Date from cards listing as in Trello",
+        "description": "Hide Card Created Date from cards listing",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
