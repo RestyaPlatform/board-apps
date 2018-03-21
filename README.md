@@ -21,6 +21,7 @@
 |[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v2/r_togetherjs-v0.1.2.zip)|
 |Website QA Checklist|Adds ready to use checklist template for performing QA on a website.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_website_qa_checklist)|
 |Zapier|Zapier is IFTTT like workflow automation service that enables integration with over 500 other websites. This app enables connecting to Zapier.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_zapier)|
+|[LabelStyle](https://github.com/ik9999/r_labelstyle)|Shows labels with names for cards in board view|[ik9999](https://github.com/ik9999) |0.1.0|Free|[Visit](https://github.com/ik9999/r_labelstyle)|
 
 ### Steps to create new app
 - Create a new folder by name of your app name in apps folder.
