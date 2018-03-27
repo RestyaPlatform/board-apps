@@ -508,6 +508,36 @@
         },
         "enabled": true
     },
+    "r_label_style": {
+        "id": "r_labelstyle",
+        "uid": "",
+        "name": "LabelStyle",
+        "description": "LabelStyle",
+        "author": "ik9999",
+        "author_email": "q@eqw.me",
+        "author_url": "https://github.com/ik9999",
+        "version": "0.1.0",
+        "price": "Free",
+        "icon": "https://raw.githubusercontent.com/ik9999/r_labelstyle/master/img/icon128.png",
+        "settings_description": "Label Styling Plugin for Restyaboard",
+        "settings": {
+            "r_labelstyle_labelstyle": {
+                "label": "Label style",
+                "info": "'default' or 'tags'",
+                "value": "default",
+                "is_public": true
+            }
+        },
+        "assets": {
+            "css": [
+                "https://raw.githubusercontent.com/ik9999/r_labelstyle/master/css/app.css"
+            ],
+            "js": [
+                "https://raw.githubusercontent.com/ik9999/r_labelstyle/master/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_ldap_login": {
         "id": "r_ldap_login",
         "uid": "",
