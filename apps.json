@@ -508,7 +508,7 @@
         },
         "enabled": true
     },
-    "r_label_style": {
+    "r_labelstyle": {
         "id": "r_labelstyle",
         "uid": "",
         "name": "LabelStyle",
