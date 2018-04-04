@@ -1,7 +1,7 @@
 {
     "r_amazon_echo": {
         "id": "r_amazon_echo",
-        "uid": "",
+        "uuid": "",
         "name": "Amazon Echo",
         "description": "Access your Restyaboard notifications through Amazon Echo. This Restyaboard Alexa Skill is developed using AWS Lambda. You will need to login to Restyaboard in Amazon Alexa Android App.",
         "author": "Restya",
@@ -22,7 +22,7 @@
     },
     "r_auto_archive_expired_cards": {
         "id": "r_auto_archive_expired_cards",
-        "uid": "",
+        "uuid": "",
         "name": "Auto Archive Expired Cards",
         "description": "Enables automated archiving for expired cards.",
         "author": "Restya",
@@ -45,7 +45,7 @@
     },
     "r_canned_response": {
         "id": "r_canned_response",
-        "uid": "",
+        "uuid": "",
         "name": "Canned Response",
         "description": "Adds option to setup ready-made text comments in cards.",
         "author": "Harry Reid",
@@ -66,9 +66,9 @@
     },
     "r_card_template": {
         "id": "r_card_template",
-        "uid": "",
+        "uuid": "",
         "name": "Card Template",
-        "description": "Added the feature 'Card template app' which allows the users to create a template with necessary details like  members,labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.",
+        "description": "Added the feature 'Card template app' which allows the users to create a template with necessary details like members, labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
@@ -87,13 +87,13 @@
     },
     "r_chart": {
         "id": "r_chart",
-        "uid": "",
+        "uuid": "",
         "name": "Dashboard Charts",
         "description": "Adds charts with summary in dashboard, for easy filtering of Today Todos, etc.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_chart/img/r-chart.png",
         "settings_description": "Different people may use different naming for Todo, Doing and Done. So, it is usually difficult to identify what are actually in Todo, Doing and Done. Below, you can configure how the lists have to be recognized. For a list, you can configure its indicator icon and its color too.",
@@ -101,7 +101,7 @@
             "r_chart_todo": {
                 "label": "Todo",
                 "info": "",
-                "value": "To do, Todo, New, Probable sale",
+                "value": "To do, Todo, New, Probable sale, Wishlist, 36, 36.0.1",
                 "is_public": true
             },
             "r_chart_todo_icon": {
@@ -119,7 +119,7 @@
             "r_chart_doing": {
                 "label": "Doing",
                 "info": "",
-                "value": "Doing, Feedback, Confirmed, Assigned, Pending sale",
+                "value": "Doing, Feedback, Confirmed, Assigned, Pending sale, Active, 37, 37.0.1, 37.0.2",
                 "is_public": true
             },
             "r_chart_doing_icon": {
@@ -137,7 +137,7 @@
             "r_chart_done": {
                 "label": "Done",
                 "info": "",
-                "value": "Done, Resolved, Closed, Completed sale",
+                "value": "Done, Resolved, Closed, Completed sale, Acquired, Dead",
                 "is_public": true
             },
             "r_chart_done_icon": {
@@ -165,13 +165,13 @@
     },
     "r_chat": {
         "id": "r_chat",
-        "uid": "",
+        "uuid": "",
         "name": "Chat",
         "description": "Enables integration with XMPP based chat.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_chat/img/r-chat.png",
         "settings_description": "Server URL: Provide server URL, e.g., http://localhost:9200/<br/>Index Name: Used to prefix index names to avoid potential collisions. e.g., restya",
@@ -242,40 +242,9 @@
         },
         "enabled": false
     },
-    "r_custom_field":  {
-        "id": "r_custom_field",
-        "uid": "",
-        "name": "Custom Field",
-        "description": "Adds Custom Field for handling projects.",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "",
-        "version": "0.1.1",
-        "price": "Paid",
-        "icon": "apps/r_custom_fields/img/r-custom_field.png",
-        "settings_description": "",
-        "settings_links":[
-            {
-                "name":"Settings",
-                "icon": "icon-cog",
-                "url":"#/apps/r_custom_fields/manage"
-            }
-        ],
-        "settings": false,
-        "assets": {
-            "css": [],
-            "js": [
-                "apps/r_custom_fields/js/app.js"
-            ],
-            "html": [
-                "apps/r_custom_fields/app.html"
-            ]
-        },
-        "enabled": true
-    },
     "r_cssilize": {
         "id": "r_cssilize",
-        "uid": "",
+        "uuid": "",
         "name": "Theming/CSSilize",
         "description": "CSSilize, theming partner",
         "author": "Restya",
@@ -287,24 +256,55 @@
         "settings_description": "",
         "settings": false,
         "assets": {
+            "css": [],
+            "js": [
+                "apps/r_cssilize/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_custom_fields": {
+        "id": "r_custom_field",
+        "uuid": "",
+        "name": "Custom Field",
+        "description": "Adds Custom Field for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.2",
+        "price": "Paid",
+        "icon": "apps/r_custom_fields/img/r-custom_field.png",
+        "settings_description": "",
+        "settings_links": [
+            {
+                "name": "Settings",
+                "icon": "icon-cog",
+                "url": "#/apps/r_custom_fields/manage"
+            }
+        ],
+        "settings": false,
+        "assets": {
             "css": [
-                "apps/r_cssilize/css/default.cache.css"
+                "apps/r_custom_fields/css/app.css"
             ],
             "js": [
-                "apps/r_cssilize/js/default.cache.js"
+                "apps/r_custom_fields/js/app.js"
+            ],
+            "html": [
+                "apps/r_custom_fields/app.html"
             ]
         },
         "enabled": true
     },
     "r_elasticsearch": {
         "id": "r_elasticsearch",
-        "uid": "",
+        "uuid": "",
         "name": "ElasticSearch",
         "description": "Adds easy filtering of cards. Useful when you have multiple boards",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_elasticsearch/img/r-elasticsearch.png",
         "settings_description": "",
@@ -329,7 +329,9 @@
             }
         },
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_elasticsearch/css/app.css"
+            ],
             "js": [
                 "apps/r_elasticsearch/js/app.js"
             ]
@@ -338,13 +340,13 @@
     },
     "r_estimated_time": {
         "id": "r_estimated_time",
-        "uid": "",
+        "uuid": "",
         "name": "Estimated Time Tracking",
         "description": "Adds estimated time tracking option for each cards.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_estimated_time/img/r-estimated-time.png",
         "settings_description": "",
@@ -361,13 +363,13 @@
     },
     "r_gantt_view": {
         "id": "r_gantt_view",
-        "uid": "",
+        "uuid": "",
         "name": "Gantt View",
         "description": "Adds Gantt view for handling projects.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_gantt_view/img/r-gantt-view.png",
         "settings_description": "",
@@ -381,28 +383,32 @@
         },
         "enabled": true
     },
-    "r_gmail_addon": {
-        "id": "r_gmail_addon",
-        "uid": "",
-        "name": "Gmail Add-on",
-        "description": "Easily create cards from email. Publicly accessible Restyaboard instance.",
+    "r_hide_card_created_date": {
+        "id": "r_hide_card_created_date",
+        "uuid": "",
+        "name": "Hide Card Created Date",
+        "description": "Hide Card Created Date from cards listing as in Trello",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
-        "price": "Paid",
-        "icon": "apps/r_gmail_addon/img/r-gmail-addon.png",
+        "version": "0.1.2",
+        "price": "Free",
+        "icon": "apps/r_hide_card_created_date/img/r-hide-card-created-date.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
-            "js": []
+            "css": [
+                "apps/r_hide_card_created_date/css/app.css"
+            ],
+            "js": [
+                "apps/r_hide_card_created_date/js/app.js"
+            ]
         },
         "enabled": true
     },
     "r_hide_card_id": {
         "id": "r_hide_card_id",
-        "uid": "",
+        "uuid": "",
         "name": "Hide Card ID",
         "description": "Hide Card ID from cards listing as in Trello",
         "author": "Restya",
@@ -415,40 +421,17 @@
         "settings": false,
         "assets": {
             "css": [
-                "apps/r_hide_card_id/css/default.cache.css"
+                "apps/r_hide_card_id/css/app.css"
             ],
             "js": [
-                "apps/r_hide_card_id/js/default.cache.js"
+                "apps/r_hide_card_id/js/app.js"
             ]
         },
-        "enabled": false
-    },
-    "r_hide_card_created_date": {
-        "id": "r_hide_card_created_date",
-        "uid": "",
-        "name": "Hide Card Created Date",
-        "description": "Hide Card Created Date from cards listing",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "http://restya.com/",
-        "version": "0.1.1",
-        "price": "Free",
-        "icon": "apps/r_hide_card_created_date/img/r-hide-card-created-date.png",
-        "settings_description": "",
-        "settings": false,
-        "assets": {
-            "css": [
-                "apps/r_hide_card_created_date/css/default.cache.css"
-            ],
-            "js": [
-                "apps/r_hide_card_created_date/js/default.cache.js"
-            ]
-        },
-        "enabled": false
+        "enabled": true
     },
     "r_import_github": {
         "id": "r_import_github",
-        "uid": "",
+        "uuid": "",
         "name": "Import from GitHub",
         "description": "Enables importing projects and tickets from GitHub",
         "author": "Restya",
@@ -489,13 +472,13 @@
     },
     "r_instant_add_card": {
         "id": "r_instant_add_card",
-        "uid": "",
+        "uuid": "",
         "name": "Instant Add Card",
         "description": "Allows users to add card quickly across boards--without having to open boards.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_instant_add_card/img/r-instant-add-card.png",
         "settings_description": "",
@@ -508,105 +491,20 @@
         },
         "enabled": true
     },
-    "r_labelstyle": {
-        "id": "r_labelstyle",
-        "uid": "",
-        "name": "LabelStyle",
-        "description": "LabelStyle",
-        "author": "ik9999",
-        "author_email": "q@eqw.me",
-        "author_url": "https://github.com/ik9999",
-        "version": "0.1.0",
-        "price": "Free",
-        "icon": "https://raw.githubusercontent.com/ik9999/r_labelstyle/master/img/icon128.png",
-        "settings_description": "Label Styling Plugin for Restyaboard",
-        "settings": {
-            "r_labelstyle_labelstyle": {
-                "label": "Label style",
-                "info": "'default' or 'tags'",
-                "value": "default",
-                "is_public": true
-            }
-        },
-        "assets": {
-            "css": [
-                "https://raw.githubusercontent.com/ik9999/r_labelstyle/master/css/app.css"
-            ],
-            "js": [
-                "https://raw.githubusercontent.com/ik9999/r_labelstyle/master/js/app.js"
-            ]
-        },
-        "enabled": true
-    },
     "r_ldap_login": {
         "id": "r_ldap_login",
-        "uid": "",
+        "uuid": "",
         "name": "LDAP",
         "description": "Enables users to login using their LDAP accounts.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_ldap_login/img/r-ldap-login.png",
         "settings_description": "",
-        "settings": {
-            "r_ldap_login_enable_ssl": {
-                "label": "Enable SSL Connectivity ",
-                "info": "e.g., true/false",
-                "value": "REPLACE_LDAP_ENABLE_SSL_CONNECTIVITY",
-                "is_public": false
-            },
-            "r_ldap_login_server": {
-                "label": "Server",
-                "info": "The DNS name or IP address of the server (e.g., dc.domain.local)",
-                "value": "REPLACE_LDAP_SERVER",
-                "is_public": false
-            },
-            "r_ldap_login_port": {
-                "label": "Port",
-                "info": "Server port (e.g., 389 for LDAP and 636 for LDAP using SSL)",
-                "value": "REPLACE_LDAP_PORT",
-                "is_public": false
-            },
-            "r_ldap_login_protocol_version": {
-                "label": "Protocol Version",
-                "info": "Difference between LDAPv3 and LDAPv2 https://msdn.microsoft.com/en-us/library/windows/desktop/aa366099%28v=vs.85%29.aspx (e.g., 3)",
-                "value": "REPLACE_LDAP_PROTOCOL_VERSION",
-                "is_public": false
-            },
-            "r_ldap_login_base_dn": {
-                "label": "Base DN",
-                "info": "This is your search base for LDAP queries. This should be at least your domain root, (e.g., dc=domain,dc=local) You can define this as a Organizational Unit if you want to narrow down the search base (e.g., ou=team,ou=company,dc=domain,dc=local)",
-                "value": "REPLACE_LDAP_BASE_DN",
-                "is_public": false
-            },
-            "r_ldap_login_account_filter": {
-                "label": "Account Filter",
-                "info": "You can use different field from the username here. For pre-windows 2000 style login, use sAMAccountName and for a UPN style login use userPrincipalName.",
-                "value": "REPLACE_LDAP_ACCOUNT_FILTER",
-                "is_public": false
-            },
-            "r_ldap_login_advanced_filter": {
-                "label": "Advanced Filter",
-                "info": "Enter a valid advanced filter like \"(objectClass=user)(memberOf=CN=foo,OU=groups,dc=bar,dc=baz)\", to filter user, groups and etc...",
-                "value": "REPLACE_LDAP_ADVANCED_FILTER",
-                "is_public": false
-            },
-            "r_ldap_login_bind_dn": {
-                "label": "Bind DN",
-                "info": "Enter a valid user account/DN to pre-bind with if your LDAP server does not allow anonymous profile searches, or requires a user with specific privileges to search.",
-                "value": "REPLACE_LDAP_BIND_DN",
-                "is_public": false
-            },
-            "r_ldap_login_bind_password": {
-                "label": "Bind password",
-                "info": "Enter a password for the above Bind DN.",
-                "value": "REPLACE_LDAP_BIND_PASSWORD",
-                "is_encrypted": true,
-                "is_public": false
-            }
-        },
+        "settings_from_db": "'R_LDAP_LOGIN_ENABLE_SSL','R_LDAP_LOGIN_SERVER','R_LDAP_LOGIN_PORT','R_LDAP_LOGIN_PROTOCOL_VERSION','R_LDAP_LOGIN_BASE_DN','R_LDAP_LOGIN_ACCOUNT_FILTER','R_LDAP_LOGIN_ADVANCED_FILTER','R_LDAP_LOGIN_BIND_DN','R_LDAP_LOGIN_BIND_PASSWORD'",
+        "settings": [],
         "assets": {
             "css": [],
             "js": [
@@ -618,7 +516,7 @@
     },
     "r_seo_checklist": {
         "id": "r_seo_checklist",
-        "uid": "",
+        "uuid": "",
         "name": "SEO Checklist",
         "description": "Adds ready to use template SEO checklist template for performing search engine optimization.",
         "author": "Restya",
@@ -639,7 +537,7 @@
     },
     "r_slack": {
         "id": "r_slack",
-        "uid": "",
+        "uuid": "",
         "name": "Slack",
         "description": "Enables posting to Slack from Restyaboard",
         "author": "Restya",
@@ -679,7 +577,7 @@
     },
     "r_support_app": {
         "id": "r_support_app",
-        "uid": "",
+        "uuid": "",
         "name": "Support Desk",
         "description": "Transforms Restyaboard into an easy support desk software. Comes with support widget that captures support requests from users.",
         "author": "Restya",
@@ -714,7 +612,7 @@
     },
     "r_togetherjs": {
         "id": "r_togetherjs",
-        "uid": "",
+        "uuid": "",
         "name": "Collaborate/TogetherJS",
         "description": "Collaborate using Mozilla's TogetherJS",
         "author": "Restya",
@@ -726,9 +624,10 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_togetherjs/css/app.css"
+            ],
             "js": [
-                "https://togetherjs.com/togetherjs-min.js",
                 "apps/r_togetherjs/js/app.js"
             ]
         },
@@ -736,7 +635,7 @@
     },
     "r_website_qa_checklist": {
         "id": "r_website_qa_checklist",
-        "uid": "",
+        "uuid": "",
         "name": "Website QA Checklist",
         "description": "Adds ready to use checklist template for performing QA on a website.",
         "author": "Restya",
@@ -757,7 +656,7 @@
     },
     "r_zapier": {
         "id": "r_zapier",
-        "uid": "",
+        "uuid": "",
         "name": "Zapier",
         "description": "Zapier is IFTTT like workflow automation service that enables integration with over 500 other websites. This app enables connecting to Zapier.",
         "author": "Restya",
