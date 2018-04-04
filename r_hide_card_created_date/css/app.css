@@ -1,0 +1,12 @@
+#js-board-lists .card-created-date {
+	display:none !important;
+}
+#js-board-lists .js-createdDate {
+	display:none !important;
+}
+#js-board-lists .list-moved-date {
+	display:none !important;
+}
+#js-board-lists .js-listMovedDate {
+	display:none !important;
+}
