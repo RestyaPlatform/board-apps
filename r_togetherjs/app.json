@@ -1,6 +1,6 @@
 {
 	"id": "r_togetherjs",
-	"uid": "",
+	"uuid": "",
 	"name": "Collaborate/TogetherJS",
 	"description": "Collaborate using Mozilla's TogetherJS",
 	"author": "Restya",
@@ -13,9 +13,9 @@
 	"settings": false,
 	"assets": {
 		"css": [
+			"apps/r_togetherjs/css/app.css"
 		],
 		"js": [
-			"https://togetherjs.com/togetherjs-min.js",
 			"apps/r_togetherjs/js/app.js"
 		]
 	},

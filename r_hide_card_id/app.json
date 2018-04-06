@@ -1,6 +1,6 @@
 {
 	"id": "r_hide_card_id",
-	"uid": "",
+	"uuid": "",
 	"name": "Hide Card ID",
 	"description": "Hide Card ID from cards listing as in Trello",
 	"author": "Restya",
@@ -19,5 +19,5 @@
 			"apps/r_hide_card_id/js/app.js"
 		]
 	},
-	"enabled": false
+	"enabled": true
 }

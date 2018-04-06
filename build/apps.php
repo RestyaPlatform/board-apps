@@ -22,7 +22,8 @@ function _traverse_directory($dir, $dir_count)
     closedir($handle);
     return false;
 }
-_traverse_directory('/usr/share/nginx/html/RestyaPlatform/board-apps', 0);
+$app_path = dirname(dirname(__FILE__));
+_traverse_directory($app_path, 0);
 $readme = '';
 asort($files);
 foreach ($files as $file) {

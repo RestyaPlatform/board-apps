@@ -1,6 +1,6 @@
 {
 	"id": "r_cssilize",
-	"uid": "",
+	"uuid": "",
 	"name": "Theming/CSSilize",
 	"description": "CSSilize, theming partner",
 	"author": "Restya",
@@ -13,10 +13,9 @@
 	"settings": false,
 	"assets": {
 		"css": [
-			"apps/r_cssilize/css/default.cache.css"
 		],
 		"js": [
-			"apps/r_cssilize/js/default.cache.js"
+			"apps/r_cssilize/js/app.js"
 		]
 	},
 	"enabled": true

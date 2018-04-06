@@ -5,20 +5,24 @@
 |Amazon Echo|Access your Restyaboard notifications through Amazon Echo. This Restyaboard Alexa Skill is developed using AWS Lambda. You will need to login to Restyaboard in Amazon Alexa Android App.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_amazon_echo)|
 |Auto Archive Expired Cards|Enables automated archiving for expired cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_auto_archive_expired_cards)|
 |Canned Response|Adds option to setup ready-made text comments in cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_canned_response)|
-|Dashboard Charts|Adds charts with summary in dashboard, for easy filtering of Today Todos, etc.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_chart)|
-|Chat|Enables integration with XMPP based chat.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_chat)|
-|[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v2/r_cssilize-v0.1.2.zip)|
-|ElasticSearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
-|Estimated Time Tracking|Adds estimated time tracking option for each cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_estimated_time)|
-|Gantt View|Adds Gantt view for handling projects.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_gantt_view)|
-|[Hide Card ID](r_hide_card_id)|Hide Card ID from cards listing as in Trello|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v2/r_hide_card_id-v0.1.2.zip)|
+|Card Template|Added the feature 'Card template app' which allows the users to create a template with necessary details like members, labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_card_template)|
+|Dashboard Charts|Adds charts with summary in dashboard, for easy filtering of Today Todos, etc.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_chart)|
+|Chat|Enables integration with XMPP based chat.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_chat)|
+|[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.2.zip)|
+|Custom Field|Adds Custom Field for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_custom_field)|
+|ElasticSearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
+|Estimated Time Tracking|Adds estimated time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_estimated_time)|
+|Gantt View|Adds Gantt view for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_gantt_view)|
+|[Hide Card Additional Informations](r_hide_card_additional_informations)|To hide the card additional informations like Card created date, Card created user and List moved date|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_additional_informations-v0.1.1.zip)|
+|[Hide Card ID](r_hide_card_id)|Hide Card ID from cards listing as in Trello|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_id-v0.1.2.zip)|
 |Import from GitHub|Enables importing projects and tickets from GitHub|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_import_github)|
-|Instant Add Card|Allows users to add card quickly across boards--without having to open boards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_instant_add_card)|
-|LDAP|Enables users to login using their LDAP accounts.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_ldap_login)|
+|Instant Add Card|Allows users to add card quickly across boards--without having to open boards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_instant_add_card)|
+|Helper app for the Kanban Printer|Allows users to print list name and card title on sticky sheets.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_kanban_printer)|
+|LDAP|Enables users to login using their LDAP accounts.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_ldap_login)|
 |SEO Checklist|Adds ready to use template SEO checklist template for performing search engine optimization.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_seo_checklist)|
 |Slack|Enables posting to Slack from Restyaboard|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_slack)|
 |Support Desk|Transforms Restyaboard into an easy support desk software. Comes with support widget that captures support requests from users.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_support_app)|
-|[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v2/r_togetherjs-v0.1.2.zip)|
+|[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.2.zip)|
 |Website QA Checklist|Adds ready to use checklist template for performing QA on a website.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_website_qa_checklist)|
 |Zapier|Zapier is IFTTT like workflow automation service that enables integration with over 500 other websites. This app enables connecting to Zapier.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_zapier)|
 |[LabelStyle](https://github.com/ik9999/r_labelstyle)|Shows labels with names for cards in board view|[ik9999](https://github.com/ik9999) |0.1.0|Free|[Visit](https://github.com/ik9999/r_labelstyle)|
