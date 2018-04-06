@@ -383,25 +383,42 @@
         },
         "enabled": true
     },
-    "r_hide_card_created_date": {
-        "id": "r_hide_card_created_date",
+    "r_hide_card_additional_informations": {
+        "id": "r_hide_card_additional_informations",
         "uuid": "",
-        "name": "Hide Card Created Date",
-        "description": "Hide Card Created Date from cards listing as in Trello",
+        "name": "Hide Card Additional Informations",
+        "description": "To hide the card additional informations like Card created date, Card created user and List moved date",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.1",
         "price": "Free",
-        "icon": "apps/r_hide_card_created_date/img/r-hide-card-created-date.png",
-        "settings_description": "",
-        "settings": false,
+        "icon": "apps/r_hide_card_additional_informations/img/r-hide-card-additional-informations.png",
+        "settings_description": "To hide the card additional informations like Card created date, Card created user and List moved date",
+        "settings": {
+            "hide_card_created_date": {
+                "label": "Hide card created date",
+                "info": "e.g., true/false",
+                "value": "true",
+                "is_public": true
+            },
+            "hide_card_created_user": {
+                "label": "Hide card created user",
+                "info": "e.g., true/false",
+                "value": "true",
+                "is_public": true
+            },
+            "hide_list_moved_date": {
+                "label": "Hide list moved date",
+                "info": "e.g., true/false",
+                "value": "true",
+                "is_public": true
+            }
+        },
         "assets": {
-            "css": [
-                "apps/r_hide_card_created_date/css/app.css"
-            ],
+            "css": [],
             "js": [
-                "apps/r_hide_card_created_date/js/app.js"
+                "apps/r_hide_card_additional_informations/js/app.js"
             ]
         },
         "enabled": true
@@ -487,6 +504,56 @@
             "css": [],
             "js": [
                 "apps/r_instant_add_card/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_kanban_printer": {
+        "id": "r_kanban_printer",
+        "uid": "",
+        "name": "Helper app for the Kanban Printer",
+        "description": "Allows users to print list name and card title on sticky sheets.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_kanban_printer/img/r-kanban-printer.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_kanban_printer/css/app.css"
+            ]
+        },
+        "enabled": true
+    },
+    "r_labelstyle": {
+        "id": "r_labelstyle",
+        "uid": "",
+        "name": "LabelStyle",
+        "description": "LabelStyle",
+        "author": "ik9999",
+        "author_email": "q@eqw.me",
+        "author_url": "https://github.com/ik9999",
+        "version": "0.1.0",
+        "price": "Free",
+        "icon": "https://raw.githubusercontent.com/ik9999/r_labelstyle/master/img/icon128.png",
+        "settings_description": "Label Styling Plugin for Restyaboard",
+        "settings": {
+            "r_labelstyle_labelstyle": {
+                "label": "Label style",
+                "info": "'default' or 'tags'",
+                "value": "default",
+                "is_public": true
+            }
+        },
+        "assets": {
+            "css": [
+                "https://raw.githubusercontent.com/ik9999/r_labelstyle/master/css/app.css"
+            ],
+            "js": [
+                "https://raw.githubusercontent.com/ik9999/r_labelstyle/master/js/app.js"
             ]
         },
         "enabled": true

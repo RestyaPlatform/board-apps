@@ -13,10 +13,11 @@
 |ElasticSearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
 |Estimated Time Tracking|Adds estimated time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_estimated_time)|
 |Gantt View|Adds Gantt view for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_gantt_view)|
-|[Hide Card Created Date](r_hide_card_created_date)|Hide Card Created Date from cards listing as in Trello|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_created_date-v0.1.2.zip)|
+|[Hide Card Additional Informations](r_hide_card_additional_informations)|To hide the card additional informations like Card created date, Card created user and List moved date|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_additional_informations-v0.1.1.zip)|
 |[Hide Card ID](r_hide_card_id)|Hide Card ID from cards listing as in Trello|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_id-v0.1.2.zip)|
 |Import from GitHub|Enables importing projects and tickets from GitHub|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_import_github)|
 |Instant Add Card|Allows users to add card quickly across boards--without having to open boards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_instant_add_card)|
+|Helper app for the Kanban Printer|Allows users to print list name and card title on sticky sheets.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_kanban_printer)|
 |LDAP|Enables users to login using their LDAP accounts.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_ldap_login)|
 |SEO Checklist|Adds ready to use template SEO checklist template for performing search engine optimization.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_seo_checklist)|
 |Slack|Enables posting to Slack from Restyaboard|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_slack)|
