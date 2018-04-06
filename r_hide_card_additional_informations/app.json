@@ -14,19 +14,19 @@
         "hide_card_created_date": {
             "label": "Hide card created date",
             "info": "e.g., true/false",
-            "value": "false",
+            "value": "true",
             "is_public": true
         },
         "hide_card_created_user": {
             "label": "Hide card created user",
             "info": "e.g., true/false",
-            "value": "false",
+            "value": "true",
             "is_public": true
         },
         "hide_list_moved_date": {
             "label": "Hide list moved date",
             "info": "e.g., true/false",
-            "value": "false",
+            "value": "true",
             "is_public": true
         }
     },
