@@ -361,6 +361,27 @@
         },
         "enabled": true
     },
+    "r_eu_gdpr": {
+        "id": "r_eu_gdpr",
+        "uuid": "",
+        "name": "General Data Protection Regulation",
+        "description": "About data protection and privacy for all individuals",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Free",
+        "icon": "apps/r_eu_gdpr/img/r-eu-gdpr.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_eu_gdpr/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_gantt_view": {
         "id": "r_gantt_view",
         "uuid": "",
