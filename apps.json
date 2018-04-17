@@ -264,7 +264,7 @@
         "enabled": true
     },
     "r_custom_fields": {
-        "id": "r_custom_field",
+        "id": "r_custom_fields",
         "uuid": "",
         "name": "Custom Field",
         "description": "Adds Custom Field for handling projects.",
