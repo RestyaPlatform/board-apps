@@ -404,6 +404,25 @@
         },
         "enabled": true
     },
+    "r_gmail_addon": {
+        "id": "r_gmail_addon",
+        "uuid": "",
+        "name": "Gmail Add-on",
+        "description": "Publicly accessible Restyaboard instance.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_gmail_addon/img/r-gmail-addon.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": []
+        },
+        "enabled": true
+    },
     "r_hide_card_additional_informations": {
         "id": "r_hide_card_additional_informations",
         "uuid": "",
