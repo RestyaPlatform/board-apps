@@ -14,6 +14,7 @@
 |Estimated Time Tracking|Adds estimated time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_estimated_time)|
 |[European Union General Data Protection Regulation](r_eu_gdpr)|About data protection and privacy for all individuals within the European Union|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_eu_gdpr-v0.1.1.zip)|
 |Gantt View|Adds Gantt view for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_gantt_view)|
+|Gmail Add-on|Publicly accessible Restyaboard instance.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_gmail_addon)|
 |[Hide Card Additional Informations](r_hide_card_additional_informations)|To hide the card additional informations like Card created date, Card created user and List moved date|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_additional_informations-v0.1.1.zip)|
 |[Hide Card ID](r_hide_card_id)|Hide Card ID from cards listing as in Trello|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_hide_card_id-v0.1.2.zip)|
 |Import from GitHub|Enables importing projects and tickets from GitHub|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_import_github)|
