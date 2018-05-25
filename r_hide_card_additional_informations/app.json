@@ -2,14 +2,14 @@
 	"id": "r_hide_card_additional_informations",
 	"uuid": "",
 	"name": "Hide Card Additional Informations",
-	"description": "To hide the card additional informations like Card created date, Card created user and List moved date",
+	"description": "To hide the card additional informations like Card created date, Card created user, Card ID and List moved date",
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"price": "Free",
 	"icon": "apps/r_hide_card_additional_informations/img/r-hide-card-additional-informations.png",
-	"settings_description": "To hide the card additional informations like Card created date, Card created user and List moved date",
+	"settings_description": "To hide the card additional informations like Card created date, Card created user, Card ID and List moved date",
 	"settings": {
 		"hide_card_created_date": {
 			"label": "Hide card created date",
@@ -23,6 +23,12 @@
 			"value": "true",
 			"is_public": true
 		},
+		"hide_card_id": {
+			"label": "Hide card ID",
+			"info": "e.g., true/false",
+			"value": "true",
+			"is_public": true
+		},
 		"hide_list_moved_date": {
 			"label": "Hide list moved date",
 			"info": "e.g., true/false",
@@ -31,10 +37,10 @@
 		}
 	},
 	"assets": {
-        "css": [],
-        "js": [
-            "apps/r_hide_card_additional_informations/js/app.js"
-        ]
+		"css": [],
+		"js": [
+			"apps/r_hide_card_additional_informations/js/app.js"
+		]
 	},
 	"enabled": true
 }
