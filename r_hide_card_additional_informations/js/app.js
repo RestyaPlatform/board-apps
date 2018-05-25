@@ -20,6 +20,11 @@
             } else {
                 $('#js-board-lists').find('.card-created-user').css("display", "block");
             }
+            if (hide_card_id === 'true') {
+                $('#js-board-lists').find('.card-id').attr('style','display: none !important');
+            } else {
+                $('#js-board-lists').find('.card-id').css("display", "block");
+            }
             if (hide_list_moved_date === 'true') {
                 $('#js-board-lists').find('.list-moved-date').css("display", "none");
                 $('#js-board-lists').find('.js-listMovedDate').css("display", "none");

@@ -431,7 +431,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Free",
         "icon": "apps/r_hide_card_additional_informations/img/r-hide-card-additional-informations.png",
         "settings_description": "To hide the card additional informations like Card created date, Card created user and List moved date",
@@ -448,6 +448,12 @@
                 "value": "true",
                 "is_public": true
             },
+            "hide_card_id": {
+                "label": "Hide card ID",
+                "info": "e.g., true/false",
+                "value": "true",
+                "is_public": true
+            },
             "hide_list_moved_date": {
                 "label": "Hide list moved date",
                 "info": "e.g., true/false",
@@ -459,29 +465,6 @@
             "css": [],
             "js": [
                 "apps/r_hide_card_additional_informations/js/app.js"
-            ]
-        },
-        "enabled": true
-    },
-    "r_hide_card_id": {
-        "id": "r_hide_card_id",
-        "uuid": "",
-        "name": "Hide Card ID",
-        "description": "Hide Card ID from cards listing as in Trello",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "http://restya.com/",
-        "version": "0.1.2",
-        "price": "Free",
-        "icon": "apps/r_hide_card_id/img/r-hide-card-id.png",
-        "settings_description": "",
-        "settings": false,
-        "assets": {
-            "css": [
-                "apps/r_hide_card_id/css/app.css"
-            ],
-            "js": [
-                "apps/r_hide_card_id/js/app.js"
             ]
         },
         "enabled": true
