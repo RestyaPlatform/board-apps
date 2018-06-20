@@ -14,7 +14,8 @@
 |Estimated Time Tracking|Adds estimated time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_estimated_time)|
 |[European Union General Data Protection Regulation](r_eu_gdpr)|About data protection and privacy for all individuals within the European Union|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_eu_gdpr-v0.1.1.zip)|
 |Gantt View|Adds Gantt view for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_gantt_view)|
-|Gmail Add-on|Publicly accessible Restyaboard instance.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_gmail_addon)|
+|Gmail Add-on|Quickly create new cards on your Restyaboard boards without leaving your inbox.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_gmail_addon)|
+|Hangouts Chat bot|Quickly create new cards and add labels to the cards on your Restyaboard boards from Hangouts Chat.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_hangouts_chat_bot)|
 |[Hide Card Additional Informations](r_hide_card_additional_informations)|To hide the card additional informations like Card created date, Card created user, Card ID and List moved date|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v2/r_hide_card_additional_informations-v0.1.2.zip)|
 |Import from GitHub|Enables importing projects and tickets from GitHub|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_import_github)|
 |Instant Add Card|Allows users to add card quickly across boards--without having to open boards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_instant_add_card)|
@@ -26,7 +27,8 @@
 |[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.2.zip)|
 |Website QA Checklist|Adds ready to use checklist template for performing QA on a website.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_website_qa_checklist)|
 |Zapier|Zapier is IFTTT like workflow automation service that enables integration with over 500 other websites. This app enables connecting to Zapier.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_zapier)|
-|[LabelStyle](https://github.com/ik9999/r_labelstyle)|Shows labels with names for cards in board view|[ik9999](https://github.com/ik9999) |0.1.0|Free|[Visit](https://github.com/ik9999/r_labelstyle)|
+|[LabelStyle](https://github.com/ik9999/r_labelstyle)|Shows labels with names for cards in board view|[ik9999](https://github.com/ik9999) |1.1|Free|[Visit](https://github.com/ik9999/r_labelstyle)|
+|[BoardsBar](https://github.com/ik9999/r_boardsbar)|Starred boards toolbar|[ik9999](https://github.com/ik9999) |1.0|Free|[Visit](https://github.com/ik9999/r_boardsbar)|
 
 ### Steps to create new app
 - Create a new folder by name of your app name in apps folder.

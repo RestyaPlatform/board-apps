@@ -408,13 +408,32 @@
         "id": "r_gmail_addon",
         "uuid": "",
         "name": "Gmail Add-on",
-        "description": "Publicly accessible Restyaboard instance.",
+        "description": "Quickly create new cards on your Restyaboard boards without leaving your inbox.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
         "version": "0.1.1",
         "price": "Paid",
         "icon": "apps/r_gmail_addon/img/r-gmail-addon.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": []
+        },
+        "enabled": true
+    },
+    "r_hangouts_chat_bot": {
+        "id": "r_hangouts_chat_bot",
+        "uuid": "",
+        "name": "Hangouts Chat bot",
+        "description": "Quickly create new cards and add labels to the cards on your Restyaboard boards from Hangouts Chat.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_hangouts_chat_bot/img/r-hangouts-chat-bot.jpg",
         "settings_description": "",
         "settings": false,
         "assets": {
