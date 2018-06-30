@@ -382,6 +382,27 @@
         },
         "enabled": true
     },
+    "r_export_csv": {
+        "id": "r_export_csv",
+        "uuid": "",
+        "name": "Export CSV",
+        "description": "Export Card Details in the form of CSV files",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Free",
+        "icon": "apps/r_export_csv/img/r-export-csv.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_export_csv/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_gantt_view": {
         "id": "r_gantt_view",
         "uuid": "",

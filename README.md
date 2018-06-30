@@ -13,6 +13,7 @@
 |ElasticSearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
 |Estimated Time Tracking|Adds estimated time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_estimated_time)|
 |[European Union General Data Protection Regulation](r_eu_gdpr)|About data protection and privacy for all individuals within the European Union|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_eu_gdpr-v0.1.1.zip)|
+|Export CSV|Export Card Details in the form of CSV files.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_export_csv)|
 |Gantt View|Adds Gantt view for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_gantt_view)|
 |Gmail Add-on|Quickly create new cards on your Restyaboard boards without leaving your inbox.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_gmail_addon)|
 |Hangouts Chat bot|Quickly create new cards and add labels to the cards on your Restyaboard boards from Hangouts Chat.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_hangouts_chat_bot)|
