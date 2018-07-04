@@ -8,6 +8,7 @@
 |Card Template|Added the feature 'Card template app' which allows the users to create a template with necessary details like members, labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_card_template)|
 |Dashboard Charts|Adds charts with summary in dashboard, for easy filtering of Today Todos, etc.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_chart)|
 |Chat|Enables integration with XMPP based chat.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_chat)|
+|Codenames|All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.|[Restya](http://restya.com/) |0.1.1|Free|[Visit](http://restya.com/board/apps/r_codenames)|
 |[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.2.zip)|
 |Custom Field|Adds Custom Field for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_custom_field)|
 |ElasticSearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
