@@ -1,3 +1,3 @@
-### Modern Talking
+### Codenames
 
-- Modern Talking was a German duo consisting of Thomas Anders and Dieter Bohlen
+- All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.
