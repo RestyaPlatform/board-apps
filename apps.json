@@ -465,7 +465,7 @@
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [ ],
             "js": []
         },
         "enabled": true
