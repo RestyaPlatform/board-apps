@@ -11,22 +11,26 @@
 |Codenames|All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.|[Restya](http://restya.com/) |0.1.1|Free|[Visit](http://restya.com/board/apps/r_codenames)|
 |[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.2.zip)|
 |Custom Field|Adds Custom Field for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_custom_field)|
+|Download all attachments in Card|Download all the attachments in the card as zip file.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_download_all_attachments_in_card)|
 |ElasticSearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
 |Estimated Time Tracking|Adds estimated time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_estimated_time)|
 |[European Union General Data Protection Regulation](r_eu_gdpr)|About data protection and privacy for all individuals within the European Union|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_eu_gdpr-v0.1.1.zip)|
 |Export CSV| Export card details from a board as CSV|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_export_csv)|
-|Gantt View|Adds Gantt view for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_gantt_view)|
+|Gantt View|Adds Gantt view for handling projects which Shows tasks, task dependencies, task sequence and their progress in relation to the time assigned.|[Restya](http://restya.com/) |0.1.3|Paid|[Visit](http://restya.com/board/apps/r_gantt_view)|
 |Gmail Add-on|Quickly create new cards on your Restyaboard boards without leaving your inbox.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_gmail_addon)|
 |Hangouts Chat bot|Quickly create new cards and add labels to the cards on your Restyaboard boards from Hangouts Chat.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_hangouts_chat_bot)|
 |[Hide Card Additional Informations](r_hide_card_additional_informations)|To hide the card additional informations like Card created date, Card created user, Card ID and List moved date|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v2/r_hide_card_additional_informations-v0.1.2.zip)|
+|iCal Feed for User|System will provide iCal feed URL for loggedin user to sync with Google calendar or any calendar.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_icaluser)|
 |Import from GitHub|Enables importing projects and tickets from GitHub|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_import_github)|
 |Instant Add Card|Allows users to add card quickly across boards--without having to open boards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_instant_add_card)|
 |Helper app for the Kanban Printer|Allows users to print list name and card title on sticky sheets.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_kanban_printer)|
 |LDAP|Enables users to login using their LDAP accounts.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_ldap_login)|
 |SEO Checklist|Adds ready to use template SEO checklist template for performing search engine optimization.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_seo_checklist)|
 |Slack|Enables posting to Slack from Restyaboard|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_slack)|
+|Spent Time Tracking|Adds spent time tracking option for each cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_spent_time)|
 |Support Desk|Transforms Restyaboard into an easy support desk software. Comes with support widget that captures support requests from users.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_support_app)|
 |[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.2.zip)|
+|Work In Progress Limit|Enables users to set work in progress limit for lists.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_wip_limit)|
 |Website QA Checklist|Adds ready to use checklist template for performing QA on a website.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_website_qa_checklist)|
 |Zapier|Zapier is IFTTT like workflow automation service that enables integration with over 500 other websites. This app enables connecting to Zapier.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_zapier)|
 |[LabelStyle](https://github.com/ik9999/r_labelstyle)|Shows labels with names for cards in board view|[ik9999](https://github.com/ik9999) |1.1|Free|[Visit](https://github.com/ik9999/r_labelstyle)|
