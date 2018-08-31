@@ -252,7 +252,7 @@
         "author_url": "http://restya.com/",
         "version": "0.1.1",
         "price": "Free",
-        "icon": "apps/r_codenames/img/r-codenames.png",
+        "icon": "apps/r_codenames/img/r-codenames.jpg",
         "settings_description": "",
         "large_description": [
             "- Modern Talking was a German duo consisting of Thomas Anders and Dieter Bohlen. They have been referred to as Germany's most successful pop duo, and have had a number of hit singles, reaching the top five in many countries. Some of their most popular and widely known singles are 'You're My Heart, You're My Soul', 'You Can Win If You Want', 'Cheri, Cheri Lady', 'Brother Louie', 'Atlantis Is Calling (S.O.S. for Love)' and 'Geronimo's Cadillac'.",
@@ -318,6 +318,28 @@
             ],
             "html": [
                 "apps/r_custom_fields/app.html"
+            ]
+        },
+        "enabled": true
+    },
+    "r_download_all_attachments_in_card": {
+        "id": "r_download_all_attachments_in_card",
+        "uuid": "",
+        "name": "Download all attachments in Card",
+        "description": "Download all the attachments in the card as zip file.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_download_all_attachments_in_card/img/r-download_all_attachments_in_card.png",
+        "settings_description": "",
+        "settings_links":[],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_download_all_attachments_in_card/js/app.js"
             ]
         },
         "enabled": true
@@ -433,20 +455,25 @@
         "id": "r_gantt_view",
         "uuid": "",
         "name": "Gantt View",
-        "description": "Adds Gantt view for handling projects.",
+        "description": "Adds Gantt view for handling projects which Shows tasks, task dependencies, task sequence and their progress in relation to the time assigned.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Paid",
         "icon": "apps/r_gantt_view/img/r-gantt-view.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_gantt_view/css/vendor.css",
+                "apps/r_gantt_view/css/main.css"
+            ],
             "js": [
-                "apps/r_gantt_view/js/app.js",
-                "apps/r_gantt_view/libs/jquery.fn.gantt.js"
+                "apps/r_gantt_view/js/app.js"
+            ],
+            "html": [
+                "apps/r_gantt_view/app.html"
             ]
         },
         "enabled": true
@@ -493,14 +520,14 @@
         "id": "r_hide_card_additional_informations",
         "uuid": "",
         "name": "Hide Card Additional Informations",
-        "description": "To hide the card additional informations like Card created date, Card created user and List moved date",
+        "description": "To hide the card additional informations like Card created date, Card created user, Card ID and List moved date",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.2",
         "price": "Free",
         "icon": "apps/r_hide_card_additional_informations/img/r-hide-card-additional-informations.png",
-        "settings_description": "To hide the card additional informations like Card created date, Card created user and List moved date",
+        "settings_description": "To hide the card additional informations like Card created date, Card created user, Card ID and List moved date",
         "settings": {
             "hide_card_created_date": {
                 "label": "Hide card created date",
@@ -531,6 +558,28 @@
             "css": [],
             "js": [
                 "apps/r_hide_card_additional_informations/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_icaluser": {
+        "id": "r_icaluser",
+        "uuid": "",
+        "name": "iCal Feed for User",
+        "description": "System will provide iCal feed URL for loggedin user to sync with Google calendar or any calendar.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_icaluser/img/r-icaluser.png",
+        "settings_description": "",
+        "settings_links":[],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_icaluser/js/app.js"
             ]
         },
         "enabled": true
@@ -670,6 +719,31 @@
         "enabled": true,
         "limit": 100
     },
+    "r_report_view": {
+        "id": "r_report_view",
+        "uuid": "",
+        "name": "Report View",
+        "description": "Adds Report view for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_report_view/img/r-report-view.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [ ],
+            "js": [
+                "apps/r_report_view/lib/highcharts.js",
+                "apps/r_report_view/js/app.js"
+            ],
+            "html": [
+                "apps/r_report_view/app.html"
+            ]
+        },
+        "enabled": true
+    },
     "r_seo_checklist": {
         "id": "r_seo_checklist",
         "uuid": "",
@@ -727,6 +801,32 @@
             "css": [],
             "js": [
                 "apps/r_slack/js/libs/slack.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_spent_time": {
+        "id": "r_spent_time",
+        "uuid": "",
+        "name": "Spent Time Tracking",
+        "description": "Adds spent time tracking option for each cards.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_spent_time/img/r-spent-time.png",
+        "settings_description": "",
+        "large_description": [
+            "Adds spent time custom input. This will be displayed in the card listing to arrange them easily."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_spent_time/css/app.css"
+            ],
+            "js": [
+                "apps/r_spent_time/js/app.js"
             ]
         },
         "enabled": true
@@ -806,6 +906,29 @@
             "css": [],
             "js": [
                 "apps/r_website_qa_checklist/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_wip_limit": {
+        "id": "r_wip_limit",
+        "uuid": "",
+        "name": "Work In Progress Limit",
+        "description": "Enables users to set work in progress limit for lists.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_wip_limit/img/r-wip-limit.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_wip_limit/css/app.css"
+            ],
+            "js": [
+                "apps/r_wip_limit/js/app.js"
             ]
         },
         "enabled": true
