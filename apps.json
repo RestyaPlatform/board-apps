@@ -43,6 +43,68 @@
         },
         "enabled": true
     },
+    "r_board_roles": {
+        "id": "r_board_roles",
+        "uuid": "",
+        "name": "Board Roles",
+        "description": " Define board member roles for each user roles.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_board_roles/img/r-boardroles.png",
+        "settings_description": "",
+        "settings": false,
+        "sponsor": "Erik Madsen",
+        "assets": {
+            "css": [ ],
+            "js": [
+                "apps/r_board_roles/js/app.js"
+            ],
+            "html": [
+                "apps/r_board_roles/app.html"
+            ]
+        },
+        "enabled": true
+    },
+    "r_broadcasts": {
+        "id": "r_broadcasts",
+        "uuid": "",
+        "name": "Broadcasts",
+        "description": "Adds broadcasts for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.2",
+        "price": "Paid",
+        "icon": "apps/r_broadcasts/img/r-broadcast.jpg",
+        "settings_description": "",
+        "large_description": [
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings_links":[
+            {
+                "name":"Settings",
+                "icon": "icon-cog",
+                "url":"#/apps/r_broadcast/broadcast"
+            }
+        ],
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_broadcasts/css/app.css"
+            ],
+            "js": [
+                "apps/r_broadcasts/js/app.js"
+            ],
+            "html": [
+                "apps/r_broadcasts/app.html"
+            ]
+        },
+        "enabled": true
+    },
     "r_canned_response": {
         "id": "r_canned_response",
         "uuid": "",
@@ -497,6 +559,36 @@
         },
         "enabled": true
     },
+    "r_groups": {
+        "id": "r_groups",
+        "uuid": "",
+        "name": "Groups",
+        "description": "Adds groups for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.2",
+        "price": "Paid",
+        "icon": "apps/r_groups/img/r-group.png",
+        "settings_description": "",
+        "large_description": [
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_groups/css/app.css"
+            ],
+            "js": [
+                "apps/r_groups/js/app.js"
+            ],
+            "html": [
+                "apps/r_groups/app.html"
+            ]
+        },
+        "enabled": true
+    },
     "r_hangouts_chat_bot": {
         "id": "r_hangouts_chat_bot",
         "uuid": "",
@@ -866,6 +958,29 @@
         },
         "enabled": true
     },
+    "r_task_move_on_due_date": {
+        "id": "r_task_move_on_due_date",
+        "uuid": "",
+        "name": "Task Move on Due Date",
+        "description": "Task Move on Due Date.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_task_move_on_due_date/img/r-task-move-on-due-date.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_task_move_on_due_date/css/app.css"
+            ],
+            "js": [
+                "apps/r_task_move_on_due_date/js/app.js"
+            ]
+        },
+        "enabled": true
+    },    
     "r_togetherjs": {
         "id": "r_togetherjs",
         "uuid": "",
@@ -910,6 +1025,43 @@
         },
         "enabled": true
     },
+    "r_wiki": {
+        "id": "r_wiki",
+        "uuid": "",
+        "name": "Wiki",
+        "description": "Adds Wiki for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.2",
+        "price": "Paid",
+        "icon": "apps/r_wiki/img/r-wiki.jpeg",
+        "settings_description": "",
+        "large_description": [
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings_links":[
+            {
+                "name":"Settings",
+                "icon": "icon-cog",
+                "url":"#/apps/r_wiki/configure"
+            }
+        ],
+        "settings": false,
+        "assets": {
+            "js": [
+                "apps/r_wiki/js/app.js"
+            ],
+            "css": [
+                "apps/r_wiki/css/app.css"
+            ],
+            "html": [
+                "apps/r_wiki/app.html"
+            ]
+        },
+        "enabled": true
+    },    
     "r_wip_limit": {
         "id": "r_wip_limit",
         "uuid": "",
