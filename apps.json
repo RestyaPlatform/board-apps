@@ -43,6 +43,68 @@
         },
         "enabled": true
     },
+    "r_board_roles": {
+        "id": "r_board_roles",
+        "uuid": "",
+        "name": "Board Roles",
+        "description": " Define board member roles for each user roles.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_board_roles/img/r-boardroles.png",
+        "settings_description": "",
+        "settings": false,
+        "sponsor": "Erik Madsen",
+        "assets": {
+            "css": [ ],
+            "js": [
+                "apps/r_board_roles/js/app.js"
+            ],
+            "html": [
+                "apps/r_board_roles/app.html"
+            ]
+        },
+        "enabled": true
+    },
+    "r_broadcasts": {
+        "id": "r_broadcasts",
+        "uuid": "",
+        "name": "Broadcasts",
+        "description": "Adds broadcasts for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.2",
+        "price": "Paid",
+        "icon": "apps/r_broadcasts/img/r-broadcast.jpg",
+        "settings_description": "",
+        "large_description": [
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings_links":[
+            {
+                "name":"Settings",
+                "icon": "icon-cog",
+                "url":"#/apps/r_broadcast/broadcast"
+            }
+        ],
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_broadcasts/css/app.css"
+            ],
+            "js": [
+                "apps/r_broadcasts/js/app.js"
+            ],
+            "html": [
+                "apps/r_broadcasts/app.html"
+            ]
+        },
+        "enabled": true
+    },
     "r_canned_response": {
         "id": "r_canned_response",
         "uuid": "",
@@ -242,6 +304,32 @@
         },
         "enabled": false
     },
+    "r_codenames": {
+        "id": "r_codenames",
+        "uuid": "",
+        "name": "Codenames",
+        "description": "All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Free",
+        "icon": "apps/r_codenames/img/r-codenames.jpg",
+        "settings_description": "",
+        "large_description": [
+            "- Modern Talking was a German duo consisting of Thomas Anders and Dieter Bohlen. They have been referred to as Germany's most successful pop duo, and have had a number of hit singles, reaching the top five in many countries. Some of their most popular and widely known singles are 'You're My Heart, You're My Soul', 'You Can Win If You Want', 'Cheri, Cheri Lady', 'Brother Louie', 'Atlantis Is Calling (S.O.S. for Love)' and 'Geronimo's Cadillac'.",
+            "- Modern Talking worked together from 1983 to 1987, then the band split up. In 1997, they reunited and made a successful comeback, recording and releasing music from 1998 to 2003. The duo released singles which again entered the top ten in Germany and abroad. Some of those singles were 'You're My Heart, You're My Soul '98', 'You Are Not Alone' and 'TV Makes the Superstar'.",
+            "- You can get the more Informations about Modern Talking from [here](https://en.wikipedia.org/wiki/Modern_Talking)."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [ ],
+            "js": [
+                "apps/r_codenames/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_cssilize": {
         "id": "r_cssilize",
         "uuid": "",
@@ -292,6 +380,28 @@
             ],
             "html": [
                 "apps/r_custom_fields/app.html"
+            ]
+        },
+        "enabled": true
+    },
+    "r_download_all_attachments_in_card": {
+        "id": "r_download_all_attachments_in_card",
+        "uuid": "",
+        "name": "Download all attachments in Card",
+        "description": "Download all the attachments in the card as zip file.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_download_all_attachments_in_card/img/r-download_all_attachments_in_card.png",
+        "settings_description": "",
+        "settings_links":[],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_download_all_attachments_in_card/js/app.js"
             ]
         },
         "enabled": true
@@ -407,20 +517,25 @@
         "id": "r_gantt_view",
         "uuid": "",
         "name": "Gantt View",
-        "description": "Adds Gantt view for handling projects.",
+        "description": "Adds Gantt view for handling projects which Shows tasks, task dependencies, task sequence and their progress in relation to the time assigned.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Paid",
         "icon": "apps/r_gantt_view/img/r-gantt-view.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_gantt_view/css/vendor.css",
+                "apps/r_gantt_view/css/main.css"
+            ],
             "js": [
-                "apps/r_gantt_view/js/app.js",
-                "apps/r_gantt_view/libs/jquery.fn.gantt.js"
+                "apps/r_gantt_view/js/app.js"
+            ],
+            "html": [
+                "apps/r_gantt_view/app.html"
             ]
         },
         "enabled": true
@@ -441,6 +556,36 @@
         "assets": {
             "css": [],
             "js": []
+        },
+        "enabled": true
+    },
+    "r_groups": {
+        "id": "r_groups",
+        "uuid": "",
+        "name": "Groups",
+        "description": "Adds groups for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.2",
+        "price": "Paid",
+        "icon": "apps/r_groups/img/r-group.png",
+        "settings_description": "",
+        "large_description": [
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_groups/css/app.css"
+            ],
+            "js": [
+                "apps/r_groups/js/app.js"
+            ],
+            "html": [
+                "apps/r_groups/app.html"
+            ]
         },
         "enabled": true
     },
@@ -467,14 +612,14 @@
         "id": "r_hide_card_additional_informations",
         "uuid": "",
         "name": "Hide Card Additional Informations",
-        "description": "To hide the card additional informations like Card created date, Card created user and List moved date",
+        "description": "To hide the card additional informations like Card created date, Card created user, Card ID and List moved date",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.2",
         "price": "Free",
         "icon": "apps/r_hide_card_additional_informations/img/r-hide-card-additional-informations.png",
-        "settings_description": "To hide the card additional informations like Card created date, Card created user and List moved date",
+        "settings_description": "To hide the card additional informations like Card created date, Card created user, Card ID and List moved date",
         "settings": {
             "hide_card_created_date": {
                 "label": "Hide card created date",
@@ -505,6 +650,28 @@
             "css": [],
             "js": [
                 "apps/r_hide_card_additional_informations/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_icaluser": {
+        "id": "r_icaluser",
+        "uuid": "",
+        "name": "iCal Feed for User",
+        "description": "System will provide iCal feed URL for loggedin user to sync with Google calendar or any calendar.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_icaluser/img/r-icaluser.png",
+        "settings_description": "",
+        "settings_links":[],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_icaluser/js/app.js"
             ]
         },
         "enabled": true
@@ -644,6 +811,31 @@
         "enabled": true,
         "limit": 100
     },
+    "r_report_view": {
+        "id": "r_report_view",
+        "uuid": "",
+        "name": "Report View",
+        "description": "Adds Report view for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_report_view/img/r-report-view.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [ ],
+            "js": [
+                "apps/r_report_view/lib/highcharts.js",
+                "apps/r_report_view/js/app.js"
+            ],
+            "html": [
+                "apps/r_report_view/app.html"
+            ]
+        },
+        "enabled": true
+    },
     "r_seo_checklist": {
         "id": "r_seo_checklist",
         "uuid": "",
@@ -705,6 +897,32 @@
         },
         "enabled": true
     },
+    "r_spent_time": {
+        "id": "r_spent_time",
+        "uuid": "",
+        "name": "Spent Time Tracking",
+        "description": "Adds spent time tracking option for each cards.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_spent_time/img/r-spent-time.png",
+        "settings_description": "",
+        "large_description": [
+            "Adds spent time custom input. This will be displayed in the card listing to arrange them easily."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_spent_time/css/app.css"
+            ],
+            "js": [
+                "apps/r_spent_time/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_support_app": {
         "id": "r_support_app",
         "uuid": "",
@@ -740,6 +958,29 @@
         },
         "enabled": true
     },
+    "r_task_move_on_due_date": {
+        "id": "r_task_move_on_due_date",
+        "uuid": "",
+        "name": "Task Move on Due Date",
+        "description": "Task Move on Due Date.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_task_move_on_due_date/img/r-task-move-on-due-date.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_task_move_on_due_date/css/app.css"
+            ],
+            "js": [
+                "apps/r_task_move_on_due_date/js/app.js"
+            ]
+        },
+        "enabled": true
+    },    
     "r_togetherjs": {
         "id": "r_togetherjs",
         "uuid": "",
@@ -780,6 +1021,66 @@
             "css": [],
             "js": [
                 "apps/r_website_qa_checklist/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_wiki": {
+        "id": "r_wiki",
+        "uuid": "",
+        "name": "Wiki",
+        "description": "Adds Wiki for handling projects.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.2",
+        "price": "Paid",
+        "icon": "apps/r_wiki/img/r-wiki.jpeg",
+        "settings_description": "",
+        "large_description": [
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings_links":[
+            {
+                "name":"Settings",
+                "icon": "icon-cog",
+                "url":"#/apps/r_wiki/configure"
+            }
+        ],
+        "settings": false,
+        "assets": {
+            "js": [
+                "apps/r_wiki/js/app.js"
+            ],
+            "css": [
+                "apps/r_wiki/css/app.css"
+            ],
+            "html": [
+                "apps/r_wiki/app.html"
+            ]
+        },
+        "enabled": true
+    },    
+    "r_wip_limit": {
+        "id": "r_wip_limit",
+        "uuid": "",
+        "name": "Work In Progress Limit",
+        "description": "Enables users to set work in progress limit for lists.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_wip_limit/img/r-wip-limit.png",
+        "settings_description": "",
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_wip_limit/css/app.css"
+            ],
+            "js": [
+                "apps/r_wip_limit/js/app.js"
             ]
         },
         "enabled": true
