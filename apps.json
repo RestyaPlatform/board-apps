@@ -20,6 +20,28 @@
         },
         "enabled": true
     },
+    "r_attachment_downloader": {
+        "id": "r_attachment_downloader",
+        "uuid": "",
+        "name": "Download all attachments in Card",
+        "description": "It provides the solution to download all the user uploaded files associated with a card in a single click.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_attachment_downloader/img/r-attachment_downloader.png",
+        "settings_description": "",
+        "settings_links":[],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_attachment_downloader/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_auto_archive_expired_cards": {
         "id": "r_auto_archive_expired_cards",
         "uuid": "",
@@ -43,27 +65,27 @@
         },
         "enabled": true
     },
-    "r_board_roles": {
-        "id": "r_board_roles",
+    "r_board_role_mapper": {
+        "id": "r_board_role_mapper",
         "uuid": "",
-        "name": "Board Roles",
-        "description": " Define board member roles for each user roles.",
+        "name": "User Role to Board Role Mapper",
+        "description": "Defines the roles for the board member in the Restyaboard.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
         "version": "0.1.1",
         "price": "Paid",
-        "icon": "apps/r_board_roles/img/r-boardroles.png",
+        "icon": "apps/r_board_role_mapper/img/r-boardrole-mapper.png",
         "settings_description": "",
         "settings": false,
         "sponsor": "Erik Madsen",
         "assets": {
             "css": [ ],
             "js": [
-                "apps/r_board_roles/js/app.js"
+                "apps/r_board_role_mapper/js/app.js"
             ],
             "html": [
-                "apps/r_board_roles/app.html"
+                "apps/r_board_role_mapper/app.html"
             ]
         },
         "enabled": true
@@ -384,28 +406,6 @@
         },
         "enabled": true
     },
-    "r_download_all_attachments_in_card": {
-        "id": "r_download_all_attachments_in_card",
-        "uuid": "",
-        "name": "Download all attachments in Card",
-        "description": "Download all the attachments in the card as zip file.",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "",
-        "version": "0.1.1",
-        "price": "Paid",
-        "icon": "apps/r_download_all_attachments_in_card/img/r-download_all_attachments_in_card.png",
-        "settings_description": "",
-        "settings_links":[],
-        "settings": false,
-        "assets": {
-            "css": [],
-            "js": [
-                "apps/r_download_all_attachments_in_card/js/app.js"
-            ]
-        },
-        "enabled": true
-    },
     "r_elasticsearch": {
         "id": "r_elasticsearch",
         "uuid": "",
@@ -654,24 +654,24 @@
         },
         "enabled": true
     },
-    "r_icaluser": {
-        "id": "r_icaluser",
+    "r_user_ical_feed": {
+        "id": "r_user_ical_feed",
         "uuid": "",
-        "name": "iCal Feed for User",
-        "description": "System will provide iCal feed URL for loggedin user to sync with Google calendar or any calendar.",
+        "name": "User iCal Feed",
+        "description": "It provides the perspective to see the tasks of your project with due dates. It helps you to manage your tasks across boards and resources, track resource allocations, and capture lagging or overdue cards.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
         "version": "0.1.1",
         "price": "Paid",
-        "icon": "apps/r_icaluser/img/r-icaluser.png",
+        "icon": "apps/r_user_ical_feed/img/r-userical-feed.png",
         "settings_description": "",
         "settings_links":[],
         "settings": false,
         "assets": {
             "css": [],
             "js": [
-                "apps/r_icaluser/js/app.js"
+                "apps/r_user_ical_feed/js/app.js"
             ]
         },
         "enabled": true
@@ -811,27 +811,27 @@
         "enabled": true,
         "limit": 100
     },
-    "r_report_view": {
-        "id": "r_report_view",
+    "r_insights": {
+        "id": "r_insights",
         "uuid": "",
-        "name": "Report View",
-        "description": "Adds Report view for handling projects.",
+        "name": "Insights",
+        "description": "Insights provide you the tools to quickly build Restyaboard reports. It's helping you to manage your tasks across boards and resources, track resource allocations, and capture lagging or overdue cards.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
         "version": "0.1.1",
         "price": "Paid",
-        "icon": "apps/r_report_view/img/r-report-view.png",
+        "icon": "apps/r_insights/img/r-insights.png",
         "settings_description": "",
         "settings": false,
         "assets": {
             "css": [ ],
             "js": [
-                "apps/r_report_view/lib/highcharts.js",
-                "apps/r_report_view/js/app.js"
+                "apps/r_insights/lib/highcharts.js",
+                "apps/r_insights/js/app.js"
             ],
             "html": [
-                "apps/r_report_view/app.html"
+                "apps/r_insights/app.html"
             ]
         },
         "enabled": true

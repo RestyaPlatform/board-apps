@@ -3,8 +3,8 @@
 |Name|Description|Creator|Version|Price|Download
 | ------------------- | --------------------------------- | -------------------- | -------------------- |-------------------- |-------------------- |
 |Amazon Echo|Access your Restyaboard notifications through Amazon Echo. This Restyaboard Alexa Skill is developed using AWS Lambda. You will need to login to Restyaboard in Amazon Alexa Android App.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_amazon_echo)|
+|Attachment Downloader|It provides the solution to download all the user uploaded files associated with a card in a single click.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_attachment_downloader)|
 |Auto Archive Expired Cards|Enables automated archiving for expired cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_auto_archive_expired_cards)|
-|Board Roles|Define board member roles for each user roles.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_board_roles)|
 |Broadcasts|Adds broadcasts for handling projects.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_broadcasts)|
 |Canned Response|Adds option to setup ready-made text comments in cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_canned_response)|
 |Card Template|Added the feature 'Card template app' which allows the users to create a template with necessary details like members, labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_card_template)|
@@ -13,7 +13,6 @@
 |Codenames|All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.|[Restya](http://restya.com/) |0.1.1|Free|[Visit](http://restya.com/board/apps/r_codenames)|
 |[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.2.zip)|
 |Custom Field|Adds Custom Field for handling projects.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_custom_fields)|
-|Download all attachments in Card|Download all the attachments in the card as zip file.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_download_all_attachments_in_card)|
 |ElasticSearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
 |Estimated Time Tracking|Adds estimated time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_estimated_time)|
 European Union General Data Protection Regulation|About data protection and privacy for all individuals within the European Union|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_eu_gdpr-v0.1.1.zip)|
@@ -23,8 +22,8 @@ European Union General Data Protection Regulation|About data protection and priv
 |Grous|Adds groups for handling projects.|[Restya](http://restya.com/) |0.1.1|Free|[Visit](http://restya.com/board/apps/r_groups)|
 |Hangouts Chat bot|Quickly create new cards and add labels to the cards on your Restyaboard boards from Hangouts Chat.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_hangouts_chat_bot)|
 |Hide Card Additional Informations|To hide the card additional informations like Card created date, Card created user, Card ID and List moved date|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v2/r_hide_card_additional_informations-v0.1.2.zip)|
-|iCal Feed for User|System will provide iCal feed URL for loggedin user to sync with Google calendar or any calendar.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_icaluser)|
 |Import from GitHub|Enables importing projects and tickets from GitHub|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_import_github)|
+|Insights|Insights provide you the tools to quickly build Restyaboard reports. It's helping you to manage your tasks across boards and resources, track resource allocations, and capture lagging or overdue cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_insights)|
 |Instant Add Card|Allows users to add card quickly across boards--without having to open boards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_instant_add_card)|
 |Helper app for the Kanban Printer|Allows users to print list name and card title on sticky sheets.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_kanban_printer)|
 |LDAP|Enables users to login using their LDAP accounts.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_ldap_login)|
@@ -34,6 +33,8 @@ European Union General Data Protection Regulation|About data protection and priv
 |Support Desk|Transforms Restyaboard into an easy support desk software. Comes with support widget that captures support requests from users.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_support_app)|
 |Task Move on Due Date|Task Move on Due Date.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_task_move_on_due_date)|
 |[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.2.zip)|
+|User iCal Feed |It provides the perspective to see the tasks of your project with due dates. It helps you to manage your tasks across boards and resources, track resource allocations, and capture lagging or overdue cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_user_ical_feed)|
+|User Role to Board Role Mapper|Defines the roles for the board member in the Restyaboard.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_board_role_mapper)|
 |Wiki|Adds Wiki for handling projects.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_wiki)|
 |Work In Progress Limit|Enables users to set work in progress limit for lists.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_wip_limit)|
 |Website QA Checklist|Adds ready to use checklist template for performing QA on a website.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_website_qa_checklist)|
