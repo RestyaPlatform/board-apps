@@ -23,7 +23,7 @@
     "r_attachment_downloader": {
         "id": "r_attachment_downloader",
         "uuid": "",
-        "name": "Download all attachments in Card",
+        "name": "Attachment Downloader",
         "description": "It provides the solution to download all the user uploaded files associated with a card in a single click.",
         "author": "Restya",
         "author_email": "info@restya.com",
@@ -330,7 +330,7 @@
         "id": "r_codenames",
         "uuid": "",
         "name": "Codenames",
-        "description": "All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.",
+        "description": "All the Restyaboard versions are codenamed after legendary music bands, as a token of respect the appreciation the default board background is changed to respective band's wallpaper.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
