@@ -68,6 +68,30 @@
         },
         "enabled": true
     },
+    "r_boardsbar": {
+        "id": "r_boardsbar",
+        "uid": "",
+        "name": "BoardsBar",
+        "description": "Starred boards toolbar plugin for Restyaboard",
+        "author": "ik9999",
+        "author_email": "q@eqw.me",
+        "author_url": "https://github.com/ik9999",
+        "version": "0.1.0",
+        "price": "Free",
+        "icon": "https://raw.githubusercontent.com/ik9999/r_boardsbar/master/img/icon128.png",
+        "settings_description": "Starred boards toolbar plugin for Restyaboard",
+        "settings": {
+        },
+        "assets": {
+            "css": [
+                "https://raw.githubusercontent.com/ik9999/r_boardsbar/master/css/app.css"
+            ],
+            "js": [
+                "https://raw.githubusercontent.com/ik9999/r_boardsbar/master/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_broadcasts": {
         "id": "r_broadcasts",
         "uuid": "",
