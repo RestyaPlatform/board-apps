@@ -150,6 +150,31 @@
         },
         "enabled": false
     },
+    "r_card_counter": {
+        "id": "r_card_counter",
+        "uuid": "",
+        "name": "Card Counter",
+        "description": "Shows the number of cards in the lists.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_card_counter/img/r-card-counter.png",
+        "settings_description": "",
+        "large_description": [
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_card_counter/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_card_template": {
         "id": "r_card_template",
         "uuid": "",
