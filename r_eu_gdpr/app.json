@@ -10,12 +10,21 @@
 	"price": "Free",
 	"icon": "apps/r_eu_gdpr/img/r-eu-gdpr.png",
 	"settings_description": "",
+	"large_description": [
+		"- European Union General Data Protection Regulation within the European Union.",
+		"- Data protection and privacy for all individuals."
+	],
 	"settings": false,
 	"assets": {
 		"css": [ ],
 		"js": [
 			"apps/r_eu_gdpr/js/app.js"
 		]
+	},
+	"mutationObservers": {
+		"footer": {
+			"footer-menu" :"showCookieInformation"
+		}
 	},
 	"enabled": true
 }

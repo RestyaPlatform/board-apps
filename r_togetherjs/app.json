@@ -16,8 +16,14 @@
 			"apps/r_togetherjs/css/app.css"
 		],
 		"js": [
-			"apps/r_togetherjs/js/app.js"
+			"apps/r_togetherjs/js/app.js",
+			"apps/r_togetherjs/js/libs/togetherjs-min.js"
 		]
+	},
+	"mutationObservers": {
+		"footer": {
+			"footer-menu" :"loadTogetherJS"
+		}
 	},
 	"enabled": false
 }
