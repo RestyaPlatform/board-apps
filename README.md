@@ -7,6 +7,7 @@
 |Auto Archive Expired Cards|Enables automated archiving for expired cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_auto_archive_expired_cards)|
 |Broadcasts|Adds broadcasts for handling projects.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_broadcasts)|
 |Canned Response|Adds option to setup ready-made text comments in cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_canned_response)|
+|Card Counter|Shows the number of cards in the lists.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_card_counter)|
 |Card Template|Added the feature 'Card template app' which allows the users to create a template with necessary details like members, labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_card_template)|
 |Dashboard Charts|Adds charts with summary in dashboard, for easy filtering of Today Todos, etc.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_chart)|
 |Chat|Enables integration with XMPP based chat.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_chat)|

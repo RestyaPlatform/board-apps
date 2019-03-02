@@ -90,6 +90,30 @@
         },
         "enabled": true
     },
+    "r_boardsbar": {
+        "id": "r_boardsbar",
+        "uid": "",
+        "name": "BoardsBar",
+        "description": "Starred boards toolbar plugin for Restyaboard",
+        "author": "ik9999",
+        "author_email": "q@eqw.me",
+        "author_url": "https://github.com/ik9999",
+        "version": "0.1.0",
+        "price": "Free",
+        "icon": "https://raw.githubusercontent.com/ik9999/r_boardsbar/master/img/icon128.png",
+        "settings_description": "Starred boards toolbar plugin for Restyaboard",
+        "settings": {
+        },
+        "assets": {
+            "css": [
+                "https://raw.githubusercontent.com/ik9999/r_boardsbar/master/css/app.css"
+            ],
+            "js": [
+                "https://raw.githubusercontent.com/ik9999/r_boardsbar/master/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_broadcasts": {
         "id": "r_broadcasts",
         "uuid": "",
@@ -147,6 +171,31 @@
             ]
         },
         "enabled": false
+    },
+    "r_card_counter": {
+        "id": "r_card_counter",
+        "uuid": "",
+        "name": "Card Counter",
+        "description": "Shows the number of cards in the lists.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_card_counter/img/r-card-counter.png",
+        "settings_description": "",
+        "large_description": [
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_card_counter/js/app.js"
+            ]
+        },
+        "enabled": true
     },
     "r_card_template": {
         "id": "r_card_template",
