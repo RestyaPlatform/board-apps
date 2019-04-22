@@ -8,11 +8,13 @@
     "author_url": "",
     "version": "0.1.1",
     "price": "Paid",
-    "icon": "apps/r_card_counter/img/r_card_counter.png",
+    "icon": "apps/r_card_counter/img/r-card-counter.png",
     "settings_description": "",
     "large_description": [
-        "- Disable it in Admin Control Panel for default behavior.",
-        "- This is a simple sample App to show the possibilities of App platform."
+        "Add the card counter to show how many cards you have in your lists and board. It gives easier collaboration and project management.",
+        "**How it works**",
+        "- It will show the number at the top of the list which shows you the total number of the cards",
+        "- And also activating any filter will temporarily show you a total count of all cards in each list at the top, Based on the filters." 
     ],
     "settings": false,
     "assets": {
