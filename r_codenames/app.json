@@ -2,18 +2,23 @@
 	"id": "r_codenames",
 	"uuid": "",
 	"name": "Codenames",
-	"description": "All the Restyaboard versions are codenamed after legendary music bands, as a token of respect the appreciation the default board background is changed to respective band's wallpaper.",
+	"description": "All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.",
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"price": "Free",
 	"icon": "apps/r_codenames/img/r-codenames.png",
 	"settings_description": "",
 	"large_description": [
-		"- Modern Talking was a German duo consisting of Thomas Anders and Dieter Bohlen. They have been referred to as Germany's most successful pop duo, and have had a number of hit singles, reaching the top five in many countries. Some of their most popular and widely known singles are 'You're My Heart, You're My Soul', 'You Can Win If You Want', 'Cheri, Cheri Lady', 'Brother Louie', 'Atlantis Is Calling (S.O.S. for Love)' and 'Geronimo's Cadillac'.",
-		"- Modern Talking worked together from 1983 to 1987, then the band split up. In 1997, they reunited and made a successful comeback, recording and releasing music from 1998 to 2003. The duo released singles which again entered the top ten in Germany and abroad. Some of those singles were 'You're My Heart, You're My Soul '98', 'You Are Not Alone' and 'TV Makes the Superstar'.",
-		"- You can get the more Informations about Modern Talking from [here](https://en.wikipedia.org/wiki/Modern_Talking)."
+		"Starting from v0.6.6 (Modern Talking), all Restyaboard versions are codenamed after legendary music bands, as a token of respect and appreciation. Anyone can propose their favorite band for upcoming milestones in [GitHub tracker](https://github.com/RestyaPlatform/board/issues/1859). By enabling this app, new boards will get codename wallpaper and productivity beat.",
+		"",
+		"Current v0.6.7 is codenamed after legendary **Boney M** band",
+		"## About Boney M",
+		"- Boney M. is a Euro-Caribbean vocal group created by German record producer Frank Farian. Originally based in West Germany, the four original members of the group's official line-up were Liz Mitchell and Marcia Barrett from Jamaica, Maizie Williams from Montserrat and Bobby Farrell, a performing-artist from Aruba. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Boney_M.))",
+		"- Origin: Germany (1975)",
+		"- Members: Bobby Farrell, Liz Mitchell, Frank Farian, Marcia Barrett, Maizie Williams, Reggie Tsiboe, Sheyla Bonnick, Claudja Barry",
+		"- Genres: Euro disco, Contemporary R&B, Reggae"
 	],
 	"settings": false,
 	"assets": {

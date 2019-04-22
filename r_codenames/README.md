@@ -1,3 +1,3 @@
 ### Codenames
 
-- All the Restyaboard versions are codenamed after legendary music bands, as a token of respect the appreciation the default board background is changed to respective band's wallpaper.
+- All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.
