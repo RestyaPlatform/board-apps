@@ -517,7 +517,7 @@
     "r_elasticsearch": {
         "id": "r_elasticsearch",
         "uuid": "",
-        "name": "ElasticSearch",
+        "name": "Elasticsearch",
         "description": "Adds easy filtering of cards. Useful when you have multiple boards",
         "author": "Restya",
         "author_email": "info@restya.com",

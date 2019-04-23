@@ -15,7 +15,7 @@
 |Codenames|All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.|[Restya](http://restya.com/) |0.1.1|Free|[Visit](http://restya.com/board/apps/r_codenames)|
 |[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.2.zip)|
 |Custom Field|Adds Custom Field for handling projects.|[Restya](http://restya.com/) |0.1.3|Paid|[Visit](http://restya.com/board/apps/r_custom_fields)|
-|ElasticSearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.3|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
+|Elasticsearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.3|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
 |Estimated Time Tracking|Adds estimated time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_estimated_time)|
 European Union General Data Protection Regulation|About data protection and privacy for all individuals within the European Union|[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_eu_gdpr-v0.1.1.zip)|
 |Export CSV| Export card details from a board as CSV|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_export_csv)|
