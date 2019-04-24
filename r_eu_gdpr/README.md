@@ -1,3 +1,3 @@
 ### EU GDPR Cookie Consent Popup
 
-- Data protection and privacy for all individuals  within the European Union
+- The app adds cookie consent widget to Restyaboard instance to make it compliant with European Union General Data Protection Regulation policies.
