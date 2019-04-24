@@ -585,7 +585,7 @@
     "r_eu_gdpr": {
         "id": "r_eu_gdpr",
         "uuid": "",
-        "name": "European Union General Data Protection Regulation",
+        "name": "EU GDPR Cookie Consent Popup",
         "description": "About data protection and privacy for all individuals within the European Union",
         "author": "Restya",
         "author_email": "info@restya.com",
