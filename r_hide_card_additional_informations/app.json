@@ -42,5 +42,5 @@
 			"apps/r_hide_card_additional_informations/js/app.js"
 		]
 	},
-	"enabled": true
+	"enabled": false
 }
