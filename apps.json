@@ -63,6 +63,7 @@
         "settings_description": "",
         "settings_links":[],
         "settings": false,
+        "sponsor": "Marc Perna",
         "assets": {
             "css": [],
             "js": [
@@ -1168,6 +1169,7 @@
         "settings_description": "",
         "settings_links":[],
         "settings": false,
+        "sponsor": "Marc Perna",
         "assets": {
             "css": [],
             "js": [
