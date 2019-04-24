@@ -162,8 +162,10 @@
         "icon": "apps/r_broadcasts/img/r-broadcast.png",
         "settings_description": "",
         "large_description": [
-            "- Disable it in Admin Control Panel for default behavior.",
-            "- This is a simple sample App to show the possibilities of App platform."
+            "- Allows admin role users to send broadcast messages and email to all of our members, at once",
+            "- It can be used to notify users about scheduled maintenance, recent upgrades and more",
+            "- Broadcast messages are displayed for every user on all pages of the Restyaboard UI.",
+            "- Broadcast emails used to notify users via their emails with given broadcast information."
         ],
         "settings_links":[
             {
