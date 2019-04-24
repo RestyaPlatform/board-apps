@@ -1,0 +1,25 @@
+{
+	"id": "r_gmail_addon",
+	"uuid": "",
+	"name": "Gmail Add-on",
+	"description": "Enables Gmail Add-on link so that users can install Restyaboard Gmail Add-on from Gmail Marketplace.",
+	"author": "Restya",
+	"author_email": "info@restya.com",
+	"author_url": "http://restya.com/",
+	"version": "0.1.1",
+	"price": "Free",
+	"icon": "apps/r_gmail_addon/img/r-gmail-addon.png",
+	"settings_description": "",
+	"large_description": [
+		"- Gmail Add-on keeps your boards and inbox connected for more productivity.",
+		"- Access your Restyaboard account from your mail inbox and quickly create new cards on your boards without leaving your inbox."
+	],
+	"settings": false,
+	"assets": {
+		"css": [],
+		"js": [
+			"apps/r_gmail_addon/js/app.js"
+		]
+	},
+	"enabled": true
+}

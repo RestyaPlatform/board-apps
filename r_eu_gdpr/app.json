@@ -1,21 +1,29 @@
 {
 	"id": "r_eu_gdpr",
 	"uuid": "",
-	"name": "European Union General Data Protection Regulation",
-	"description": "About data protection and privacy for all individuals within the European Union",
+	"name": "EU GDPR Cookie Consent Popup",
+	"description": "Makes Restyaboard instance GDPR cookie compliant by displaying popup.",
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"price": "Free",
 	"icon": "apps/r_eu_gdpr/img/r-eu-gdpr.png",
 	"settings_description": "",
+	"large_description": [
+		"The app adds cookie consent widget to Restyaboard instance to make it compliant with European Union General Data Protection Regulation policies."
+	],
 	"settings": false,
 	"assets": {
 		"css": [ ],
 		"js": [
 			"apps/r_eu_gdpr/js/app.js"
 		]
+	},
+	"mutationObservers": {
+		"footer": {
+			"footer-menu" :"showCookieInformation"
+		}
 	},
 	"enabled": true
 }

@@ -1,4 +1,33 @@
 {
+    "r_agile_wip": {
+        "id": "r_agile_wip",
+        "uuid": "",
+        "name": "Agile WIP",
+        "description": "Enables users to set work in progress limit for lists.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_agile_wip/img/r-agile-wip.png",
+        "settings_description": "",
+        "large_description": [
+            "Agile Work In Progress Limit.  ",
+            "**How it works**",
+            "- Agile Work In progress limit can be set through setting menu (Agile WIP >> Agile WIP) found on each list.",
+            "- Addition of cards will be limited by the wip limit."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_agile_wip/css/app.css"
+            ],
+            "js": [
+                "apps/r_agile_wip/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_amazon_echo": {
         "id": "r_amazon_echo",
         "uuid": "",
@@ -20,6 +49,29 @@
         },
         "enabled": true
     },
+    "r_attachment_downloader": {
+        "id": "r_attachment_downloader",
+        "uuid": "",
+        "name": "Attachment Downloader",
+        "description": "It provides the solution to download all the user uploaded files associated with a card in a single click.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_attachment_downloader/img/r-attachment_downloader.png",
+        "settings_description": "",
+        "settings_links":[],
+        "settings": false,
+        "sponsor": "Marc Perna",
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_attachment_downloader/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_auto_archive_expired_cards": {
         "id": "r_auto_archive_expired_cards",
         "uuid": "",
@@ -28,7 +80,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_auto_archive_expired_cards/img/r-auto-archive-expired-cards.png",
         "settings_description": "",
@@ -43,27 +95,56 @@
         },
         "enabled": true
     },
-    "r_board_roles": {
-        "id": "r_board_roles",
+    "r_board_role_mapper": {
+        "id": "r_board_role_mapper",
         "uuid": "",
-        "name": "Board Roles",
-        "description": " Define board member roles for each user roles.",
+        "name": "User Role to Board Role Mapper",
+        "description": "Enables admin to quickly setup user privileges by mapping user role to board role globally.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
-        "icon": "apps/r_board_roles/img/r-boardroles.png",
+        "icon": "apps/r_board_role_mapper/img/r-boardrole-mapper.png",
         "settings_description": "",
+        "large_description": [
+            "- User Role to Board Role Mapper app helps to define the roles for the board member based on the user roles. User roles define the permissions for users to perform the specified actions.",
+            "- In a default Restyaboard, there are some predefined roles with a predefined set of permissions. The user roles are Admin, User, Guest. It's one of the solutions for assigning the users to those roles and set their access on the boards.",
+            "- This App basically is a power-up which is not a part of the core Restyaboard experience."
+        ],
         "settings": false,
         "sponsor": "Erik Madsen",
         "assets": {
             "css": [ ],
             "js": [
-                "apps/r_board_roles/js/app.js"
+                "apps/r_board_role_mapper/js/app.js"
             ],
             "html": [
-                "apps/r_board_roles/app.html"
+                "apps/r_board_role_mapper/app.html"
+            ]
+        },
+        "enabled": true
+    },
+    "r_boardsbar": {
+        "id": "r_boardsbar",
+        "uid": "",
+        "name": "BoardsBar",
+        "description": "Makes starred boards appear in footer for quicker access.",
+        "author": "ik9999",
+        "author_email": "q@eqw.me",
+        "author_url": "https://github.com/ik9999",
+        "version": "0.1.0",
+        "price": "Free",
+        "icon": "https://raw.githubusercontent.com/ik9999/r_boardsbar/master/img/icon128.png",
+        "settings_description": "Starred boards toolbar plugin for Restyaboard",
+        "settings": {
+        },
+        "assets": {
+            "css": [
+                "https://raw.githubusercontent.com/ik9999/r_boardsbar/master/css/app.css"
+            ],
+            "js": [
+                "https://raw.githubusercontent.com/ik9999/r_boardsbar/master/js/app.js"
             ]
         },
         "enabled": true
@@ -72,17 +153,19 @@
         "id": "r_broadcasts",
         "uuid": "",
         "name": "Broadcasts",
-        "description": "Adds broadcasts for handling projects.",
+        "description": "Enables admin to send notification across all users through top notice and email.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Paid",
-        "icon": "apps/r_broadcasts/img/r-broadcast.jpg",
+        "icon": "apps/r_broadcasts/img/r-broadcast.png",
         "settings_description": "",
         "large_description": [
-            "- Disable it in Admin Control Panel for default behavior.",
-            "- This is a simple sample App to show the possibilities of App platform."
+            "- Allows admin role users to send broadcast messages and email to all of our members, at once",
+            "- It can be used to notify users about scheduled maintenance, recent upgrades and more",
+            "- Broadcast messages are displayed for every user on all pages of the Restyaboard UI.",
+            "- Broadcast emails used to notify users via their emails with given broadcast information."
         ],
         "settings_links":[
             {
@@ -113,15 +196,44 @@
         "author": "Harry Reid",
         "author_email": "harryreid@rediffmail.com",
         "author_url": "https://github.com/reidharry",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_canned_response/img/r-canned-response.png",
         "settings_description": "",
+        "large_description": [
+            "- Adds a canned response dropdown next to comment box in card view. Using this you can quickly insert canned response.",
+            "- You can add your own canned response in `client/apps/r_canned_response/json/app.json`."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [ ],
+            "js": [
+                "apps/r_canned_response/js/app.js"
+            ]
+        },
+        "enabled": false
+    },
+    "r_card_counter": {
+        "id": "r_card_counter",
+        "uuid": "",
+        "name": "Card Counter",
+        "description": "Shows the number of cards in the lists.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Free",
+        "icon": "apps/r_card_counter/img/r-card-counter.png",
+        "settings_description": "",
+        "large_description": [
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
         "settings": false,
         "assets": {
             "css": [],
             "js": [
-                "apps/r_canned_response/js/app.js"
+                "apps/r_card_counter/js/app.js"
             ]
         },
         "enabled": false
@@ -130,17 +242,23 @@
         "id": "r_card_template",
         "uuid": "",
         "name": "Card Template",
-        "description": "Added the feature 'Card template app' which allows the users to create a template with necessary details like members, labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.",
+        "description": "Use existing card information by saving it as a pre-formatted template.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.3",
         "price": "Paid",
         "icon": "apps/r_card_template/img/r_card_template.png",
         "settings_description": "",
+        "large_description" : [
+            "- Added the feature 'Card template app' which allows the users to create a template with necessary details like members, labels and description.",
+            "- Further, it offers the possibility to use the same for any other card which demands the same information."
+        ],
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+                "apps/r_card_template/css/app.css"
+            ],
             "js": [
                 "apps/r_card_template/js/app.js"
             ]
@@ -155,64 +273,64 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_chart/img/r-chart.png",
         "settings_description": "Different people may use different naming for Todo, Doing and Done. So, it is usually difficult to identify what are actually in Todo, Doing and Done. Below, you can configure how the lists have to be recognized. For a list, you can configure its indicator icon and its color too.",
         "settings": {
             "r_chart_todo": {
-                "label": "Todo",
-                "info": "",
-                "value": "To do, Todo, New, Probable sale, Wishlist, 36, 36.0.1",
-                "is_public": true
+                "label" : "Todo",
+                "info" : "",
+                "value" : "To do, Todo, New, Probable sale, Wishlist, 36, 36.0.1",
+                "is_public" : true
             },
             "r_chart_todo_icon": {
-                "label": "Todo Icon",
-                "info": "",
-                "value": "icon-tasks icon-large",
-                "is_public": true
+                "label" : "Todo Icon",
+                "info" : "",
+                "value" : "icon-tasks icon-large",
+                "is_public" : true
             },
             "r_chart_todo_color": {
-                "label": "Todo Color",
-                "info": "",
-                "value": "#f47564",
-                "is_public": true
+                "label" : "Todo Color",
+                "info" : "",
+                "value" : "#f47564",
+                "is_public" : true
             },
             "r_chart_doing": {
-                "label": "Doing",
-                "info": "",
-                "value": "Doing, Feedback, Confirmed, Assigned, Pending sale, Active, 37, 37.0.1, 37.0.2",
-                "is_public": true
+                "label" : "Doing",
+                "info" : "",
+                "value" : "Doing, Feedback, Confirmed, Assigned, Pending sale, Active, 37, 37.0.1, 37.0.2",
+                "is_public" : true
             },
             "r_chart_doing_icon": {
-                "label": "Doing Icon",
-                "info": "",
-                "value": "icon-spinner icon-large",
-                "is_public": true
+                "label" : "Doing Icon",
+                "info" : "",
+                "value" : "icon-spinner icon-large",
+                "is_public" : true
             },
             "r_chart_doing_color": {
-                "label": "Doing Color",
-                "info": "",
-                "value": "#27c5c3",
-                "is_public": true
+                "label" : "Doing Color",
+                "info" : "",
+                "value" : "#27c5c3",
+                "is_public" : true
             },
             "r_chart_done": {
-                "label": "Done",
-                "info": "",
-                "value": "Done, Resolved, Closed, Completed sale, Acquired, Dead",
-                "is_public": true
+                "label" : "Done",
+                "info" : "",
+                "value" : "Done, Resolved, Closed, Completed sale, Acquired, Dead",
+                "is_public" : true
             },
             "r_chart_done_icon": {
-                "label": "Done Icon",
-                "info": "",
-                "value": "icon-ok-circle icon-large",
-                "is_public": true
+                "label" : "Done Icon",
+                "info" : "",
+                "value" : "icon-ok-circle icon-large",
+                "is_public" : true
             },
             "r_chart_done_color": {
-                "label": "Done Color",
-                "info": "",
-                "value": "#8dca35",
-                "is_public": true
+                "label" : "Done Color",
+                "info" : "",
+                "value" : "#8dca35",
+                "is_public" : true
             }
         },
         "assets": {
@@ -233,64 +351,64 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Paid",
         "icon": "apps/r_chat/img/r-chat.png",
         "settings_description": "Server URL: Provide server URL, e.g., http://localhost:9200/<br/>Index Name: Used to prefix index names to avoid potential collisions. e.g., restya",
         "settings": {
             "r_chat_db_host": {
-                "label": "DB Host",
-                "info": "",
-                "value": "REPLACE_CHAT_DB_HOST",
-                "is_public": false
+                "label" : "DB Host",
+                "info" : "",
+                "value" : "REPLACE_CHAT_DB_HOST",
+                "is_public" : false
             },
             "r_chat_db_port": {
-                "label": "DB Port",
-                "info": "",
-                "value": "REPLACE_CHAT_DB_PORT",
-                "is_public": false
+                "label" : "DB Port",
+                "info" : "",
+                "value" : "REPLACE_CHAT_DB_PORT",
+                "is_public" : false
             },
             "r_chat_db_name": {
-                "label": "DB Name",
-                "info": "",
-                "value": "REPLACE_CHAT_DB_NAME",
-                "is_public": false
+                "label" : "DB Name",
+                "info" : "",
+                "value" : "REPLACE_CHAT_DB_NAME",
+                "is_public" : false
             },
             "r_chat_db_user": {
-                "label": "DB Username",
-                "info": "",
-                "value": "REPLACE_CHAT_DB_USERNAME",
-                "is_public": false
+                "label" : "DB Username",
+                "info" : "",
+                "value" : "REPLACE_CHAT_DB_USERNAME",
+                "is_public" : false
             },
             "r_chat_db_password": {
-                "label": "DB Password",
-                "info": "",
-                "value": "REPLACE_CHAT_DB_PASSWORD",
-                "is_public": false
+                "label" : "DB Password",
+                "info" : "",
+                "value" : "REPLACE_CHAT_DB_PASSWORD",
+                "is_public" : false
             },
             "r_chat_service_url": {
-                "label": "Bosh Service URL",
-                "info": "",
-                "value": "REPLACE_CHAT_BOSH_SERVICE_URL",
-                "is_public": true
+                "label" : "Bosh Service URL",
+                "info" : "",
+                "value" : "REPLACE_CHAT_BOSH_SERVICE_URL",
+                "is_public" : true
             },
             "r_chat_jabber_host": {
-                "label": "Jabber Host",
-                "info": "",
-                "value": "REPLACE_CHAT_JABBER_HOST",
-                "is_public": true
+                "label" : "Jabber Host",
+                "info" : "",
+                "value" : "REPLACE_CHAT_JABBER_HOST",
+                "is_public" : true
             },
             "r_chat_jaxl_debug": {
-                "label": "JAXL DEBUG",
-                "info": "",
-                "value": "0",
-                "is_public": true
+                "label" : "JAXL DEBUG",
+                "info" : "",
+                "value" : "0",
+                "is_public" : true
             },
             "r_chat_client_resource_name": {
-                "label": "Client Resource Name",
-                "info": "",
-                "value": "REPLACE_CHAT_CLIENT_RESOURCE_NAME",
-                "is_public": false
+                "label" : "Client Resource Name",
+                "info" : "",
+                "value" : "REPLACE_CHAT_CLIENT_RESOURCE_NAME",
+                "is_public" : false
             }
         },
         "assets": {
@@ -308,18 +426,23 @@
         "id": "r_codenames",
         "uuid": "",
         "name": "Codenames",
-        "description": "All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.",
+        "description": "Get the codename wallpaper and legendary music bands productivity beat for boards.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Free",
-        "icon": "apps/r_codenames/img/r-codenames.jpg",
+        "icon": "apps/r_codenames/img/r-codenames.png",
         "settings_description": "",
         "large_description": [
-            "- Modern Talking was a German duo consisting of Thomas Anders and Dieter Bohlen. They have been referred to as Germany's most successful pop duo, and have had a number of hit singles, reaching the top five in many countries. Some of their most popular and widely known singles are 'You're My Heart, You're My Soul', 'You Can Win If You Want', 'Cheri, Cheri Lady', 'Brother Louie', 'Atlantis Is Calling (S.O.S. for Love)' and 'Geronimo's Cadillac'.",
-            "- Modern Talking worked together from 1983 to 1987, then the band split up. In 1997, they reunited and made a successful comeback, recording and releasing music from 1998 to 2003. The duo released singles which again entered the top ten in Germany and abroad. Some of those singles were 'You're My Heart, You're My Soul '98', 'You Are Not Alone' and 'TV Makes the Superstar'.",
-            "- You can get the more Informations about Modern Talking from [here](https://en.wikipedia.org/wiki/Modern_Talking)."
+            "Starting from v0.6.6 (Modern Talking), all Restyaboard versions are codenamed after legendary music bands, as a token of respect and appreciation. Anyone can propose their favorite band for upcoming milestones in [GitHub tracker](https://github.com/RestyaPlatform/board/issues/1859). By enabling this app, new boards will get codename wallpaper and productivity beat.",
+            "",
+            "Current v0.6.7 is codenamed after legendary **Boney M** band",
+            "## About Boney M",
+            "- Boney M. is a Euro-Caribbean vocal group created by German record producer Frank Farian. Originally based in West Germany, the four original members of the group's official line-up were Liz Mitchell and Marcia Barrett from Jamaica, Maizie Williams from Montserrat and Bobby Farrell, a performing-artist from Aruba. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Boney_M.))",
+            "- Origin: Germany (1975)",
+            "- Members: Bobby Farrell, Liz Mitchell, Frank Farian, Marcia Barrett, Maizie Williams, Reggie Tsiboe, Sheyla Bonnick, Claudja Barry",
+            "- Genres: Euro disco, Contemporary R&B, Reggae"
         ],
         "settings": false,
         "assets": {
@@ -338,13 +461,18 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Free",
         "icon": "apps/r_cssilize/img/r-cssilize.png",
         "settings_description": "",
+        "large_description": [
+            "- CSSilize is our theming partner.",
+            "- For Restyaboard theming, website designing or mobile apps. Starting from $35."
+        ],
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [
+            ],
             "js": [
                 "apps/r_cssilize/js/app.js"
             ]
@@ -355,19 +483,24 @@
         "id": "r_custom_fields",
         "uuid": "",
         "name": "Custom Field",
-        "description": "Adds Custom Field for handling projects.",
+        "description": "Get more fields like text, textarea, numbers, checkboxes, dates, and dropdown lists for the cards.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_custom_fields/img/r-custom_field.png",
         "settings_description": "",
-        "settings_links": [
+        "large_description": [
+            "- Add Custom Fields to each Card.",
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings_links":[
             {
-                "name": "Settings",
+                "name":"Settings",
                 "icon": "icon-cog",
-                "url": "#/apps/r_custom_fields/manage"
+                "url":"#/apps/r_custom_fields/manage"
             }
         ],
         "settings": false,
@@ -384,37 +517,15 @@
         },
         "enabled": true
     },
-    "r_download_all_attachments_in_card": {
-        "id": "r_download_all_attachments_in_card",
-        "uuid": "",
-        "name": "Download all attachments in Card",
-        "description": "Download all the attachments in the card as zip file.",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "",
-        "version": "0.1.1",
-        "price": "Paid",
-        "icon": "apps/r_download_all_attachments_in_card/img/r-download_all_attachments_in_card.png",
-        "settings_description": "",
-        "settings_links":[],
-        "settings": false,
-        "assets": {
-            "css": [],
-            "js": [
-                "apps/r_download_all_attachments_in_card/js/app.js"
-            ]
-        },
-        "enabled": true
-    },
     "r_elasticsearch": {
         "id": "r_elasticsearch",
         "uuid": "",
-        "name": "ElasticSearch",
+        "name": "Elasticsearch",
         "description": "Adds easy filtering of cards. Useful when you have multiple boards",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_elasticsearch/img/r-elasticsearch.png",
         "settings_description": "",
@@ -456,10 +567,13 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Paid",
         "icon": "apps/r_estimated_time/img/r-estimated-time.png",
         "settings_description": "",
+        "large_description": [
+            "Adds estimated time custom input. This will be displayed in the card listing to arrange them easily."
+        ],
         "settings": false,
         "assets": {
             "css": [
@@ -474,18 +588,21 @@
     "r_eu_gdpr": {
         "id": "r_eu_gdpr",
         "uuid": "",
-        "name": "European Union General Data Protection Regulation",
-        "description": "About data protection and privacy for all individuals within the European Union",
+        "name": "EU GDPR Cookie Consent Popup",
+        "description": "Makes Restyaboard instance GDPR cookie compliant by displaying popup.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Free",
         "icon": "apps/r_eu_gdpr/img/r-eu-gdpr.png",
         "settings_description": "",
+        "large_description": [
+            "The app adds cookie consent widget to Restyaboard instance to make it compliant with European Union General Data Protection Regulation policies."
+        ],
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [ ],
             "js": [
                 "apps/r_eu_gdpr/js/app.js"
             ]
@@ -496,17 +613,18 @@
         "id": "r_export_csv",
         "uuid": "",
         "name": "Export CSV",
-        "description": " Export card details from a board as CSV",
+        "description": "Export card details from a board as CSV",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_export_csv/img/r-export-csv.png",
         "settings_description": "",
         "settings": false,
+        "sponsor": "Sergi",
         "assets": {
-            "css": [],
+            "css": [ ],
             "js": [
                 "apps/r_export_csv/js/app.js"
             ]
@@ -517,15 +635,16 @@
         "id": "r_gantt_view",
         "uuid": "",
         "name": "Gantt View",
-        "description": "Adds Gantt view for handling projects which Shows tasks, task dependencies, task sequence and their progress in relation to the time assigned.",
+        "description": "Adds Gantt view apart from the default grid view. Gantt chart can be further refined to member or task basis.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.3",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_gantt_view/img/r-gantt-view.png",
         "settings_description": "",
         "settings": false,
+        "sponsor": "Erik Madsen",
         "assets": {
             "css": [
                 "apps/r_gantt_view/css/vendor.css",
@@ -544,7 +663,7 @@
         "id": "r_gmail_addon",
         "uuid": "",
         "name": "Gmail Add-on",
-        "description": "Quickly create new cards on your Restyaboard boards without leaving your inbox.",
+        "description": "Enables Gmail Add-on link so that users can install Restyaboard Gmail Add-on from Gmail Marketplace.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
@@ -563,11 +682,11 @@
         "id": "r_groups",
         "uuid": "",
         "name": "Groups",
-        "description": "Adds groups for handling projects.",
+        "description": "Allows admin users to create users group template and so multiple users can easily be added into board (instead of one by one).",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Paid",
         "icon": "apps/r_groups/img/r-group.png",
         "settings_description": "",
@@ -599,7 +718,7 @@
         "author_url": "",
         "version": "0.1.1",
         "price": "Paid",
-        "icon": "apps/r_hangouts_chat_bot/img/r-hangouts-chat-bot.jpg",
+        "icon": "apps/r_hangouts_chat_bot/img/r-hangouts-chat-bot.png",
         "settings_description": "",
         "settings": false,
         "assets": {
@@ -616,10 +735,14 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Free",
         "icon": "apps/r_hide_card_additional_informations/img/r-hide-card-additional-informations.png",
         "settings_description": "To hide the card additional informations like Card created date, Card created user, Card ID and List moved date",
+        "large_description": [
+            "- Hide Card Additional Informations from cards listing.",
+            "- Disable it in Admin Control Panel for default behavior."
+        ],
         "settings": {
             "hide_card_created_date": {
                 "label": "Hide card created date",
@@ -652,60 +775,53 @@
                 "apps/r_hide_card_additional_informations/js/app.js"
             ]
         },
-        "enabled": true
-    },
-    "r_icaluser": {
-        "id": "r_icaluser",
-        "uuid": "",
-        "name": "iCal Feed for User",
-        "description": "System will provide iCal feed URL for loggedin user to sync with Google calendar or any calendar.",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "",
-        "version": "0.1.1",
-        "price": "Paid",
-        "icon": "apps/r_icaluser/img/r-icaluser.png",
-        "settings_description": "",
-        "settings_links":[],
-        "settings": false,
-        "assets": {
-            "css": [],
-            "js": [
-                "apps/r_icaluser/js/app.js"
-            ]
-        },
-        "enabled": true
+        "enabled": false
     },
     "r_import_github": {
         "id": "r_import_github",
         "uuid": "",
         "name": "Import from GitHub",
         "description": "Enables importing projects and tickets from GitHub",
+        "large_description": [
+            "**How it works**",
+            "* Creates new boards for each GitHub repositories.",
+            "* Creates users with password 'restya' and email as empty for each repository users from GitHub.",
+            "* Assigns created users as board members.",
+            "* Creates default lists for each board which are New, Assigned, InProgress, Feedback, Closed.",
+            "* Inserts every issue as a card in the list based on following criteria: ",
+            "  * If issue state is not equal to open, issue will be added as a card in 'Closed' list",
+            "  * If issue comment count is not equal zero, issue will be as a card added in 'Feedback' list.",
+            "  * If issue has milestone date, issue will be added as a card in 'InProgress' list.",
+            "  * If issue assigned to user, issue will be added as a card in 'Assigned' list.",
+            "  * If any above criteria is not matched, issue will be added as a card in 'New' list.",
+            "* Assigns labels to each cards, milestone date to card due date and assigned users to card members.",
+            "* Inserts issue comments to respective card comments."
+        ],
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_import_github/img/r-import-github.png",
         "settings_description": "Register a new application in GitHub in this URL <a href='https://github.com/settings/applications/new' target='_blank'>https://github.com/settings/applications/new</a> with providing below details,<br/>Application Name: ##SITE_NAME##<br/>Homepage URL: ##SITE_URL##<br/>Application description: Give some description about your site<br/>Authorization callback URL: ##SITE_URL##/apps/r_import_github/login.html",
         "settings": {
             "r_import_github_client_id": {
-                "label": "GitHub Client ID",
-                "info": "",
-                "value": "REPLACE_GITHUB_CLIENT_ID",
-                "is_public": true
+                "label" : "GitHub Client ID",
+                "info" : "",
+                "value" : "REPLACE_GITHUB_CLIENT_ID",
+                "is_public" : true
             },
             "r_import_github_client_secret": {
-                "label": "GitHub Client Secret",
-                "info": "",
-                "value": "REPLACE_GITHUB_CLIENT_SECRET",
-                "is_public": false
+                "label" : "GitHub Client Secret",
+                "info" : "",
+                "value" : "REPLACE_GITHUB_CLIENT_SECRET",
+                "is_public" : false
             },
             "r_import_github_oauth_token_url": {
-                "label": "GitHub OAuth Token URL",
-                "info": "",
-                "value": "https://github.com/login/oauth/access_token",
-                "is_public": false
+                "label" : "GitHub OAuth Token URL",
+                "info" : "",
+                "value" : "https://github.com/login/oauth/access_token",
+                "is_public" : false
             }
         },
         "assets": {
@@ -717,6 +833,42 @@
         },
         "enabled": true
     },
+    "r_insights": {
+        "id": "r_insights",
+        "uuid": "",
+        "name": "Insights",
+        "description": "Enables insights about throughput, cycle time, spent time and list time of boards.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.3",
+        "price": "Paid",
+        "icon": "apps/r_insights/img/r-insights.png",
+        "settings_description": "",
+        "large_description": [
+            "- In Insights you’ll find the data you need to better understand and make smarter decisions about your project in the Restyaboard.",
+            "- You’ll also be able to quickly track performance. It’s easier to get your project status and performance with new data views and visualizations. ",
+            "- This App basically is a power-up which is not a part of the core Restyaboard experience."
+        ],
+        "settings": false,
+        "sponsor": "Ramachandran",
+        "assets": {
+            "css": [ ],
+            "js": [
+                "apps/r_insights/lib/highcharts.js",
+                "apps/r_insights/js/app.js"
+            ],
+            "html": [
+                "apps/r_insights/app.html"
+            ]
+        },
+        "mutationObservers": {
+            "header": {
+                "board_view_header" :"insertInsights"
+            }
+        },
+        "enabled": true
+    },
     "r_instant_add_card": {
         "id": "r_instant_add_card",
         "uuid": "",
@@ -725,13 +877,13 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_instant_add_card/img/r-instant-add-card.png",
         "settings_description": "",
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [ ],
             "js": [
                 "apps/r_instant_add_card/js/app.js"
             ]
@@ -746,23 +898,31 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.1",
+        "version": "0.1.3",
         "price": "Paid",
         "icon": "apps/r_kanban_printer/img/r-kanban-printer.png",
         "settings_description": "",
+        "large_description": [
+            "- Allows users to print list name and card title on sticky sheets.",
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
         "settings": false,
         "assets": {
             "css": [
                 "apps/r_kanban_printer/css/app.css"
+            ],
+            "js": [ 
+                "apps/r_kanban_printer/js/app.js"
             ]
-        },
+        },            
         "enabled": true
     },
     "r_labelstyle": {
         "id": "r_labelstyle",
         "uid": "",
         "name": "LabelStyle",
-        "description": "LabelStyle",
+        "description": "By default labels are displayed as colored icons in cards. Changes it to display labels in text.",
         "author": "ik9999",
         "author_email": "q@eqw.me",
         "author_url": "https://github.com/ik9999",
@@ -796,12 +956,12 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_ldap_login/img/r-ldap-login.png",
         "settings_description": "",
-        "settings_from_db": "'R_LDAP_LOGIN_ENABLE_SSL','R_LDAP_LOGIN_SERVER','R_LDAP_LOGIN_PORT','R_LDAP_LOGIN_PROTOCOL_VERSION','R_LDAP_LOGIN_BASE_DN','R_LDAP_LOGIN_ACCOUNT_FILTER','R_LDAP_LOGIN_ADVANCED_FILTER','R_LDAP_LOGIN_BIND_DN','R_LDAP_LOGIN_BIND_PASSWORD'",
-        "settings": [],
+        "settings_from_db": "'R_LDAP_LOGIN_ENABLE_SSL','R_LDAP_LOGIN_SERVER','R_LDAP_LOGIN_PORT','R_LDAP_LOGIN_PROTOCOL_VERSION','R_LDAP_LOGIN_BASE_DN','R_LDAP_LOGIN_ACCOUNT_FILTER','R_LDAP_LOGIN_ADVANCED_FILTER','R_LDAP_EMAIL_ATTRIBUTE','R_LDAP_DISPLAY_NAME_ATTRIBUTE','R_LDAP_IMAGE_ATTRIBUTE','R_LDAP_LOGIN_HANDLE','R_LDAP_LOGIN_BIND_DN','R_LDAP_LOGIN_BIND_PASSWORD','R_LDAP_LOGIN_IMPORT_TYPE','R_LDAP_LOGIN_WELCOME_MAIL'",
+        "settings": {},
         "assets": {
             "css": [],
             "js": [
@@ -810,31 +970,6 @@
         },
         "enabled": true,
         "limit": 100
-    },
-    "r_report_view": {
-        "id": "r_report_view",
-        "uuid": "",
-        "name": "Report View",
-        "description": "Adds Report view for handling projects.",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "",
-        "version": "0.1.1",
-        "price": "Paid",
-        "icon": "apps/r_report_view/img/r-report-view.png",
-        "settings_description": "",
-        "settings": false,
-        "assets": {
-            "css": [ ],
-            "js": [
-                "apps/r_report_view/lib/highcharts.js",
-                "apps/r_report_view/js/app.js"
-            ],
-            "html": [
-                "apps/r_report_view/app.html"
-            ]
-        },
-        "enabled": true
     },
     "r_seo_checklist": {
         "id": "r_seo_checklist",
@@ -848,9 +983,12 @@
         "price": "Paid",
         "icon": "apps/r_seo_checklist/img/r-seo-checklist.png",
         "settings_description": "",
+        "large_description": [
+            "This app creates a new board and imports readymade SEO checklist of essential SEO tips and tasks for any new website."
+        ],
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [ ], 
             "js": [
                 "apps/r_seo_checklist/js/app.js"
             ]
@@ -865,33 +1003,39 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_slack/img/r-slack.png",
         "settings_description": "Register a new application in Slack in this URL <a href='https://api.slack.com/applications/new' target='_blank'>https://api.slack.com/applications/new</a> with providing below details,<br/>App Name: ##SITE_NAME##<br/>Short Description: Give some description about your site<br/>Describe what your app does on Slack (3-5 sentences): Give some description about what your app does on Slack<br/>Redirect URI(s): ##SITE_URL##/apps/r_slack/login.html",
+        "large_description":[
+            "**How it works**",
+            "- Fetches your Slack channels and creates a mapping with your assigned board names, and stores them in localforage.",
+            "- Whenever you post comments in Restyaboard, script posts that to corresponding channels in Slack.",
+            "- If the board is not in a Slack channel, script creates a new Slack channel using board name and post the comment to it."
+        ],
         "settings": {
             "r_slack_client_id": {
-                "label": "Slack Client ID",
-                "info": "",
-                "value": "REPLACE_SLACK_CLIENT_ID",
-                "is_public": true
+                "label" : "Slack Client ID",
+                "info" : "",
+                "value" : "REPLACE_SLACK_CLIENT_ID",
+                "is_public" : true
             },
             "r_slack_client_secret": {
-                "label": "Slack Client Secret",
-                "info": "",
-                "value": "REPLACE_SLACK_CLIENT_SECRET",
-                "is_public": false
+                "label" : "Slack Client Secret",
+                "info" : "",
+                "value" : "REPLACE_SLACK_CLIENT_SECRET",
+                "is_public" : false
             },
             "r_slack_oauth_token_url": {
-                "label": "Slack OAuth Token URL",
-                "info": "",
-                "value": "https://slack.com/api/oauth.access",
-                "is_public": false
+                "label" : "Slack OAuth Token URL",
+                "info" : "",
+                "value" : "https://slack.com/api/oauth.access",
+                "is_public" : false
             }
         },
         "assets": {
-            "css": [],
-            "js": [
+            "css": [ ],
+            "js": [            
                 "apps/r_slack/js/libs/slack.js"
             ]
         },
@@ -905,7 +1049,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_spent_time/img/r-spent-time.png",
         "settings_description": "",
@@ -931,10 +1075,19 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_support_app/img/r-support-app.png",
         "settings_description": "For more details about support desk, please click <a href='http://restya.com/board/apps/r_support_app' target='_blank'>here</a>",
+        "large_description": [
+            "Help desk or support ticket system or customer service software using Restyaboard.",
+            "**How it works**",
+            "- Embed front-end widget similar to Samanage in a website to receive tickets from customers.",
+            "- Tickets will be stored in TODO board and under TODO list in a card, Click here to [Change Settings](#/apps/r_support_app).",
+            "- You can use kanban workflow in handling tickets.",
+            "**Widget**",
+            "- Copy the code and paste it before the closing </body> tag."
+        ],
         "settings": {
             "r_support_app_board_id": {
                 "label": "Board ID",
@@ -950,10 +1103,9 @@
             }
         },
         "assets": {
-            "css": [],
+            "css": [ ],
             "js": [
-                "apps/r_support_app/js/app.js",
-                "apps/r_support_app/js/support.js"
+                "apps/r_support_app/js/app.js"
             ]
         },
         "enabled": true
@@ -962,11 +1114,11 @@
         "id": "r_task_move_on_due_date",
         "uuid": "",
         "name": "Task Move on Due Date",
-        "description": "Task Move on Due Date.",
+        "description": "Automates moving of cards to a configured list on due date.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_task_move_on_due_date/img/r-task-move-on-due-date.png",
         "settings_description": "",
@@ -989,7 +1141,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Free",
         "icon": "apps/r_togetherjs/img/r-togetherjs.png",
         "settings_description": "",
@@ -999,10 +1151,34 @@
                 "apps/r_togetherjs/css/app.css"
             ],
             "js": [
-                "apps/r_togetherjs/js/app.js"
+                "apps/r_togetherjs/js/app.js",
+                "apps/r_togetherjs/js/libs/togetherjs-min.js"
             ]
         },
         "enabled": false
+    },
+    "r_user_ical_feed": {
+        "id": "r_user_ical_feed",
+        "uuid": "",
+        "name": "User iCal Feed",
+        "description": "Enables iCal feed link to a board so that cards/tasks in a board can be synced with external calendars like Google Calendar.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.2",
+        "price": "Paid",
+        "icon": "apps/r_user_ical_feed/img/r-userical-feed.png",
+        "settings_description": "",
+        "settings_links":[],
+        "settings": false,
+        "sponsor": "Marc Perna",
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_user_ical_feed/js/app.js"
+            ]
+        },
+        "enabled": true
     },
     "r_website_qa_checklist": {
         "id": "r_website_qa_checklist",
@@ -1016,9 +1192,12 @@
         "price": "Paid",
         "icon": "apps/r_website_qa_checklist/img/r-website-qa-checklist.png",
         "settings_description": "",
+        "large_description": [
+            "This app creates a new board and imports readymade QA checklist of best practices for any new website."
+        ],
         "settings": false,
         "assets": {
-            "css": [],
+            "css": [ ],
             "js": [
                 "apps/r_website_qa_checklist/js/app.js"
             ]
@@ -1033,9 +1212,9 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Paid",
-        "icon": "apps/r_wiki/img/r-wiki.jpeg",
+        "icon": "apps/r_wiki/img/r-wiki.png",
         "settings_description": "",
         "large_description": [
             "- Disable it in Admin Control Panel for default behavior.",
@@ -1061,29 +1240,6 @@
             ]
         },
         "enabled": true
-    },    
-    "r_wip_limit": {
-        "id": "r_wip_limit",
-        "uuid": "",
-        "name": "Work In Progress Limit",
-        "description": "Enables users to set work in progress limit for lists.",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "http://restya.com/",
-        "version": "0.1.1",
-        "price": "Paid",
-        "icon": "apps/r_wip_limit/img/r-wip-limit.png",
-        "settings_description": "",
-        "settings": false,
-        "assets": {
-            "css": [
-                "apps/r_wip_limit/css/app.css"
-            ],
-            "js": [
-                "apps/r_wip_limit/js/app.js"
-            ]
-        },
-        "enabled": true
     },
     "r_zapier": {
         "id": "r_zapier",
@@ -1093,10 +1249,15 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "price": "Paid",
         "icon": "apps/r_zapier/img/r-zapier.png",
         "settings_description": "",
+        "large_description": [
+            "- Zapier is IFTTT like workflow automation service.",
+            "- This app generates 'access token' that you should use it in Zapier to connect with your Restyaboard account.",
+            "- Please refer to [Integration document](http://restya.com/board/integrations) for how to use your 'access token' in Zapier."
+        ],
         "settings": {
             "r_zapier_client_id": {
                 "label": "Zapier Client ID",

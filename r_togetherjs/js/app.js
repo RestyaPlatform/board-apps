@@ -1,7 +1,7 @@
 (function() {
     var $dc = $(document);
     $dc.ready(function() {
-        $('#footer').bind('DOMSubtreeModified', loadTogetherJS);
+        $('body').bind('appPopupAction', insertAppAction);
         var is_togetherjs_opened = false;
 
         function loadTogetherJS(e) {
@@ -26,13 +26,19 @@
             } else if ($.cookie('auth') === undefined && is_togetherjs_opened === true) {
                 $('#start-togetherjs').trigger('click');
             }
-            if ($(e.target).hasClass('footer')) {
-                localforage.getItem('apps', function(err, value) {
-                    var local_storage_apps = JSON.parse(value);
-                    $('body').append('<div class="modal fade" id="r_togetherjs_modal" tabindex="-1" role="dialog" aria-labelledby="loginTogetherJSModalModalLabel" aria-hidden="false"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button><div class="media list-group-item-heading"><div class="pull-left"><img class="img-circle" width="36" height="36" src="' + local_storage_apps.r_togetherjs.icon + '" /></div><div class="media-body"><h4 class="modal-title" id="exampleModalLabel">' + i18next.t('TogetherJS') + '</h4><div><span class="text-muted">v' + local_storage_apps.r_togetherjs.version + '</span> By <a target="_blank" href="' + local_storage_apps.r_togetherjs.author_url + '?utm_source=restyaboard&utm_medium=apppopup&utm_campaign=rb-app-togetherjs' + '" title="author">' + local_storage_apps.r_togetherjs.author + '</a></div></div></div></div><div class="modal-body import-block">' + i18next.t('Enable collaboration using Mozilla\'\s TogetherJS') + '</div><div class="modal-footer"><a id="js-together-js-button" href="#" title="' + ((is_togetherjs_opened) ? i18next.t('End Session') : i18next.t('Start Session')) + '" class="btn btn-primary">' + ((is_togetherjs_opened) ? i18next.t('End Session') : i18next.t('Start Session')) + '</a></div></div></div></div>');
-                });
+        }
+
+        function insertAppAction(e) {
+            if (typeof $('#start-togetherjs').html() == 'undefined' && $.cookie('auth') !== undefined && $.cookie('auth') !== null) {
+                is_togetherjs_opened = true;
+            }
+            if ($('#r_togetherjs_modal').find('.modal-footer').length !== 0) {
+                if ($('#r_togetherjs_modal .modal-footer').find('#js-together-js-button').length === 0) {
+                    $('#r_togetherjs_modal').find('.modal-footer').append('<a id="js-together-js-button" href="#" title="' + ((is_togetherjs_opened) ? i18next.t('End Session') : i18next.t('Start Session')) + '" class="btn btn-primary">' + ((is_togetherjs_opened) ? i18next.t('End Session') : i18next.t('Start Session')) + '</a>');
+                }
             }
         }
+
         $dc.on('click', '#js-together-js-button,#togetherjs-end-session', function(event) {
             if ($('#r_togetherjs_modal').hasClass('in')) {
                 $('#r_togetherjs_modal').modal('hide');
@@ -43,5 +49,8 @@
             $('#js-together-js-button').text((is_togetherjs_opened) ? i18next.t('End Session') : i18next.t('Start Session'));
             return false;
         });
+
+        //APP function Definition
+        AppsFunction.loadTogetherJS = loadTogetherJS;
     });
 })();
