@@ -2,7 +2,7 @@
 	"id": "r_eu_gdpr",
 	"uuid": "",
 	"name": "EU GDPR Cookie Consent Popup",
-	"description": "The app adds cookie consent widget to Restyaboard instance to make it compliant with European Union General Data Protection Regulation policies.",
+	"description": "Makes Restyaboard instance GDPR cookie compliant by displaying popup.",
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",

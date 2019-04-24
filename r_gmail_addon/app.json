@@ -2,7 +2,7 @@
 	"id": "r_gmail_addon",
 	"uuid": "",
 	"name": "Gmail Add-on",
-	"description": "Quickly create new cards on your boards without leaving your inbox.",
+	"description": "Enables Gmail Add-on link so that users can install Restyaboard Gmail Add-on from Gmail Marketplace.",
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",
