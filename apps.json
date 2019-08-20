@@ -678,6 +678,35 @@
         },
         "enabled": true
     },
+    "r_gridview_configure": {
+        "id": "r_gridview_configure",
+        "uuid": "",
+        "name": "Grid View Configure",
+        "description": "To hide all the card additional informations in Grid view like  Card ID, Card Name, List moved date etc.. from cards listing.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/board",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_gridview_configure/img/r_gridview_configure.png",
+        "settings_description": "To hide all the card additional informations in Grid view like  Card ID, Card Name, List moved date etc.. from cards listing.",
+        "large_description" : [
+            "- To hide the card additional informations in Grid view like Card created date, Card created user, Card ID, List moved date etc.. from cards listing.",
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_gridview_configure/js/app.js"
+            ],
+            "html": [
+                "apps/r_gridview_configure/app.html"
+            ]
+        },
+        "enabled": true
+    },
     "r_groups": {
         "id": "r_groups",
         "uuid": "",
@@ -971,6 +1000,70 @@
         "enabled": true,
         "limit": 100
     },
+    "r_listview_configure": {
+        "id": "r_listview_configure",
+        "uuid": "",
+        "name": "List View Configure",
+        "description": "To hide all the card additional informations in list view like  Card ID, Card Name, List moved date etc..and changing the position of the card addition informations from cards listing.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/board",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_listview_configure/img/r_listview_configure.png",
+        "settings_description": "To hide all the card additional informations in list view like  Card ID, Card Name, List moved date etc..and changing the position of the card addition informations from cards listing.",
+        "large_description" : [
+            "- To hide all the card additional informations in list view like  Card ID, Card Name, List moved date etc..and changing the position of the card addition informations from cards listing.",
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_listview_configure/css/app.css"
+            ],
+            "js": [
+                "apps/r_listview_configure/js/app.js"
+            ],	
+            "html": [
+                "apps/r_listview_configure/app.html"
+            ]
+        },
+        "enabled": true
+    },
+    "r_multiple_ldap_login": {
+        "id": "r_multiple_ldap_login",
+        "uuid": "",
+        "name": "Multiple LDAP",
+        "description": "Enables users to login using their LDAP accounts.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/board",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_multiple_ldap_login/img/r-multiple-ldap-login.png",
+        "settings_description": "",
+        "settings_from_db": "'R_MLDAP_LOGIN_ENABLE_SSL','R_MLDAP_LOGIN_SERVER','R_MLDAP_LOGIN_PORT','R_MLDAP_LOGIN_PROTOCOL_VERSION','R_MLDAP_LOGIN_BASE_DN','R_MLDAP_LOGIN_ACCOUNT_FILTER','R_MLDAP_LOGIN_ADVANCED_FILTER','R_MLDAP_EMAIL_ATTRIBUTE','R_MLDAP_DISPLAY_NAME_ATTRIBUTE','R_MLDAP_IMAGE_ATTRIBUTE','R_MLDAP_LOGIN_HANDLE','R_MLDAP_LOGIN_BIND_DN','R_MLDAP_LOGIN_BIND_PASSWORD','R_MLDAP_LOGIN_IMPORT_TYPE','R_MLDAP_LOGIN_WELCOME_MAIL','R_MLDAP_SERVERS'",
+        "settings": false,
+        "settings_links":[
+            {
+                "name":"Manage",
+                "icon": "icon-cog",
+                "url":"#/apps/r_multiple_ldap_login/manage"
+            }
+        ],
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_multiple_ldap_login/js/app.js"
+            ],
+            "html": [
+                "apps/r_multiple_ldap_login/app.html"
+            ]
+        },
+        "enabled": true,
+        "limit": 100
+    },
     "r_seo_checklist": {
         "id": "r_seo_checklist",
         "uuid": "",
@@ -1039,6 +1132,32 @@
                 "apps/r_slack/js/libs/slack.js"
             ]
         },
+        "enabled": true
+    },
+    "r_sparkpost": {
+        "id": "r_sparkpost",
+        "uid": "",
+        "name": "SparkPost",
+        "description": "SparkPost provides us with the real-time email metrics.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/board",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_sparkpost/img/r-sparkpost.png",
+        "settings_description": "",
+        "large_description": [
+            "- This app allow you to connect with SparkPost of world’s leading email platform.",
+            "- Send an mails with deliverability, scalability and speed."
+        ],
+        "settings_from_db": "'SPARKPOST_API_KEY'",
+        "settings": {},
+        "assets": {
+            "css": [ ],
+            "js": [ 
+                "apps/r_sparkpost/js/app.js"
+            ]
+        },            
         "enabled": true
     },
     "r_spent_time": {
