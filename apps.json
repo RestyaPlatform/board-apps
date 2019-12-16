@@ -7,7 +7,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_agile_wip/img/r-agile-wip.png",
         "settings_description": "",
@@ -57,7 +57,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_attachment_downloader/img/r-attachment_downloader.png",
         "settings_description": "",
@@ -246,7 +246,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.3",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_card_template/img/r_card_template.png",
         "settings_description": "",
@@ -273,7 +273,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_chart/img/r-chart.png",
         "settings_description": "Different people may use different naming for Todo, Doing and Done. So, it is usually difficult to identify what are actually in Todo, Doing and Done. Below, you can configure how the lists have to be recognized. For a list, you can configure its indicator icon and its color too.",
@@ -487,7 +487,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_custom_fields/img/r-custom_field.png",
         "settings_description": "",
@@ -525,7 +525,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_elasticsearch/img/r-elasticsearch.png",
         "settings_description": "",
@@ -567,7 +567,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.3",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_estimated_time/img/r-estimated-time.png",
         "settings_description": "",
@@ -675,6 +675,35 @@
         "assets": {
             "css": [],
             "js": []
+        },
+        "enabled": true
+    },
+    "r_gridview_configure": {
+        "id": "r_gridview_configure",
+        "uuid": "",
+        "name": "Grid View Configure",
+        "description": " The Grid View Configure app allows a user to change the visibility of set of columns at runtime. It is configured by choosing the fields which wants to be shown in front of the cards.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/board",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_gridview_configure/img/r_gridview_configure.png",
+        "settings_description": "The Grid View Configure app allows a user to change the visibility of set of columns at runtime. It is configured by choosing the fields which wants to be shown in front of the cards.",
+        "large_description" : [
+            "- To hide the card additional information in Grid view like Card created date, Card created user, Card ID, List moved date etc.. from cards listing.",
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_gridview_configure/js/app.js"
+            ],
+            "html": [
+                "apps/r_gridview_configure/app.html"
+            ]
         },
         "enabled": true
     },
@@ -800,7 +829,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_import_github/img/r-import-github.png",
         "settings_description": "Register a new application in GitHub in this URL <a href='https://github.com/settings/applications/new' target='_blank'>https://github.com/settings/applications/new</a> with providing below details,<br/>Application Name: ##SITE_NAME##<br/>Homepage URL: ##SITE_URL##<br/>Application description: Give some description about your site<br/>Authorization callback URL: ##SITE_URL##/apps/r_import_github/login.html",
@@ -841,7 +870,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.3",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_insights/img/r-insights.png",
         "settings_description": "",
@@ -971,6 +1000,70 @@
         "enabled": true,
         "limit": 100
     },
+    "r_listview_configure": {
+        "id": "r_listview_configure",
+        "uuid": "",
+        "name": "List View Configure",
+        "description": "The List View Configure app allows a user to change the visibility and order of set of columns at runtime. It is configured using the default drag-and-drop mode for choosing the order of fields and the user selects the fields which wants to be shown in list view.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/board",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_listview_configure/img/r_listview_configure.png",
+        "settings_description": "The List View Configure app allows a user to change the visibility and order of set of columns at runtime. It is configured using the default drag-and-drop mode for choosing the order of fields and the user selects the fields which wants to be shown in list view.",
+        "large_description" : [
+            "- To hide all the card additional information in list view like  Card ID, Card Name, List moved date etc..and changing the position of the card addition information from cards listing.",
+            "- Disable it in Admin Control Panel for default behavior.",
+            "- This is a simple sample App to show the possibilities of App platform."
+        ],
+        "settings": false,
+        "assets": {
+            "css": [
+                "apps/r_listview_configure/css/app.css"
+            ],
+            "js": [
+                "apps/r_listview_configure/js/app.js"
+            ],	
+            "html": [
+                "apps/r_listview_configure/app.html"
+            ]
+        },
+        "enabled": true
+    },
+    "r_multiple_ldap_login": {
+        "id": "r_multiple_ldap_login",
+        "uuid": "",
+        "name": "Multiple LDAP",
+        "description": "Enables users to login using their LDAP accounts.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/board",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_multiple_ldap_login/img/r-multiple-ldap-login.png",
+        "settings_description": "",
+        "settings_from_db": "'R_MLDAP_LOGIN_ENABLE_SSL','R_MLDAP_LOGIN_SERVER','R_MLDAP_LOGIN_PORT','R_MLDAP_LOGIN_PROTOCOL_VERSION','R_MLDAP_LOGIN_BASE_DN','R_MLDAP_LOGIN_ACCOUNT_FILTER','R_MLDAP_LOGIN_ADVANCED_FILTER','R_MLDAP_EMAIL_ATTRIBUTE','R_MLDAP_DISPLAY_NAME_ATTRIBUTE','R_MLDAP_IMAGE_ATTRIBUTE','R_MLDAP_LOGIN_HANDLE','R_MLDAP_LOGIN_BIND_DN','R_MLDAP_LOGIN_BIND_PASSWORD','R_MLDAP_LOGIN_IMPORT_TYPE','R_MLDAP_LOGIN_WELCOME_MAIL','R_MLDAP_SERVERS'",
+        "settings": false,
+        "settings_links":[
+            {
+                "name":"Manage",
+                "icon": "icon-cog",
+                "url":"#/apps/r_multiple_ldap_login/manage"
+            }
+        ],
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_multiple_ldap_login/js/app.js"
+            ],
+            "html": [
+                "apps/r_multiple_ldap_login/app.html"
+            ]
+        },
+        "enabled": true,
+        "limit": 100
+    },
     "r_seo_checklist": {
         "id": "r_seo_checklist",
         "uuid": "",
@@ -1003,7 +1096,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_slack/img/r-slack.png",
         "settings_description": "Register a new application in Slack in this URL <a href='https://api.slack.com/applications/new' target='_blank'>https://api.slack.com/applications/new</a> with providing below details,<br/>App Name: ##SITE_NAME##<br/>Short Description: Give some description about your site<br/>Describe what your app does on Slack (3-5 sentences): Give some description about what your app does on Slack<br/>Redirect URI(s): ##SITE_URL##/apps/r_slack/login.html",
@@ -1039,6 +1132,32 @@
                 "apps/r_slack/js/libs/slack.js"
             ]
         },
+        "enabled": true
+    },
+    "r_sparkpost": {
+        "id": "r_sparkpost",
+        "uid": "",
+        "name": "SparkPost",
+        "description": "SparkPost  let all emails sent through SparkPost email service, instead through local SMTP server.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/board",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_sparkpost/img/r-sparkpost.png",
+        "settings_description": "",
+        "large_description": [
+            "- This app allow you to send all emails through SparkPost email service.",
+            "- Send an mails with deliverability, scalability and speed."
+        ],
+        "settings_from_db": "'SPARKPOST_API_KEY'",
+        "settings": {},
+        "assets": {
+            "css": [ ],
+            "js": [ 
+                "apps/r_sparkpost/js/app.js"
+            ]
+        },            
         "enabled": true
     },
     "r_spent_time": {
@@ -1188,7 +1307,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "price": "Paid",
         "icon": "apps/r_website_qa_checklist/img/r-website-qa-checklist.png",
         "settings_description": "",
@@ -1212,7 +1331,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.3",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_wiki/img/r-wiki.png",
         "settings_description": "",
@@ -1249,7 +1368,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.3",
+        "version": "0.1.4",
         "price": "Paid",
         "icon": "apps/r_zapier/img/r-zapier.png",
         "settings_description": "",
