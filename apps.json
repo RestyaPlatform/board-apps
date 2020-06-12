@@ -640,7 +640,7 @@
         "author_email": "info@agileshoppe.com",
         "author_url": "https://agileshoppe.com",
         "version": "0.1.1",
-        "price": "Free",
+        "price": "Paid",
         "icon": "apps/r_freshdesk/img/r-freshdesk.png",
         "settings_description": "Freshdesk allow users to connect your board to your Freshdesk account.",
         "large_description": [
@@ -1493,7 +1493,7 @@
         "author_email": "info@agileshoppe.com",
         "author_url": "https://agileshoppe.com",
         "version": "0.1.1",
-        "price": "Free",
+        "price": "Paid",
         "icon": "apps/r_zendesk/img/r-zendesk.png",
         "settings_description": "Zendesk allow users to connect your board to your Zendesk account.",
         "large_description": [
