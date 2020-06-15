@@ -635,7 +635,7 @@
         "id": "r_freshdesk",
         "uuid": "",
         "name": "Freshdesk",
-        "description": "Freshdesk is IFTTT like workflow automation service that enables integration with over 500 other websites. This app enables connecting to Freshdesk.",
+        "description": "Restyaboard has an app listed in the Freshdesk marketplace to manage customer tickets through Restyaboard. The app supplements it by providing the access token that is needed for accessing the Restyaboard from Freshdesk.",
         "author": "AgileShoppe",
         "author_email": "info@agileshoppe.com",
         "author_url": "https://agileshoppe.com",
@@ -644,9 +644,8 @@
         "icon": "apps/r_freshdesk/img/r-freshdesk.png",
         "settings_description": "Freshdesk allow users to connect your board to your Freshdesk account.",
         "large_description": [
-            "- Freshdesk app is perfect for resolving your customer support tickets." ,
-            "- Connect your board to your Freshdesk account with the app for Freshdesk.",
-            "- Any card can be linked to Freshdesk tickets and vice-versa."
+            "- Restyaboard app by AgileShoppe in Freshdesk marketplace helps customers of Freshdesk resolve their support tickets through Restyaboard. Using that any card can be created or linked with Freshdesk tickets." ,
+            "- This app provides the access token required for that Freshdesk app."
         ],
         "settings": {
             "r_freshdesk_client_id": {
@@ -1343,7 +1342,7 @@
         "id": "r_visualstudio",
         "uuid": "",
         "name": "Visual Studio",
-        "description": "Visual Studio is IFTTT like workflow automation service that enables integration with over 500 other websites. This app enables connecting to Visual Studio.",
+        "description": "Restyaboard has an extension listed in the Visual Studio marketplace to manage customer task through Restyaboard. The app supplements it by providing the access token that is needed for accessing the Restyaboard from Visual Studio.",
         "author": "Zyndaa",
         "author_email": "info@zyndaa.com",
         "author_url": "http://zyndaa.com/",
@@ -1352,9 +1351,8 @@
         "icon": "apps/r_visualstudio/img/r-visualstudio.png",
         "settings_description": "",
         "large_description": [
-            "- Visual Studio app is perfect for resolving your customer support tickets." ,
-            "- Connect your board to your Visual Studio account with the app for Visual Studio.",
-            "- Any card can be linked to Visual Studio tickets and vice-versa."
+            "- Restyaboard extension by Zyndaa in Visual Studio marketplace helps customers of Restyaboard resolve their tasks through Restyaboard. Using that any card can be created or previewed from Visual Studio Code." ,
+            "- This app provides the access token required for that Visual Studio app."
         ],
         "settings": {
             "r_visualstudio_client_id": {
@@ -1375,7 +1373,7 @@
             "css": [],
             "js": [ ]
         },
-        "enabled": false
+        "enabled": true
     },
     "r_website_qa_checklist": {
         "id": "r_website_qa_checklist",
@@ -1488,7 +1486,7 @@
         "id": "r_zendesk",
         "uuid": "",
         "name": "Zendesk",
-        "description": "Zendesk is IFTTT like workflow automation service that enables integration with over 500 other websites. This app enables connecting to Zendesk.",
+        "description": "Restyaboard has an app listed in the Zendesk marketplace to manage customer tickets through Restyaboard. This app supplements it by providing the access token that is needed for accessing the Restyaboard from Zendesk.",
         "author": "AgileShoppe",
         "author_email": "info@agileshoppe.com",
         "author_url": "https://agileshoppe.com",
@@ -1497,9 +1495,8 @@
         "icon": "apps/r_zendesk/img/r-zendesk.png",
         "settings_description": "Zendesk allow users to connect your board to your Zendesk account.",
         "large_description": [
-            "- Zendesk app is perfect for resolving your customer support tickets." ,
-            "- Connect your board to your Zendesk account with the app for Zendesk.",
-            "- Any card can be linked to Zendesk tickets and vice-versa."
+            "- Restyaboard app by AgileShoppe in Zendesk marketplace helps customers of Zendesk resolve their support tickets through Restyaboard. Using that any card can be created or linked with Zendesk tickets." ,
+            "- This app provides the access token required for that Zendesk app."
         ],
         "settings": {
             "r_zendesk_client_id": {
