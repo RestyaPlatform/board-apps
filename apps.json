@@ -157,7 +157,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.3",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_broadcasts/img/r-broadcast.png",
         "settings_description": "",
@@ -246,7 +246,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_card_template/img/r_card_template.png",
         "settings_description": "",
@@ -430,18 +430,18 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.2",
+        "version": "0.1.4",
         "price": "Free",
         "icon": "apps/r_codenames/img/r-codenames.png",
         "settings_description": "",
         "large_description": [
             "Starting from v0.6.6 (Modern Talking), all Restyaboard versions are codenamed after legendary music bands, as a token of respect and appreciation. Anyone can propose their favorite band for upcoming milestones in [GitHub tracker](https://github.com/RestyaPlatform/board/issues/1859). By enabling this app, new boards will get codename wallpaper and productivity beat.",
             "",
-            "Current v0.6.7 is codenamed after legendary **Boney M** band",
-            "## About Boney M",
-            "- Boney M. is a Euro-Caribbean vocal group created by German record producer Frank Farian. Originally based in West Germany, the four original members of the group's official line-up were Liz Mitchell and Marcia Barrett from Jamaica, Maizie Williams from Montserrat and Bobby Farrell, a performing-artist from Aruba. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Boney_M.))",
-            "- Origin: Germany (1975)",
-            "- Members: Bobby Farrell, Liz Mitchell, Frank Farian, Marcia Barrett, Maizie Williams, Reggie Tsiboe, Sheyla Bonnick, Claudja Barry",
+            "Current v0.6.9 is codenamed after legendary **Stereopony** band",
+            "## About Stereopony",
+            "- Stereopony (ステレオポニー Sutereoponī), was a Japanese pop rock band that formed in Okinawa, Japan in 2007 and disbanded in 2012. The three-girl band consisted of Aimi Haraguni (lead vocals and guitar), Nohana Kitajima (bass guitar), and Shiho Yamanoha (drums). They were signed to the Sony Records music label.The band released 11 singles and three studio albums. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Stereopony))",
+            "- Origin: Okinawa, Japan (2007)",
+            "- Members: Aimi Haraguni, Nohana Kitajima, Shiho Yamanoha",
             "- Genres: Euro disco, Contemporary R&B, Reggae"
         ],
         "settings": false,
@@ -487,7 +487,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.5",
+        "version": "0.1.6",
         "price": "Paid",
         "icon": "apps/r_custom_fields/img/r-custom_field.png",
         "settings_description": "",
@@ -525,7 +525,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.5",
+        "version": "0.1.6",
         "price": "Paid",
         "icon": "apps/r_elasticsearch/img/r-elasticsearch.png",
         "settings_description": "",
@@ -631,6 +631,45 @@
         },
         "enabled": true
     },
+    "r_freshdesk": {
+        "id": "r_freshdesk",
+        "uuid": "",
+        "name": "Freshdesk",
+        "description": "Restyaboard has an app listed in the Freshdesk marketplace to manage customer tickets through Restyaboard. The app supplements it by providing the access token that is needed for accessing the Restyaboard from Freshdesk.",
+        "author": "AgileShoppe",
+        "author_email": "info@agileshoppe.com",
+        "author_url": "https://agileshoppe.com",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_freshdesk/img/r-freshdesk.png",
+        "settings_description": "Freshdesk allow users to connect your board to your Freshdesk account.",
+        "large_description": [
+            "- Restyaboard app by AgileShoppe in Freshdesk marketplace helps customers of Freshdesk resolve their support tickets through Restyaboard. Using that any card can be created or linked with Freshdesk tickets." ,
+            "- This app provides the access token required for that Freshdesk app."
+        ],
+        "settings": {
+            "r_freshdesk_client_id": {
+                "label": "Freshdesk Client ID",
+                "info": "",
+                "value": "1912270553584916",
+                "is_public": true
+            },
+            "r_is_restyaboard_login": {
+                "label": "RestyaBoard Login",
+                "info": "",
+                "value": "true",
+                "is_hide": true,
+                "is_public": false
+            }
+        },
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_freshdesk/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_gantt_view": {
         "id": "r_gantt_view",
         "uuid": "",
@@ -639,7 +678,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_gantt_view/img/r-gantt-view.png",
         "settings_description": "",
@@ -906,7 +945,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "price": "Paid",
         "icon": "apps/r_instant_add_card/img/r-instant-add-card.png",
         "settings_description": "",
@@ -1299,6 +1338,43 @@
         },
         "enabled": true
     },
+    "r_visualstudio": {
+        "id": "r_visualstudio",
+        "uuid": "",
+        "name": "Visual Studio",
+        "description": "Restyaboard has an extension listed in the Visual Studio marketplace to manage customer task through Restyaboard. The app supplements it by providing the access token that is needed for accessing the Restyaboard from Visual Studio.",
+        "author": "Zyndaa",
+        "author_email": "info@zyndaa.com",
+        "author_url": "http://zyndaa.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_visualstudio/img/r-visualstudio.png",
+        "settings_description": "",
+        "large_description": [
+            "- Restyaboard extension by Zyndaa in Visual Studio marketplace helps customers of Restyaboard resolve their tasks through Restyaboard. Using that any card can be created or previewed from Visual Studio Code." ,
+            "- This app provides the access token required for that Visual Studio app."
+        ],
+        "settings": {
+            "r_visualstudio_client_id": {
+                "label": "Visual Studio Client ID",
+                "info": "",
+                "value": "9335847554774492",
+                "is_public": true
+            },
+            "r_is_restyaboard_login": {
+                "label": "RestyaBoard Login",
+                "info": "",
+                "value": "true",
+                "is_hide": true,
+                "is_public": false
+            }
+        },
+        "assets": {
+            "css": [],
+            "js": [ ]
+        },
+        "enabled": true
+    },
     "r_website_qa_checklist": {
         "id": "r_website_qa_checklist",
         "uuid": "",
@@ -1331,7 +1407,7 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "",
-        "version": "0.1.5",
+        "version": "0.1.6",
         "price": "Paid",
         "icon": "apps/r_wiki/img/r-wiki.png",
         "settings_description": "",
@@ -1402,6 +1478,45 @@
             "css": [],
             "js": [
                 "apps/r_zapier/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
+    "r_zendesk": {
+        "id": "r_zendesk",
+        "uuid": "",
+        "name": "Zendesk",
+        "description": "Restyaboard has an app listed in the Zendesk marketplace to manage customer tickets through Restyaboard. This app supplements it by providing the access token that is needed for accessing the Restyaboard from Zendesk.",
+        "author": "AgileShoppe",
+        "author_email": "info@agileshoppe.com",
+        "author_url": "https://agileshoppe.com",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_zendesk/img/r-zendesk.png",
+        "settings_description": "Zendesk allow users to connect your board to your Zendesk account.",
+        "large_description": [
+            "- Restyaboard app by AgileShoppe in Zendesk marketplace helps customers of Zendesk resolve their support tickets through Restyaboard. Using that any card can be created or linked with Zendesk tickets." ,
+            "- This app provides the access token required for that Zendesk app."
+        ],
+        "settings": {
+            "r_zendesk_client_id": {
+                "label": "Zendesk Client ID",
+                "info": "",
+                "value": "2826984917407547",
+                "is_public": true
+            },
+            "r_is_restyaboard_login": {
+                "label": "RestyaBoard Login",
+                "info": "",
+                "value": "true",
+                "is_hide": true,
+                "is_public": false
+            }
+        },
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_zendesk/js/app.js"
             ]
         },
         "enabled": true
