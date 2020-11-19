@@ -38,7 +38,7 @@ EU GDPR Cookie Consent Popup|The app adds cookie consent widget to Restyaboard i
 |Spent Time Tracking|Adds spent time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_spent_time)|
 |Support Desk|Transforms Restyaboard into an easy support desk software. Comes with support widget that captures support requests from users.|[Restya](http://restya.com/) |0.1.4|Paid|[Visit](http://restya.com/board/apps/r_support_app)|
 |Task Move on Due Date|Task Move on Due Date.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_task_move_on_due_date)|
-|[Collaborate/TogetherJS](r_togetherjs)|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.3|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_togetherjs-v0.1.2.zip)|
+|Collaborate/TogetherJS|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.3|Free|Unsupported|
 |User iCal Feed |It provides the perspective to see the tasks of your project with due dates. It helps you to manage your tasks across boards and resources, track resource allocations, and capture lagging or overdue cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_user_ical_feed)|
 |User Role to Board Role Mapper|Enables admin to quickly setup user privileges by mapping user role to board role globally.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_board_role_mapper)|
 |Website QA Checklist|Adds ready to use checklist template for performing QA on a website.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_website_qa_checklist)|
