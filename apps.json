@@ -451,7 +451,7 @@
                 "apps/r_codenames/js/app.js"
             ]
         },
-        "enabled": true
+        "enabled": false
     },
     "r_cssilize": {
         "id": "r_cssilize",

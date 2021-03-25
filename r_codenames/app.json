@@ -27,5 +27,5 @@
 			"apps/r_codenames/js/app.js"
 		]
 	},
-	"enabled": true
+	"enabled": false
 }
