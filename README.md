@@ -8,11 +8,12 @@
 |Auto Archive Expired Cards|Enables automated archiving for expired cards.|[Restya](http://restya.com/) |0.1.4|Paid|[Visit](http://restya.com/board/apps/r_auto_archive_expired_cards)|
 |Broadcasts|Enables admin to send notification across all users through top notice and email.|[Restya](http://restya.com/) |0.1.5|Paid|[Visit](http://restya.com/board/apps/r_broadcasts)|
 |Canned Response|Adds option to setup ready-made text comments in cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_canned_response)|
+|Card Aging|Cards on a board that are not touched in a long time can be seen. Cards will age noticeably with inactivity if this option is enabled.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_card_aging)|
 |Card Counter|Shows the number of cards in the lists.|[Restya](http://restya.com/) |0.1.1|Free|[Visit](http://restya.com/board/apps/r_card_counter)|
 |Card Template|Added the feature 'Card template app' which allows the users to create a template with necessary details like members, labels and description. Further, it offers the possibility to use the same for any other card which demands the same information.|[Restya](http://restya.com/) |0.1.5|Paid|[Visit](http://restya.com/board/apps/r_card_template)|
 |Dashboard Charts|Adds charts with summary in dashboard, for easy filtering of Today Todos, etc.|[Restya](http://restya.com/) |0.1.5|Paid|[Visit](http://restya.com/board/apps/r_chart)|
 |Chat|Enables integration with XMPP based chat.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_chat)|
-|Codenames|All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.|[Restya](http://restya.com/) |0.1.4|Free|[Visit](http://restya.com/board/apps/r_codenames)|
+|Codenames|All upcoming Restyaboard versions will be codenamed after legendary music bands, as a token of respect and appreciation and default board background will be changed to respective band's wallpaper.|[Restya](http://restya.com/) |0.1.5|Free|[Visit](http://restya.com/board/apps/r_codenames)|
 |[Theming/CSSilize](r_cssilize)|CSSilize, theming partner|[Restya](http://restya.com/) |0.1.2|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_cssilize-v0.1.2.zip)|
 |Custom Field|Adds Custom Field for handling projects.|[Restya](http://restya.com/) |0.1.6|Paid|[Visit](http://restya.com/board/apps/r_custom_fields)|
 |Elasticsearch|Adds easy filtering of cards. Useful when you have multiple boards|[Restya](http://restya.com/) |0.1.6|Paid|[Visit](http://restya.com/board/apps/r_elasticsearch)|
@@ -32,6 +33,7 @@ EU GDPR Cookie Consent Popup|The app adds cookie consent widget to Restyaboard i
 |LDAP|Enables users to login using their LDAP accounts.|[Restya](http://restya.com/) |0.1.5|Paid|[Visit](http://restya.com/board/apps/r_ldap_login)|
 |List View Configure|The List View Configure app allows a user to change the visibility and order of set of columns at runtime. It is configured using the default drag-and-drop mode for choosing the order of fields and the user selects the fields which wants to be shown in list view.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_listview_configure)|
 |Multiple LDAP|Enables users to login using their LDAP accounts.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_multiple_ldap_login)|
+|SAML / Shibboleth|Enables single sign-on through SAML / Shibboleth|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_saml_shibboleth_sso)|
 |SEO Checklist|Adds ready to use template SEO checklist template for performing search engine optimization.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_seo_checklist)|
 |Slack|Enables posting to Slack from Restyaboard|[Restya](http://restya.com/) |0.1.5|Paid|[Visit](http://restya.com/board/apps/r_slack)|
 |SparkPost|SparkPost  let all emails sent through SparkPost email service, instead through local SMTP server.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_sparkpost)|

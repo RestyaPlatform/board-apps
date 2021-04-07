@@ -213,6 +213,38 @@
         },
         "enabled": false
     },
+    "r_card_aging": {
+        "id": "r_card_aging",
+        "uuid": "",
+        "name": "Card Aging",
+        "description": "Cards on a board that are not touched in a long time can be seen. Cards will age noticeably with inactivity if this option is enabled.",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_card_aging/img/r-card_aging.png",
+        "settings_description": "Choose Modes for how cards will visibly age with inactivity.",
+        "settings": {
+            "cardaging_visiblity_mode": {
+                "label": "Card Aging Visiblity Mode",
+                "type": "dropdown",
+                "options": "regular,pirate",
+                "info": "e.g., regular/pirate",
+                "value": "regular",
+                "is_public": true
+            }
+        },
+        "assets": {
+            "css": [
+                "apps/r_card_aging/css/app.css"
+            ],
+            "js": [
+                "apps/r_card_aging/js/app.js"
+            ]
+        },
+        "enabled": true
+    },
     "r_card_counter": {
         "id": "r_card_counter",
         "uuid": "",
@@ -430,19 +462,19 @@
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "price": "Free",
         "icon": "apps/r_codenames/img/r-codenames.png",
         "settings_description": "",
         "large_description": [
             "Starting from v0.6.6 (Modern Talking), all Restyaboard versions are codenamed after legendary music bands, as a token of respect and appreciation. Anyone can propose their favorite band for upcoming milestones in [GitHub tracker](https://github.com/RestyaPlatform/board/issues/1859). By enabling this app, new boards will get codename wallpaper and productivity beat.",
             "",
-            "Current v0.6.9 is codenamed after legendary **Stereopony** band",
-            "## About Stereopony",
-            "- Stereopony (ステレオポニー Sutereoponī), was a Japanese pop rock band that formed in Okinawa, Japan in 2007 and disbanded in 2012. The three-girl band consisted of Aimi Haraguni (lead vocals and guitar), Nohana Kitajima (bass guitar), and Shiho Yamanoha (drums). They were signed to the Sony Records music label.The band released 11 singles and three studio albums. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Stereopony))",
-            "- Origin: Okinawa, Japan (2007)",
-            "- Members: Aimi Haraguni, Nohana Kitajima, Shiho Yamanoha",
-            "- Genres: Euro disco, Contemporary R&B, Reggae"
+            "Current v0.7 is codenamed after legendary **Scorpions** band",
+            "## About Scorpions",
+            "- Scorpions are a German rock band formed in 1965 in Hanover by Rudolf Schenker.Since the band's inception, its musical style has ranged from hard rock to heavy metal.The lineup from 1978–1992 was the most successful incarnation of the group, and included Klaus Meine (vocals), Rudolf Schenker (rhythm guitar), Matthias Jabs (lead guitar), Francis Buchholz (bass), and Herman Rarebell (drums).(Source: Wikipedia) (Source: [Wikipedia](https://en.wikipedia.org/wiki/Scorpions_(band)))",
+            "- Origin: Hanover, West Germany (1965)",
+            "- Members: Rudolf Schenker, Klaus Meine, Matthias Jabs, Paweł Mąciwoda, Mikkey Dee",
+            "- Genres: Hard rock, heavy metal, glam metal"
         ],
         "settings": false,
         "assets": {
@@ -1101,6 +1133,49 @@
             ]
         },
         "enabled": true,
+        "limit": 100
+    },
+    "r_saml_shibboleth_sso": {
+        "id": "r_saml_shibboleth_sso",
+        "uuid": "",
+        "name": "SAML / Shibboleth",
+        "description": "Enables single sign-on through SAML / Shibboleth",
+        "author": "Restya",
+        "author_email": "info@restya.com",
+        "author_url": "http://restya.com/",
+        "version": "0.1.1",
+        "price": "Paid",
+        "icon": "apps/r_saml_shibboleth_sso/img/r_saml_shibboleth_sso.png",
+        "settings_description": "",
+        "large_description": [
+            "- Enables SAML / Shibboleth based login",
+            "- It adds SAML SP and provides SP metadata XML that you'll need to whitelist in the IdP",
+            "- It provides easy settings import from IdP metadata XML and sets up single sign-on."
+        ],
+        "settings_from_db": "'R_SAML_ENTITY_NAME', 'R_SAML_ENTITY_ID','R_SAML_SINGLE_SIGN_ON_SERVICE_URL','R_SAML_SINGLE_LOGOUT_SERVICE_URL','R_SAML_X509CERT','R_SAML_META_DATA','R_SAML_FULL_XML','r_saml_shibboleth_sso_WELCOME_MAIL','R_SAML_X509_CERT_MULTI_SIGNING_0','R_SAML_X509_CERT_MULTI_SIGNING_1','R_SAML_X509_CERT_MULTI_ENCRYPTION'",
+        "settings_links":[
+            {
+                "name":"Settings",
+                "icon": "icon-cog",
+                "url":"#/apps/r_saml_shibboleth_sso/settings"
+            }
+        ],
+        "settings": false,
+        "assets": {
+            "css": [],
+            "js": [
+                "apps/r_saml_shibboleth_sso/js/app.js"
+            ],
+            "html": [
+                "apps/r_saml_shibboleth_sso/app.html"
+            ]
+        },
+        "mutationObservers": {
+            "content": {
+                "r_saml_shibboleth_sso_settings" :"AdminSamlSetting"
+            }
+        },
+        "enabled": false,
         "limit": 100
     },
     "r_seo_checklist": {
