@@ -21,7 +21,7 @@
 EU GDPR Cookie Consent Popup|The app adds cookie consent widget to Restyaboard instance to make it compliant with European Union General Data Protection Regulation policies |[Restya](http://restya.com/) |0.1.1|Free|[Download](https://github.com/RestyaPlatform/board-apps/releases/download/v1/r_eu_gdpr-v0.1.1.zip)|
 |Export CSV| Export card details from a board as CSV|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_export_csv)|
 |Gantt View|Adds Gantt view for handling projects which Shows tasks, task dependencies, task sequence and their progress in relation to the time assigned.|[Restya](http://restya.com/) |0.1.5|Paid|[Visit](http://restya.com/board/apps/r_gantt_view)|
-|Gmail Add-on|Quickly create new cards on your Restyaboard boards without leaving your inbox.|[Restya](http://restya.com/) |0.1.1|Free|[Visit](http://restya.com/board/apps/r_gmail_addon)|
+|Gmail Add-on|Quickly create new cards on your Restyaboard boards without leaving your inbox.|[Restya](http://restya.com/) |0.1.2|Free|[Visit](http://restya.com/board/apps/r_gmail_addon)|
 |Grid View Configure|The Grid View Configure app allows a user to change the visibility of set of columns at runtime. It is configured by choosing the fields which wants to be shown in front of the cards.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_gridview_configure)|
 |Groups|Adds groups for handling projects.|[Restya](http://restya.com/) |0.1.4|Paid|[Visit](http://restya.com/board/apps/r_groups)|
 |Hangouts Chat bot|Quickly create new cards and add labels to the cards on your Restyaboard boards from Hangouts Chat.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_hangouts_chat_bot)|
