@@ -1016,7 +1016,7 @@
                 "apps/r_kanban_printer/js/app.js"
             ]
         },            
-        "enabled": true
+        "enabled": false
     },
     "r_labelstyle": {
         "id": "r_labelstyle",

@@ -29,7 +29,6 @@ EU GDPR Cookie Consent Popup|The app adds cookie consent widget to Restyaboard i
 |Import from GitHub|Enables importing projects and tickets from GitHub|[Restya](http://restya.com/) |0.1.5|Paid|[Visit](http://restya.com/board/apps/r_import_github)|
 |Insights|Insights provide you the tools to quickly build Restyaboard reports. It's helping you to manage your tasks across boards and resources, track resource allocations, and capture lagging or overdue cards.|[Restya](http://restya.com/) |0.1.4|Paid|[Visit](http://restya.com/board/apps/r_insights)|
 |Instant Add Card|Allows users to add card quickly across boards--without having to open boards.|[Restya](http://restya.com/) |0.1.5|Paid|[Visit](http://restya.com/board/apps/r_instant_add_card)|
-|Helper app for the Kanban Printer|Allows users to print list name and card title on sticky sheets.|[Restya](http://restya.com/) |0.1.3|Paid|[Visit](http://restya.com/board/apps/r_kanban_printer)|
 |LDAP|Enables users to login using their LDAP accounts.|[Restya](http://restya.com/) |0.1.5|Paid|[Visit](http://restya.com/board/apps/r_ldap_login)|
 |List View Configure|The List View Configure app allows a user to change the visibility and order of set of columns at runtime. It is configured using the default drag-and-drop mode for choosing the order of fields and the user selects the fields which wants to be shown in list view.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_listview_configure)|
 |Multiple LDAP|Enables users to login using their LDAP accounts.|[Restya](http://restya.com/) |0.1.1|Paid|[Visit](http://restya.com/board/apps/r_multiple_ldap_login)|
@@ -40,7 +39,6 @@ EU GDPR Cookie Consent Popup|The app adds cookie consent widget to Restyaboard i
 |Spent Time Tracking|Adds spent time tracking option for each cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_spent_time)|
 |Support Desk|Transforms Restyaboard into an easy support desk software. Comes with support widget that captures support requests from users.|[Restya](http://restya.com/) |0.1.4|Paid|[Visit](http://restya.com/board/apps/r_support_app)|
 |Task Move on Due Date|Task Move on Due Date.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_task_move_on_due_date)|
-|Collaborate/TogetherJS|Collaborate using Mozilla's TogetherJS|[Restya](http://restya.com/) |0.1.3|Free|Unsupported|
 |User iCal Feed |It provides the perspective to see the tasks of your project with due dates. It helps you to manage your tasks across boards and resources, track resource allocations, and capture lagging or overdue cards.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_user_ical_feed)|
 |User Role to Board Role Mapper|Enables admin to quickly setup user privileges by mapping user role to board role globally.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_board_role_mapper)|
 |Website QA Checklist|Adds ready to use checklist template for performing QA on a website.|[Restya](http://restya.com/) |0.1.2|Paid|[Visit](http://restya.com/board/apps/r_website_qa_checklist)|
