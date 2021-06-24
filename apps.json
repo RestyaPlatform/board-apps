@@ -1075,16 +1075,16 @@
         "id": "r_link_nextcloud",
         "uuid": "",
         "name": "Link Nextcloud",
-        "description": "Restyaboard has an app listed in the Nextcloud Integrations to manage customer tickets through Restyaboard. The app supplements it by providing the access token that is needed for accessing the Restyaboard from Nextcloud.",
+        "description": "Restyaboard has an app listed in the Nextcloud Integrations to display notifications and a search provider that searches for cards in a consistent way through Restyaboard. The app supplements it by providing the access token that is needed for accessing the Restyaboard from Nextcloud.",
         "author": "Restya",
         "author_email": "info@restya.com",
         "author_url": "http://restya.com/",
         "version": "0.1.1",
         "price": "Paid",
         "icon": "apps/r_link_nextcloud/img/r-link-nextcloud.png",
-        "settings_description": "Restyaboard Nextcloud Integration allows users to connect your board to your Nextcloud.",
+        "settings_description": "Restyaboard Nextcloud Integration allows users to connect their Restyaboard to Nextcloud.",
         "large_description": [
-            "- Restyaboard app in Nextcloud Integrations helps customers of Nextcloud resolve their support tickets through Restyaboard. Using that users can be notified of the activities in their assigned cards." ,
+            "- Restyaboard app in Nextcloud Integrations helps customers of Nextcloud show notifications of Restyaboard. Using that users can be notified of the activities in their assigned cards." ,
             "- This app provides the access token required for that Nextcloud app."
         ],
         "settings": {
