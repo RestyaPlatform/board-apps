@@ -6,19 +6,19 @@
 	"author": "Restya",
 	"author_email": "info@restya.com",
 	"author_url": "http://restya.com/",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"price": "Free",
 	"icon": "apps/r_codenames/img/r-codenames.png",
 	"settings_description": "",
 	"large_description": [
 		"Starting from v0.6.6 (Modern Talking), all Restyaboard versions are codenamed after legendary music bands, as a token of respect and appreciation. Anyone can propose their favorite band for upcoming milestones in [GitHub tracker](https://github.com/RestyaPlatform/board/issues/1859). By enabling this app, new boards will get codename wallpaper and productivity beat.",
 		"",
-		"Current v0.6.9 is codenamed after legendary **Stereopony** band",
-		"## About Stereopony",
-		"- Stereopony (ステレオポニー Sutereoponī), was a Japanese pop rock band that formed in Okinawa, Japan in 2007 and disbanded in 2012. The three-girl band consisted of Aimi Haraguni (lead vocals and guitar), Nohana Kitajima (bass guitar), and Shiho Yamanoha (drums). They were signed to the Sony Records music label.The band released 11 singles and three studio albums. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Stereopony))",
-		"- Origin: Okinawa, Japan (2007)",
-		"- Members: Aimi Haraguni, Nohana Kitajima, Shiho Yamanoha",
-		"- Genres: Euro disco, Contemporary R&B, Reggae"
+		"Current v1.7 is codenamed after legendary **Scorpions** band",
+		"## About Scorpions",
+		"- Scorpions are a German rock band formed in 1965 in Hanover by Rudolf Schenker.Since the band's inception, its musical style has ranged from hard rock to heavy metal.The lineup from 1978–1992 was the most successful incarnation of the group, and included Klaus Meine (vocals), Rudolf Schenker (rhythm guitar), Matthias Jabs (lead guitar), Francis Buchholz (bass), and Herman Rarebell (drums).(Source: Wikipedia) (Source: [Wikipedia](https://en.wikipedia.org/wiki/Scorpions_(band)))",
+		"- Origin: Hanover, West Germany (1965)",
+		"- Members: Rudolf Schenker, Klaus Meine, Matthias Jabs, Paweł Mąciwoda, Mikkey Dee",
+		"- Genres: Hard rock, heavy metal, glam metal"
 	],
 	"settings": false,
 	"assets": {
@@ -27,5 +27,5 @@
 			"apps/r_codenames/js/app.js"
 		]
 	},
-	"enabled": true
+	"enabled": false
 }
