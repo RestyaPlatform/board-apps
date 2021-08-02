@@ -1071,45 +1071,6 @@
         "enabled": true,
         "limit": 100
     },
-    "r_link_nextcloud": {
-        "id": "r_link_nextcloud",
-        "uuid": "",
-        "name": "Link Nextcloud",
-        "description": "Restyaboard has an app listed in the Nextcloud Integrations to display notifications and a search provider that searches for cards in a consistent way through Restyaboard. The app supplements it by providing the access token that is needed for accessing the Restyaboard from Nextcloud.",
-        "author": "Restya",
-        "author_email": "info@restya.com",
-        "author_url": "http://restya.com/",
-        "version": "0.1.1",
-        "price": "Paid",
-        "icon": "apps/r_link_nextcloud/img/r-link-nextcloud.png",
-        "settings_description": "Restyaboard Nextcloud Integration allows users to connect their Restyaboard to Nextcloud.",
-        "large_description": [
-            "- Restyaboard app in Nextcloud Integrations helps customers of Nextcloud show notifications of Restyaboard. Using that users can be notified of the activities in their assigned cards." ,
-            "- This app provides the access token required for that Nextcloud app."
-        ],
-        "settings": {
-            "r_link_nextcloud_client_id": {
-                "label": "Nextcloud Client ID",
-                "info": "",
-                "value": "6918091556482804",
-                "is_public": true
-            },
-            "r_is_restyaboard_login": {
-                "label": "RestyaBoard Login",
-                "info": "",
-                "value": "true",
-                "is_hide": true,
-                "is_public": false
-            }
-        },
-        "assets": {
-            "css": [],
-            "js": [
-                "apps/r_link_nextcloud/js/app.js"
-            ]
-        },
-        "enabled": true
-    },
     "r_listview_configure": {
         "id": "r_listview_configure",
         "uuid": "",
