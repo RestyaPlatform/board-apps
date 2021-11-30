@@ -1420,7 +1420,7 @@
         "description": "Restyaboard has an extension listed in the Visual Studio marketplace to manage customer task through Restyaboard. The app supplements it by providing the access token that is needed for accessing the Restyaboard from Visual Studio.",
         "author": "Zyndaa",
         "author_email": "info@zyndaa.com",
-        "author_url": "http://zyndaa.com/",
+        "author_url": "https://zyndaa.com/",
         "version": "0.1.1",
         "price": "Paid",
         "icon": "apps/r_visualstudio/img/r-visualstudio.png",
